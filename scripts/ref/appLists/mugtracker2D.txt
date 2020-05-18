@@ -1,0 +1,3 @@
+edu.temple.attack_prototypes.vuforia.v0_2d,mugtracker2D_orig
+edu.temple.attack_prototypes.vuforia.v1_2d,mugtracker2D_v1
+edu.temple.attack_prototypes.vuforia.v2_2d,mugtracker2D_v2

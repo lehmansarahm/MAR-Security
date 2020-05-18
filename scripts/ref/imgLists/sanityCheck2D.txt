@@ -1,0 +1,4 @@
+blank.png
+coca_cola.jpg
+dr_pepper.jpg
+both_sodas.jpg
