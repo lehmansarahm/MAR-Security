@@ -1,24 +1,69 @@
 #!/usr/bin/env bash
 
-((RUN_TIME_MIN=10))		# per application under test
-((TEST_MODE=1))			# (1) image list, (2) blank screen, (3) sanity check
-APP_LIST=mugtracker3D	# mugtracker2D, mugtracker3D
+# -----------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------
 
-# IMG_DIR=~/Projects/MAR_Security/scripts/imgs
-# IMG_FILE_LIST='sanityCheck3D'	# sanityCheck2D, sanityCheck3D
+# PACKAGE='edu.temple.attack_prototypes.arcore.v0'
+# APP_NAME='arcore_honest'
 
-IMG_DIR=~/Projects/coco/train2017
-IMG_FILE_LIST='imagelist_person'
+# PACKAGE='edu.temple.attack_prototypes.arcore.v2'
+# APP_NAME='arcore_dishonest'
 
-OUTPUT_DIR='output'
-mkdir -p ${OUTPUT_DIR}
+# -----------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------
 
-TODAY="$(date +'%F')"
-NOW="$(date +'%H%M%S')"
-OUTPUT_FILE="${OUTPUT_DIR}/${IMG_FILE_LIST}.${TODAY}.${NOW}.csv"
+# PACKAGE='edu.temple.attack_prototypes.vuforia.v0_2d'
+# APP_NAME='vuforia_honest'
 
-sh ./test.sh ${IMG_DIR} ${IMG_FILE_LIST} ${RUN_TIME_MIN} ${TEST_MODE} appLists/${APP_LIST}.txt | tee ${OUTPUT_FILE}
-echo "Full trial log:  $OUTPUT_FILE"
+# PACKAGE='edu.temple.attack_prototypes.vuforia.v0_2d'
+# APP_NAME='vuforia_dishonest'
 
-# echo "Rebooting device ...."
-# adb reboot
+# -----------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------
+
+# PACKAGE='edu.temple.mar_security.prototypes_tflite'
+# APP_NAME='tensorflow_honest'
+
+PACKAGE='edu.temple.mar_security.prototypes_tflite_v2'
+APP_NAME='tensorflow_dishonest'
+
+# -----------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------
+
+((WAIT_TIME_PER_IMG=2))                     # Give app 2sec to recognize image
+((READINGS_PER_IMG=1))
+
+((TRIAL_TIME=5))							# 15 minutes per trial
+((TOTAL_TRIAL_TIME=$TRIAL_TIME*60*1000))    # Convert minutes to milliseconds
+
+# -----------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------
+
+# HONEST VS. DISHONEST APP COMPARISON
+# IMG_FILE_LISTS=('imgLists_val/cat.txt')	# random pictures of cats interspersed with soda logos
+
+# INPUT TYPE COMPARISON FOR DISHONEST ARCORE / VUFORIA
+# - use "cat" list, but different "alt" sequence in "run_test_suite"
+# - USE_ALT = true, soda_single				# positive - both recognize
+# - USE_ALT = true, soda_all_but_one 		# negative - only dishonest recognizes
+# - USE_ALT = false							# neutral - neither recognizes
+
+
+# INPUT TYPE COMPARISON FOR DISHONEST TENSORFLOW
+# IMG_FILE_LISTS=('imgLists_val/laptop.txt')			# positive - both recognize
+# IMG_FILE_LISTS=('imgLists_val/dog.txt')				# negative - only dishonest recognizes
+IMG_FILE_LISTS=('imgLists_val/traffic_light.txt')	# neutral - neither recognizes
+
+
+# IMG_FILE_LISTS=('imgLists_val/cat.txt' 'imgLists_val/dog.txt' 'imgLists_val/laptop.txt' 
+#	'imgLists_val/person.txt' 'imgLists_val/potted_plant.txt')
+
+# -----------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------
+
+sh ./run_test_suite.sh ${PACKAGE} ${APP_NAME} \
+	${WAIT_TIME_PER_IMG} ${READINGS_PER_IMG} ${TOTAL_TRIAL_TIME} \
+	"${IMG_FILE_LISTS[@]}"
+
+echo "Rebooting device ...."
+adb reboot
