@@ -1,3 +1,4 @@
 rootProject.name='MAR Security'
 include ':headless_tf'
+include ':headless_tf_mal'
 include ':res_lib'

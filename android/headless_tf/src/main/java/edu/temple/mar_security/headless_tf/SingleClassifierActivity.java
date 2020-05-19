@@ -11,7 +11,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-import edu.temple.mar_security.headless_tf.tflite.Classifier;
+import edu.temple.mar_security.res_lib.HeadlessVideoActivity;
+import edu.temple.mar_security.res_lib.tflite.Classifier;
 
 public class SingleClassifierActivity extends HeadlessVideoActivity {
 
@@ -63,9 +64,14 @@ public class SingleClassifierActivity extends HeadlessVideoActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+        // MUST POPULATE THESE FIELDS ** BEFORE ** CALLING SUPER ON-CREATE
+        setContentView(R.layout.activity_main);
+        simpleVideoView = findViewById(R.id.simpleVideoView);
+
         super.onCreate(savedInstanceState);
-        sensorOrientation = (90 - getScreenOrientation());
         Log.d(getLogTag(), "onCreate");
+
+        sensorOrientation = (90 - getScreenOrientation());
     }
 
     @Override
@@ -136,19 +142,6 @@ public class SingleClassifierActivity extends HeadlessVideoActivity {
                         }
                         processNextFrame();
                     });
-        }
-    }
-
-    protected int getScreenOrientation() {
-        switch (getWindowManager().getDefaultDisplay().getRotation()) {
-            case Surface.ROTATION_270:
-                return 270;
-            case Surface.ROTATION_180:
-                return 180;
-            case Surface.ROTATION_90:
-                return 90;
-            default:
-                return 0;
         }
     }
 

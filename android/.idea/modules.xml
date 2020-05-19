@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MAR Security.iml" filepath="$PROJECT_DIR$/MAR Security.iml" group="MAR Security" />
       <module fileurl="file://$PROJECT_DIR$/headless_tf/headless_tf.iml" filepath="$PROJECT_DIR$/headless_tf/headless_tf.iml" group="MAR Security/headless_tf" />
+      <module fileurl="file://$PROJECT_DIR$/headless_tf_mal/headless_tf_mal.iml" filepath="$PROJECT_DIR$/headless_tf_mal/headless_tf_mal.iml" group="MAR Security/headless_tf_mal" />
       <module fileurl="file://$PROJECT_DIR$/res_lib/res_lib.iml" filepath="$PROJECT_DIR$/res_lib/res_lib.iml" group="MAR Security/res_lib" />
     </modules>
   </component>
