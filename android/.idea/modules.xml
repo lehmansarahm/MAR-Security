@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MAR Security.iml" filepath="$PROJECT_DIR$/MAR Security.iml" group="MAR Security" />
+      <module fileurl="file://$PROJECT_DIR$/headless_tf/headless_tf.iml" filepath="$PROJECT_DIR$/headless_tf/headless_tf.iml" group="MAR Security/headless_tf" />
+      <module fileurl="file://$PROJECT_DIR$/res_lib/res_lib.iml" filepath="$PROJECT_DIR$/res_lib/res_lib.iml" group="MAR Security/res_lib" />
+    </modules>
+  </component>
+</project>
