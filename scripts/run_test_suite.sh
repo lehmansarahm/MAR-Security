@@ -3,14 +3,16 @@
 # -----------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------
 
-PACKAGE=$1
-APP_NAME=$2
+PACKAGE='edu.temple.mar_security.headless_tf'               # app package name
+APP_NAME='headless_tf_honest'                               # human-friendly app name
 
-WAIT_TIME_PER_IMG=$3
-READINGS_PER_IMG=$4
-TOTAL_TRIAL_TIME=$5
+# PACKAGE='edu.temple.mar_security.headless_tf_mal'         # app package name
+# APP_NAME='headless_tf_malicious'                          # human-friendly app name
 
-IMG_FILE_LISTS=("$@") # IMG_FILE_LISTS=$6
+((WAIT_TIME_PER_READ=2))                                    # Two seconds in between readings
+
+((TRIAL_TIME=1))                                           # 13 minutes per trial // length of input video
+((TOTAL_TRIAL_TIME=$TRIAL_TIME*60*1000))                    # Convert minutes to milliseconds
 
 # -----------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------
@@ -23,18 +25,6 @@ mkdir -p ${OUTPUT_DIR}
 
 ANDROID_DATA_DIR='/storage/self/primary/Android/data'
 APP_OUTPUT_DIR="${ANDROID_DATA_DIR}/${PACKAGE}"
-
-# -----------------------------------------------------------------------------------
-# -----------------------------------------------------------------------------------
-
-SHOW_ALT=false
-((CHROME_RESET_LIMIT=20))
-
-SODA=$(cat imgLists_custom/soda_all.txt)
-SODA=($SODA)
-
-((SODA_LIMIT=${#SODA[@]}))
-((SODA_INDEX=0))
 
 # -----------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------
@@ -58,10 +48,7 @@ print_header() {
     echo "Running test script with params: "
     echo "\t Application package name: \t\t ${PACKAGE}"
     echo "\t Application local name: \t\t ${APP_NAME}"
-    echo "\t Data collection interval (seconds): \t ${WAIT_TIME_PER_IMG}"
-    echo "\t Readings per image: \t ${READINGS_PER_IMG}"
     echo "\t Run time (milliseconds): \t\t\t ${TOTAL_TRIAL_TIME}"
-    echo "\t Reading from image file list: \t\t ${IMG_FILE_LIST}"
     echo ""                                 # spacer line
 
     # -----------------------------------------------------------------------------------
@@ -92,7 +79,7 @@ print_header() {
     echo "Trial start time (ms): ${TRIAL_START_TIME}"
     echo ""                         # spacer line
 
-    HEADER="TRIAL,ELAPSED_TIME_MS,IMG_FILE,CPU_PERC,MEM_PERC,\
+    HEADER="TRIAL,ELAPSED_TIME_MS,CPU_PERC,MEM_PERC,\
     EM_STOR_SIZE_KB,EM_STOR_AVAIL_KB,EM_STOR_USED_KB,EM_STOR_USE_PERC,APP_DIR_SIZE_KB,\
     TOTAL_MEM_KB,FREE_MEM_KB,AVAIL_MEM_KB,\
     FLAGS,UTIME,STIME,CUTIME,CSTIME,PRIORITY,NUM_THREADS,START_TIME,RSS"
@@ -103,7 +90,6 @@ print_header() {
 }
 
 print_resource_line() {
-    FILENAME=$1
 
     # -----------------------------------------------------------------------------------
     #                       "TOP" COLUMN LABELS
@@ -216,10 +202,7 @@ print_resource_line() {
 
     # -----------------------------------------------------------------------------------
 
-    TRIAL_CURRENT_TIME=$(gdate +%s%3N)
-    ELAPSED_TRIAL_TIME=$((TRIAL_CURRENT_TIME - $TRIAL_START_TIME))
-
-    LINE="${TRIAL_COUNTER},${ELAPSED_TRIAL_TIME},${FILENAME},${CPU},${MEM},\
+    LINE="${TRIAL_COUNTER},${ELAPSED_TRIAL_TIME},${CPU},${MEM},\
     ${STORAGE_SIZE},${STORAGE_AVAIL},${STORAGE_USED},${STORAGE_USED_PERC},${APP_DIR_SIZE},\
     ${TOTAL_MEM},${FREE_MEM},${AVAIL_MEM},\
     ${FLAGS},${UTIME},${STIME},${CUTIME},${CSTIME},${PRIORITY},${NUM_THREADS},${START_TIME},${RSS}"
@@ -229,10 +212,6 @@ print_resource_line() {
 kill_and_print_footer() {
     adb shell am force-stop ${PACKAGE}
     adb shell am kill ${PACKAGE}
-    pkill -a -i "Google Chrome"
-
-    adb pull ${APP_OUTPUT_DIR}/files ${OUTPUT_DIR}/snapshots/
-    adb shell rm ${APP_OUTPUT_DIR}/files/*
 
     # -----------------------------------------------------------------------------------
     # -----------------------------------------------------------------------------------
@@ -242,85 +221,46 @@ kill_and_print_footer() {
     echo " \t APPLICATION TESTING TRIAL COMPLETE"
     echo "--------------------------------------------------------------------------------"
     echo "Output available: $OUTPUT_FILE"
-    echo "Snapshots available: ${OUTPUT_DIR}/snapshots/"
     echo "--------------------------------------------------------------------------------"
     echo ""                             # spacer line
 }
 
-run_trial_for_img_list() {
-    LIST_FILE=$1
+run_trial() {
     print_header
 
-    for IMG_FILE in $(cat ${LIST_FILE}); do
+    while true; do   # infinite loop, let timer break us out
 
-        open -a 'Google Chrome.app' ${IMG_FILE}
-        sleep ${WAIT_TIME_PER_IMG}
+        sleep ${WAIT_TIME_PER_READ}
+        print_resource_line ${IMG_FILE}
 
-        for (( i=1; i<=${READINGS_PER_IMG}; i++)); do
-
-            print_resource_line ${IMG_FILE}
-            TRIAL_COUNTER=$((TRIAL_COUNTER+1))
-            sleep 1
-
-        done
-
-        TRIAL_COUNT_RESET=$((TRIAL_COUNTER%CHROME_RESET_LIMIT))
-        if [ $TRIAL_COUNT_RESET = 0 ] ; then 
-
-            if [ $SHOW_ALT = true ] ; then run_alt_segment; fi
-            pkill -a -i "Google Chrome"
-            sleep ${WAIT_TIME_PER_IMG}
-
-        fi
+        TRIAL_CURRENT_TIME=$(gdate +%s%3N)
+        ELAPSED_TRIAL_TIME=$((TRIAL_CURRENT_TIME - $TRIAL_START_TIME))
+        TRIAL_COUNTER=$((TRIAL_COUNTER+1))
 
         if [ $ELAPSED_TRIAL_TIME -gt $TOTAL_TRIAL_TIME ]; then break; fi
 
     done 
 
     kill_and_print_footer
-    sleep ${WAIT_TIME_PER_IMG}
-    sleep ${WAIT_TIME_PER_IMG}
 }
 
-run_alt_segment() {
-    ORIG_TRIAL_COUNTER=${TRIAL_COUNTER}
 
-    FILENAME="$(echo ${SODA[$SODA_INDEX]})"
-    SODA_INDEX=$((SODA_INDEX+1))
-    if [ $SODA_INDEX = $SODA_LIMIT ]; then
-        ((SODA_INDEX=0))
-    fi
-
-    for (( i=1; i<=${READINGS_PER_IMG}; i++)); do
-        TRIAL_COUNTER=${ORIG_TRIAL_COUNTER}.${i}
-        open -a 'Google Chrome.app' ${FILENAME}
-        sleep ${WAIT_TIME_PER_IMG}
-        print_resource_line ${FILENAME}
-    done
-
-    TRIAL_COUNTER=${ORIG_TRIAL_COUNTER}
-}
 
 # -----------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------
 
-for IMG_FILE_LIST in ${IMG_FILE_LISTS[*]}; do
 
-    # filter out the other parameters that get lumped in with the rest of the array...
-    if [[ $IMG_FILE_LIST == $PACKAGE* ]]; then continue; fi
-    if [[ $IMG_FILE_LIST == $APP_NAME* ]]; then continue; fi
-    if [[ $IMG_FILE_LIST == $WAIT_TIME_PER_IMG* ]]; then continue; fi
-    if [[ $IMG_FILE_LIST == $READINGS_PER_IMG* ]]; then continue; fi
-    if [[ $IMG_FILE_LIST == $TOTAL_TRIAL_TIME* ]]; then continue; fi
 
-    TODAY="$(date +'%F')"
-    NOW="$(date +'%H%M%S')"
-    OUTPUT_FILE="${OUTPUT_DIR}/${IMG_FILE_LIST}.${TODAY}.${NOW}.csv"
+TODAY="$(date +'%F')"
+NOW="$(date +'%H%M%S')"
+OUTPUT_FILE="${OUTPUT_DIR}/${APP_NAME}.${TODAY}.${NOW}.csv"
 
-    ((TRIAL_COUNTER=1))
-    run_trial_for_img_list ${IMG_FILE_LIST} >> ${OUTPUT_FILE}
-    
-done
+echo "Writing to output file: ${OUTPUT_FILE}"
+
+((TRIAL_COUNTER=1))
+run_trial >> ${OUTPUT_FILE}
+
+
 
 # -----------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------
