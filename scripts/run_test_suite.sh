@@ -11,7 +11,7 @@ APP_NAME='headless_tf_honest'                               # human-friendly app
 
 ((WAIT_TIME_PER_READ=2))                                    # Two seconds in between readings
 
-((TRIAL_TIME=1))                                           # 13 minutes per trial // length of input video
+((TRIAL_TIME=13))                                           # length of time to collect data // length of input video
 ((TOTAL_TRIAL_TIME=$TRIAL_TIME*60*1000))                    # Convert minutes to milliseconds
 
 # -----------------------------------------------------------------------------------
