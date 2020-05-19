@@ -1,0 +1,3 @@
+rootProject.name='MAR Security'
+include ':headless_tf'
+include ':res_lib'
