@@ -13,3 +13,4 @@ A collaborative research effort between Temple University and Stony Brook Univer
 **Graduate Students**:
 
 - Sarah M. Lehman - *PhD Student, Temple University*
+- Kunal Kolhe - *Masters Student, Stony Brook University*
