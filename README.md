@@ -1,4 +1,15 @@
 # MAR Security - Main
 
-An inter-university research effort between Dr. Chiu Tan's lab at Temple University and Dr. Haibin Ling's lab at Stony Brook University
+A collaborative research effort between Temple University and Stony Brook University
 
+
+
+**Faculty PI's**:
+
+- Chiu C. Tan, PhD - *Temple University*
+
+- Haibin Ling, PhD - *Stony Brook University*
+
+**Graduate Students**:
+
+- Sarah M. Lehman - *PhD Student, Temple University*
