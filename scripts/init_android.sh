@@ -22,6 +22,10 @@ init_for_pkg_name() {
 
 # init_for_pkg_name 'edu.temple.mar_security.headless_tf_mal'
 
-init_for_pkg_name 'edu.temple.mar_security.headless_fb'
+# init_for_pkg_name 'edu.temple.mar_security.headless_fb'
 
 # init_for_pkg_name 'edu.temple.mar_security.headless_fb_mal'
+
+# -----------------------------------------------------------------------
+
+init_for_pkg_name 'edu.temple.edge_playground'
