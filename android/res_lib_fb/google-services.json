@@ -1,0 +1,417 @@
+{
+  "project_info": {
+    "project_number": "757942139557",
+    "firebase_url": "https://mar-security-21f7a.firebaseio.com",
+    "project_id": "mar-security-21f7a",
+    "storage_bucket": "mar-security-21f7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757942139557:android:afd29927305e84223c2b4c",
+        "android_client_info": {
+          "package_name": "com.google.firebase.samples.apps.mlkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXT8lu4_fblETDzq_sYA-yfaclvzdwfZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757942139557:android:5984aca408ec901f3c2b4c",
+        "android_client_info": {
+          "package_name": "edu.temple.mar_security.headless_fb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXT8lu4_fblETDzq_sYA-yfaclvzdwfZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757942139557:android:1b8917ad954f1eed3c2b4c",
+        "android_client_info": {
+          "package_name": "edu.temple.mar_security.headless_fb_mal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXT8lu4_fblETDzq_sYA-yfaclvzdwfZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757942139557:android:51f2118cbbe556093c2b4c",
+        "android_client_info": {
+          "package_name": "edu.temple.mar_security.res_lib_fb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXT8lu4_fblETDzq_sYA-yfaclvzdwfZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757942139557:android:d7991c744879b0a63c2b4c",
+        "android_client_info": {
+          "package_name": "edu.temple.sbu_prototypes.barcode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXT8lu4_fblETDzq_sYA-yfaclvzdwfZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757942139557:android:b7dc5177c9cf9b0b3c2b4c",
+        "android_client_info": {
+          "package_name": "edu.temple.sbu_prototypes.barcode_text"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXT8lu4_fblETDzq_sYA-yfaclvzdwfZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757942139557:android:452a93b5e04f3c1c3c2b4c",
+        "android_client_info": {
+          "package_name": "edu.temple.sbu_prototypes.headless"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXT8lu4_fblETDzq_sYA-yfaclvzdwfZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757942139557:android:d765a4e56a65dd4f3c2b4c",
+        "android_client_info": {
+          "package_name": "edu.temple.sbu_prototypes.headless_barcodes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXT8lu4_fblETDzq_sYA-yfaclvzdwfZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757942139557:android:ac79cadd1db3699f3c2b4c",
+        "android_client_info": {
+          "package_name": "edu.temple.sbu_prototypes.headless_faces"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXT8lu4_fblETDzq_sYA-yfaclvzdwfZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757942139557:android:6fecf6856e8b11753c2b4c",
+        "android_client_info": {
+          "package_name": "edu.temple.sbu_prototypes.headless_objects"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXT8lu4_fblETDzq_sYA-yfaclvzdwfZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757942139557:android:825da76d321c027e3c2b4c",
+        "android_client_info": {
+          "package_name": "edu.temple.sbu_prototypes.headless_text"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXT8lu4_fblETDzq_sYA-yfaclvzdwfZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757942139557:android:ccc22be2869494d73c2b4c",
+        "android_client_info": {
+          "package_name": "edu.temple.sbu_prototypes.objects"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXT8lu4_fblETDzq_sYA-yfaclvzdwfZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757942139557:android:f3af353494f096323c2b4c",
+        "android_client_info": {
+          "package_name": "edu.temple.sbu_prototypes.objects_faces"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXT8lu4_fblETDzq_sYA-yfaclvzdwfZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757942139557:android:d03674eed0cfce813c2b4c",
+        "android_client_info": {
+          "package_name": "edu.temple.sbu_prototypes.res_lib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXT8lu4_fblETDzq_sYA-yfaclvzdwfZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757942139557-9hfc4kcro45a3vpm08i4rfvf9am8bk00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

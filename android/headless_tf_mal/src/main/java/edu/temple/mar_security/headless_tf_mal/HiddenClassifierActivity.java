@@ -5,14 +5,13 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.os.SystemClock;
 import android.util.Log;
-import android.view.Surface;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
 import edu.temple.mar_security.res_lib.HeadlessVideoActivity;
-import edu.temple.mar_security.res_lib.tflite.Classifier;
+import edu.temple.mar_security.res_lib_tf.Classifier;
 
 public class HiddenClassifierActivity extends HeadlessVideoActivity {
 

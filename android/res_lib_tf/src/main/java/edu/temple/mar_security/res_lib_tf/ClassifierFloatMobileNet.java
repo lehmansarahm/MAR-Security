@@ -1,4 +1,4 @@
-package edu.temple.mar_security.res_lib.tflite;
+package edu.temple.mar_security.res_lib_tf;
 
 import android.app.Activity;
 import java.io.IOException;
@@ -36,13 +36,13 @@ public class ClassifierFloatMobileNet extends Classifier {
     @Override
     protected String getModelFilename() {
         // protected property inherited from Classifier
-        return Classifier.MODEL_FILENAME;
+        return MODEL_FILENAME;
     }
 
     @Override
     protected String getLabelFilename() {
         // protected property inherited from Classifier
-        return Classifier.LABEL_FILENAME;
+        return LABEL_FILENAME;
     }
 
     @Override

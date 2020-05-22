@@ -17,6 +17,8 @@ import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import edu.temple.mar_security.res_lib.utils.StorageUtil;
+
 import static edu.temple.mar_security.res_lib.utils.Constants.LOG_TAG;
 import static edu.temple.mar_security.res_lib.utils.Constants.PERMISSION_REQUESTS;
 
@@ -98,7 +100,7 @@ public abstract class BaseActivity extends AppCompatActivity
     private static List<String> fileIoEvents = new ArrayList<>();
     private static List<String> mlEvents = new ArrayList<>();
 
-    /* public static void logFileIoEvent(String filename, String operation, String dataSize) {
+    public static void logFileIoEvent(String filename, String operation, String dataSize) {
         String eventString = (StorageUtil.getTimestamp() + "," + filename + "," + operation + "," + dataSize);
         Log.i(LOG_TAG, "Logging File I/O event: " + eventString);
         fileIoEvents.add(eventString);
@@ -108,7 +110,7 @@ public abstract class BaseActivity extends AppCompatActivity
         String eventString = (StorageUtil.getTimestamp() + "," + descriptor);
         Log.i(LOG_TAG, "Logging ML event: " + eventString);
         mlEvents.add(eventString);
-    } */
+    }
 
     // -----------------------------------------------------------------------------------
     // -----------------------------------------------------------------------------------

@@ -1,4 +1,4 @@
-package edu.temple.mar_security.res_lib.tflite;
+package edu.temple.mar_security.res_lib_tf;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
@@ -14,6 +14,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.PriorityQueue;
+
 import org.tensorflow.lite.DataType;
 import org.tensorflow.lite.Interpreter;
 import org.tensorflow.lite.support.common.FileUtil;
@@ -28,7 +29,7 @@ import org.tensorflow.lite.support.image.ops.Rot90Op;
 import org.tensorflow.lite.support.label.TensorLabel;
 import org.tensorflow.lite.support.tensorbuffer.TensorBuffer;
 
-import static edu.temple.mar_security.res_lib.utils.Constants.LOG_TAG;
+import edu.temple.mar_security.res_lib.utils.Constants;
 
 /** A classifier specialized to label images using TensorFlow Lite. */
 public abstract class Classifier {
@@ -206,7 +207,7 @@ public abstract class Classifier {
         // Creates the post processor for the output probability.
         probabilityProcessor = new TensorProcessor.Builder().add(getPostprocessNormalizeOp()).build();
 
-        Log.d(LOG_TAG, "Created a Tensorflow Lite Image Classifier.");
+        Log.d(Constants.LOG_TAG, "Created a Tensorflow Lite Image Classifier.");
     }
 
     /** Runs inference and returns the classification results. */
@@ -219,7 +220,7 @@ public abstract class Classifier {
         inputImageBuffer = loadImage(bitmap, sensorOrientation);
         long endTimeForLoadImage = SystemClock.uptimeMillis();
         Trace.endSection();
-        Log.v(LOG_TAG, "Timecost to load the image: " + (endTimeForLoadImage - startTimeForLoadImage));
+        Log.v(Constants.LOG_TAG, "Timecost to load the image: " + (endTimeForLoadImage - startTimeForLoadImage));
 
         // Runs the inference call.
         Trace.beginSection("runInference");
@@ -228,7 +229,7 @@ public abstract class Classifier {
         tflite.run(inputImageBuffer.getBuffer(), outputProbabilityBuffer.getBuffer().rewind());
         long endTimeForReference = SystemClock.uptimeMillis();
         Trace.endSection();
-        Log.v(LOG_TAG, "Timecost to run model inference: " + (endTimeForReference - startTimeForReference));
+        Log.v(Constants.LOG_TAG, "Timecost to run model inference: " + (endTimeForReference - startTimeForReference));
 
         // Gets the map of label and probability.
         // TODO: Use TensorLabel from TFLite Support Library to associate the probabilities
