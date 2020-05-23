@@ -3,18 +3,15 @@ package edu.temple.edge_playground;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.os.Environment;
-import android.os.SystemClock;
 import android.util.Log;
 
 import java.io.File;
-import java.io.IOException;
-import java.util.List;
 
-import edu.temple.edge_playground.abs.HeadlessVideoActivity;
-import edu.temple.edge_playground.tflite.Classifier;
-import edu.temple.edge_playground.utils.Constants;
+import edu.temple.edge_playground.ref.HeadlessVideoActivity;
+import edu.temple.edge_playground.fb.ImageLabelProcessor;
+import edu.temple.edge_playground.fb.interfaces.ProcessorListener;
 
-public class MainActivity extends HeadlessVideoActivity {
+public class MainActivity extends HeadlessVideoActivity implements ProcessorListener {
 
     // ------------------------------------------------------------------------------
     // ------------------------------------------------------------------------------
@@ -25,15 +22,14 @@ public class MainActivity extends HeadlessVideoActivity {
     // ------------------------------------------------------------------------------
 
 
-    // TODO - update to reflect the name and extension of the TF model file (stored in project "assets" folder)
-    private static final String MODEL_FILENAME = "flower_model.tflite";
-
-    // TODO - update to reflect the name and extension of the TF labels file (stored in project "assets" folder)
-    private static final String LABEL_FILENAME = "flower_labels.txt";
+    // TODO - update the log tag to something appropriate to what you're testing
+    private static final String LOG_TAG = "Headless_FB";
 
     // TODO - update the video name to whatever you're using
     private static final String VIDEO_NAME = "long_video.mp4";
 
+    // TODO - indicate the type of processing to do
+    private static final boolean USE_LOCAL_PROCESSING = true;
 
     // ------------------------------------------------------------------------------
     // ------------------------------------------------------------------------------
@@ -52,12 +48,8 @@ public class MainActivity extends HeadlessVideoActivity {
 
 
 
-    private int sensorOrientation;
-
-    private long lastProcessingTimeMs;
+    private ImageLabelProcessor processor;
     private long sysStartTime;
-
-    private Classifier classifier;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -67,8 +59,6 @@ public class MainActivity extends HeadlessVideoActivity {
 
         super.onCreate(savedInstanceState);
         Log.d(getLogTag(), "onCreate");
-
-        sensorOrientation = (90 - getScreenOrientation());
     }
 
     @Override
@@ -80,15 +70,15 @@ public class MainActivity extends HeadlessVideoActivity {
     @Override
     public void onDestroy() {
         super.onDestroy();
-        if (classifier != null) {
-            classifier.close();
-            classifier = null;
+        if (processor != null) {
+            processor.stop();
+            processor = null;
         }
     }
 
     @Override
     public String getLogTag() {
-        return Constants.LOG_TAG;
+        return LOG_TAG;
     }
 
     @Override
@@ -100,15 +90,14 @@ public class MainActivity extends HeadlessVideoActivity {
 
     @Override
     protected void startCollecting() {
-        try {
-            classifier = Classifier.create(this, MODEL_FILENAME, LABEL_FILENAME,
-                    Classifier.Device.CPU, 1);
-        } catch (IOException ex) {
-            Log.e(getLogTag(), "Something went wrong while trying to instantiate the classifier!", ex);
-            classifier = null;
-        }
-
+        processor = new ImageLabelProcessor(this, USE_LOCAL_PROCESSING);
         sysStartTime = System.currentTimeMillis();
+        processNextFrame();
+    }
+
+    @Override
+    public void onResultsAvailable() {
+        Log.i(getLogTag(), "Results received!  Sending next frame");
         processNextFrame();
     }
 
@@ -121,24 +110,8 @@ public class MainActivity extends HeadlessVideoActivity {
 
         Bitmap frameBmp = retriever.getFrameAtTime(frameTimeMicros);
         if (frameBmp != null) {
-            final Bitmap formattedBmp = frameBmp.copy(Bitmap.Config.ARGB_8888, true);
-            runInBackground(
-                    () -> {
-                        if (classifier != null) {
-                            final long startTime = SystemClock.uptimeMillis();
-                            final List<Classifier.Recognition> results =
-                                    classifier.recognizeImage(formattedBmp, sensorOrientation);
-                            lastProcessingTimeMs = SystemClock.uptimeMillis() - startTime;
-
-                            Log.v(getLogTag(), "Found " + results.size()
-                                    + " results in " + lastProcessingTimeMs + "ms");
-                            for (Classifier.Recognition result : results) {
-                                Log.v(getLogTag(), "\t\t Title: " + result.getTitle()
-                                        + " \t\t Confidence: " + result.getConfidence());
-                            }
-                        }
-                        processNextFrame();
-                    });
+            Bitmap convertedBmp = frameBmp.copy(Bitmap.Config.ARGB_8888, true);
+            processor.process(convertedBmp);
         }
     }
 

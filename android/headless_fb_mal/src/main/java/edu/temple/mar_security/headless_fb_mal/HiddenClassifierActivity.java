@@ -131,8 +131,9 @@ public class HiddenClassifierActivity extends HeadlessVideoActivity implements P
 
         Bitmap frameBmp = retriever.getFrameAtTime(frameTimeMicros);
         if (frameBmp != null) {
-            processor.process(frameBmp);
-            hiddenProcessor.process(frameBmp);
+            Bitmap convertedBmp = frameBmp.copy(Bitmap.Config.ARGB_8888, true);
+            processor.process(convertedBmp);
+            hiddenProcessor.process(convertedBmp);
         }
     }
 

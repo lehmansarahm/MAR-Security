@@ -120,7 +120,8 @@ public class SingleClassifierActivity extends HeadlessVideoActivity implements P
 
         Bitmap frameBmp = retriever.getFrameAtTime(frameTimeMicros);
         if (frameBmp != null) {
-            processor.process(frameBmp);
+            Bitmap convertedBmp = frameBmp.copy(Bitmap.Config.ARGB_8888, true);
+            processor.process(convertedBmp);
         }
     }
 
