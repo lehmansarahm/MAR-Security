@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Timer;
@@ -85,10 +86,13 @@ public abstract class BaseActivity extends AppCompatActivity
         super.onDestroy();
         serviceTimer.cancel();
 
-        String ioFilename = StorageUtil.getTimestamp("fileIO");
+        String edgeFilename = StorageUtil.getTimestamp("edge", "csv");
+        StorageUtil.writeContentToFile(this, edgeFilename, edgeEvents);
+
+        String ioFilename = StorageUtil.getTimestamp("fileIO", "csv");
         StorageUtil.writeContentToFile(this, ioFilename, fileIoEvents);
 
-        String mlFilename = StorageUtil.getTimestamp("ml");
+        String mlFilename = StorageUtil.getTimestamp("ml", "csv");
         StorageUtil.writeContentToFile(this, mlFilename, mlEvents);
     }
 
@@ -103,8 +107,22 @@ public abstract class BaseActivity extends AppCompatActivity
     // -----------------------------------------------------------------------------------
     // -----------------------------------------------------------------------------------
 
+    private static List<String> edgeEvents = new ArrayList<>();
     private static List<String> fileIoEvents = new ArrayList<>();
     private static List<String> mlEvents = new ArrayList<>();
+
+    public static void logEdgeEvent(long timeToClassify, int labelCount, boolean isRunningLocally) {
+        if (edgeEvents.size() == 0) {
+            edgeEvents.add("Timestamp,TimeToClassify,LabelCount,IsRunningLocally");
+        }
+
+        String eventString = (StorageUtil.getTimestamp()
+                + "," + timeToClassify
+                + "," + labelCount
+                + "," + isRunningLocally);
+        Log.i(LOG_TAG, "Logging edge event: " + eventString);
+        edgeEvents.add(eventString);
+    }
 
     public static void logFileIoEvent(String filename, String operation, String dataSize) {
         String eventString = (StorageUtil.getTimestamp() + "," + filename + "," + operation + "," + dataSize);

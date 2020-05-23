@@ -25,10 +25,11 @@ public class StorageUtil {
         return df.format(currentTime);
     }
 
-    public static String getTimestamp(String label) {
+    public static String getTimestamp(String label, String ext) {
         Date currentTime = Calendar.getInstance().getTime();
         DateFormat df = new SimpleDateFormat(Constants.TIMESTAMP_FILENAME);
-        if (label != null && !label.isEmpty()) return (df.format(currentTime) + "_" + label);
+        if (label != null && !label.isEmpty())
+            return (df.format(currentTime) + "_" + label + "." + ext);
         else return df.format(currentTime);
     }
 

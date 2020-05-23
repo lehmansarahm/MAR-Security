@@ -11,6 +11,8 @@ import android.widget.MediaController;
 import android.widget.Toast;
 import android.widget.VideoView;
 
+import static android.media.MediaMetadataRetriever.METADATA_KEY_VIDEO_FRAME_COUNT;
+
 public abstract class HeadlessVideoActivity extends BaseActivity {
 
     protected abstract String getLogTag();
@@ -55,7 +57,13 @@ public abstract class HeadlessVideoActivity extends BaseActivity {
         simpleVideoView.setVideoPath(getVideoPath());
         simpleVideoView.start();
 
-        // simpleVideoView.setOnPreparedListener(mp -> mp.setLooping(true));
+        simpleVideoView.setOnPreparedListener(mp -> {
+            BaseActivity.logFileIoEvent(getVideoPath(),"duration",
+                    String.valueOf(mp.getDuration()));
+            BaseActivity.logFileIoEvent(getVideoPath(),"frame count",
+                    retriever.extractMetadata(METADATA_KEY_VIDEO_FRAME_COUNT));
+            // mp.setLooping(true);
+        });
 
         simpleVideoView.setOnCompletionListener(mp ->
                 HeadlessVideoActivity.this.finishAndRemoveTask());

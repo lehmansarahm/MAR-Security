@@ -26,7 +26,7 @@ public class MainActivity extends HeadlessVideoActivity implements ProcessorList
     private static final String VIDEO_NAME = "fetch.mp4";
 
     // TODO - indicate the type of processing to do
-    private static final boolean USE_LOCAL_PROCESSING = true;
+    private static final boolean USE_LOCAL_PROCESSING = false;
 
     // ------------------------------------------------------------------------------
     // ------------------------------------------------------------------------------

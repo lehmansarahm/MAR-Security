@@ -22,10 +22,13 @@ public class ImageLabelProcessor implements HeadlessImageProcessor {
 
     private final FirebaseVisionImageLabeler detector;
     private ProcessorListener listener;
+    private boolean isRunningLocally;
 
     public ImageLabelProcessor(ProcessorListener listener, boolean runOnDevice) {
         this.listener = listener;
-        if (runOnDevice) {
+        this.isRunningLocally = runOnDevice;
+
+        if (isRunningLocally) {
             BaseActivity.logMLEvent("FirebaseVision - getInstance() - getOnDeviceImageLabeler()");
             detector = FirebaseVision.getInstance().getOnDeviceImageLabeler();
         } else {
@@ -49,9 +52,13 @@ public class ImageLabelProcessor implements HeadlessImageProcessor {
         FirebaseVisionImage image = FirebaseVisionImage.fromBitmap(bitmap);
         Log.i(Constants.LOG_TAG, "Attempting to process image: " + bitmap);
 
+        long startTime = System.currentTimeMillis();
         BaseActivity.logMLEvent("FirebaseVisionImageLabeler - processImage()");
         Task<List<FirebaseVisionImageLabel>> result =
                 detector.processImage(image).addOnSuccessListener(labels -> {
+                    long endTime = System.currentTimeMillis();
+                    BaseActivity.logEdgeEvent((endTime - startTime), labels.size(), isRunningLocally);
+
                     BaseActivity.logMLEvent("Begin successful result processing");
                     for (int i = 0; i < labels.size(); ++i) {
                         BaseActivity.logMLEvent("Detected image label: " + labels.get(i).getText()
