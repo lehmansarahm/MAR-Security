@@ -84,6 +84,12 @@ public abstract class BaseActivity extends AppCompatActivity
     protected void onDestroy() {
         super.onDestroy();
         serviceTimer.cancel();
+
+        String ioFilename = StorageUtil.getTimestamp("fileIO");
+        StorageUtil.writeContentToFile(this, ioFilename, fileIoEvents);
+
+        String mlFilename = StorageUtil.getTimestamp("ml");
+        StorageUtil.writeContentToFile(this, mlFilename, mlEvents);
     }
 
     @Override

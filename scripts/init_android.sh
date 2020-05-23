@@ -1,5 +1,5 @@
 DATA_STORAGE_PREFIX='/storage/self/primary/Android/data/'
-VIDEO_NAME='long_video.mp4'
+VIDEO_NAME='fetch.mp4'
 
 # -----------------------------------------------------------------------
 

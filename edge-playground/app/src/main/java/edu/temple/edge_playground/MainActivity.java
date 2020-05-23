@@ -10,6 +10,7 @@ import java.io.File;
 import edu.temple.edge_playground.ref.HeadlessVideoActivity;
 import edu.temple.edge_playground.fb.ImageLabelProcessor;
 import edu.temple.edge_playground.fb.interfaces.ProcessorListener;
+import edu.temple.edge_playground.utils.Constants;
 
 public class MainActivity extends HeadlessVideoActivity implements ProcessorListener {
 
@@ -21,12 +22,8 @@ public class MainActivity extends HeadlessVideoActivity implements ProcessorList
     // ------------------------------------------------------------------------------
     // ------------------------------------------------------------------------------
 
-
-    // TODO - update the log tag to something appropriate to what you're testing
-    private static final String LOG_TAG = "Headless_FB";
-
     // TODO - update the video name to whatever you're using
-    private static final String VIDEO_NAME = "long_video.mp4";
+    private static final String VIDEO_NAME = "fetch.mp4";
 
     // TODO - indicate the type of processing to do
     private static final boolean USE_LOCAL_PROCESSING = true;
@@ -78,7 +75,7 @@ public class MainActivity extends HeadlessVideoActivity implements ProcessorList
 
     @Override
     public String getLogTag() {
-        return LOG_TAG;
+        return Constants.LOG_TAG;
     }
 
     @Override

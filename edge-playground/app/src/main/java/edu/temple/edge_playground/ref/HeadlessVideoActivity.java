@@ -55,8 +55,7 @@ public abstract class HeadlessVideoActivity extends BaseActivity {
         simpleVideoView.setVideoPath(getVideoPath());
         simpleVideoView.start();
 
-        simpleVideoView.setOnPreparedListener(mp ->
-                mp.setLooping(true));
+        // simpleVideoView.setOnPreparedListener(mp -> mp.setLooping(true));
 
         simpleVideoView.setOnCompletionListener(mp ->
                 HeadlessVideoActivity.this.finishAndRemoveTask());
