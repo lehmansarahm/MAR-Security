@@ -1,5 +1,7 @@
+#!/usr/bin/env bash
+
 DATA_STORAGE_PREFIX='/storage/self/primary/Android/data/'
-VIDEO_NAME='fetch.mp4'
+VIDEO_NAME='text_wall.mp4'
 
 # -----------------------------------------------------------------------
 

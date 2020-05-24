@@ -12,6 +12,7 @@ import java.util.List;
 
 import edu.temple.mar_security.res_lib.HeadlessVideoActivity;
 import edu.temple.mar_security.res_lib_tf.Classifier;
+import edu.temple.mar_security.res_lib_tf.Recognition;
 
 public class SingleClassifierActivity extends HeadlessVideoActivity {
 
@@ -128,7 +129,7 @@ public class SingleClassifierActivity extends HeadlessVideoActivity {
                     () -> {
                         if (classifier != null) {
                             final long startTime = SystemClock.uptimeMillis();
-                            final List<Classifier.Recognition> results =
+                            final List<Recognition> results =
                                     classifier.recognizeImage(formattedBmp, sensorOrientation);
                             lastProcessingTimeMs = SystemClock.uptimeMillis() - startTime;
 

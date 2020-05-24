@@ -10,7 +10,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/fb_img_lbl" />
+            <option value="$PROJECT_DIR$/fb_text" />
+            <option value="$PROJECT_DIR$/res_lib" />
+            <option value="$PROJECT_DIR$/tf_obj" />
+            <option value="$PROJECT_DIR$/tf_text" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

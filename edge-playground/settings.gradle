@@ -1,2 +1,6 @@
 rootProject.name='Edge Playground'
-include ':app'
+include ':fb_img_lbl'
+include ':fb_text'
+include ':res_lib'
+include ':tf_obj'
+include ':tf_text'
