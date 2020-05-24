@@ -22,12 +22,14 @@ public abstract class FbBaseActivity extends HeadlessVideoActivity implements Pr
     @Override
     public void onResume() {
         super.onResume();
-        Log.d(getLogTag(), "onResume");
+        Log.d(getLogTag(), "onResume " + this);
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
+        Log.d(getLogTag(), "onDestroy " + this);
+
         if (processor != null) {
             processor.stop();
             processor = null;

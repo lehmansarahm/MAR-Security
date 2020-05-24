@@ -90,6 +90,7 @@ public class ObjectDetector {
         String actualFilename = labelFilename.split("file:///android_asset/")[1];
         InputStream labelsInput = assetManager.open(actualFilename);
         BufferedReader br = new BufferedReader(new InputStreamReader(labelsInput));
+
         String line;
         while ((line = br.readLine()) != null) {
             Log.w(Constants.LOG_TAG, line);
@@ -106,6 +107,7 @@ public class ObjectDetector {
         }
 
         d.isModelQuantized = isQuantized;
+
         // Pre-allocate buffers.
         int numBytesPerChannel;
         if (isQuantized) {
@@ -113,6 +115,7 @@ public class ObjectDetector {
         } else {
             numBytesPerChannel = 4; // Floating point
         }
+
         d.imgData = ByteBuffer.allocateDirect(1 * d.inputSize * d.inputSize * 3 * numBytesPerChannel);
         d.imgData.order(ByteOrder.nativeOrder());
         d.intValues = new int[d.inputSize * d.inputSize];
@@ -122,6 +125,7 @@ public class ObjectDetector {
         d.outputClasses = new float[1][NUM_DETECTIONS];
         d.outputScores = new float[1][NUM_DETECTIONS];
         d.numDetections = new float[1];
+
         return d;
     }
 
@@ -130,9 +134,11 @@ public class ObjectDetector {
         Trace.beginSection("recognizeImage");
 
         Trace.beginSection("preprocessBitmap");
+
         // Preprocess the image data from 0-255 int to normalized float based
         // on the provided parameters.
-        bitmap.getPixels(intValues, 0, bitmap.getWidth(), 0, 0, bitmap.getWidth(), bitmap.getHeight());
+        bitmap.getPixels(intValues, 0, bitmap.getWidth(), 0, 0,
+                bitmap.getWidth(), bitmap.getHeight());
 
         imgData.rewind();
         for (int i = 0; i < inputSize; ++i) {
@@ -179,7 +185,8 @@ public class ObjectDetector {
         // because on some models, they don't always output the same total number of detections
         // For example, your model's NUM_DETECTIONS = 20, but sometimes it only outputs 16 predictions
         // If you don't use the output's numDetections, you'll get nonsensical data
-        int numDetectionsOutput = Math.min(NUM_DETECTIONS, (int) numDetections[0]); // cast from float to integer, use min for safety
+        int numDetectionsOutput = Math.min(NUM_DETECTIONS,
+                (int) numDetections[0]); // cast from float to integer, use min for safety
 
         final ArrayList<Recognition> recognitions = new ArrayList<>(numDetectionsOutput);
         for (int i = 0; i < numDetectionsOutput; ++i) {
@@ -200,24 +207,18 @@ public class ObjectDetector {
                             outputScores[0][i],
                             detection));
         }
+
         Trace.endSection(); // "recognizeImage"
         return recognitions;
     }
 
-    public void enableStatLogging(final boolean logStats) {}
+    public void close() {
+        if (tfLite != null) {
+            tfLite.close();
+            tfLite = null;
+        }
 
-    public String getStatString() {
-        return "";
-    }
-
-    public void close() {}
-
-    public void setNumThreads(int num_threads) {
-        if (tfLite != null) tfLite.setNumThreads(num_threads);
-    }
-
-    public void setUseNNAPI(boolean isChecked) {
-        if (tfLite != null) tfLite.setUseNNAPI(isChecked);
+        imgData = null;
     }
 
     /** Memory-map the model file in Assets. */

@@ -10,7 +10,9 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
+import edu.temple.edge_playground.res_lib.ref.BaseActivity;
 import edu.temple.edge_playground.res_lib.ref.HeadlessVideoActivity;
+import edu.temple.edge_playground.res_lib.utils.ImageUtil;
 import edu.temple.edge_playground.tflite.Recognition;
 import edu.temple.edge_playground.tflite.ObjectDetector;
 
@@ -26,16 +28,16 @@ public class MainActivity extends HeadlessVideoActivity {
 
 
     // TODO - update the log tag to something appropriate to what you're testing
-    private static final String LOG_TAG = "Headless_TF";
+    private static final String LOG_TAG = "Edge_Playground_TF_Obj";
 
     // TODO - update to reflect the name and extension of the TF model file (stored in project "assets" folder)
     private static final String MODEL_FILENAME = "detect.tflite";
 
     // TODO - update to reflect the name and extension of the TF labels file (stored in project "assets" folder)
-    private static final String LABEL_FILENAME = "labelmap.txt";
+    private static final String LABEL_FILENAME = "file:///android_asset/labelmap.txt";
 
     // TODO - update the video name to whatever you're using
-    private static final String VIDEO_NAME = "long_video.mp4";
+    private static final String VIDEO_NAME = "fetch.mp4";
 
 
     // ------------------------------------------------------------------------------
@@ -70,22 +72,25 @@ public class MainActivity extends HeadlessVideoActivity {
         simpleVideoView = findViewById(R.id.simpleVideoView);
 
         super.onCreate(savedInstanceState);
-        Log.d(getLogTag(), "onCreate");
+        Log.d(getLogTag(), "onCreate" + this);
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        Log.d(getLogTag(), "onResume");
+        Log.d(getLogTag(), "onResume" + this);
     }
 
     @Override
     public void onDestroy() {
         super.onDestroy();
+        Log.d(getLogTag(), "onDestroy" + this);
+
         if (classifier != null) {
             classifier.close();
             classifier = null;
         }
+
     }
 
     @Override
@@ -123,7 +128,7 @@ public class MainActivity extends HeadlessVideoActivity {
 
         Bitmap frameBmp = retriever.getFrameAtTime(frameTimeMicros);
         if (frameBmp != null) {
-            final Bitmap formattedBmp = frameBmp.copy(Bitmap.Config.ARGB_8888, true);
+            final Bitmap formattedBmp = ImageUtil.formatBitmap(frameBmp, DEFAULT_INPUT_SIZE);
             runInBackground(
                     () -> {
                         if (classifier != null) {
@@ -131,7 +136,10 @@ public class MainActivity extends HeadlessVideoActivity {
                             final List<Recognition> results = classifier.recognizeImage(formattedBmp);
                             lastProcessingTimeMs = SystemClock.uptimeMillis() - startTime;
 
-                            Log.v(getLogTag(), "Found " + results.size()
+                            BaseActivity.logEdgeEvent(lastProcessingTimeMs,  results.size(),
+                                    true);
+
+                            BaseActivity.logMLEvent("Found " + results.size()
                                     + " results in " + lastProcessingTimeMs + "ms");
                             for (Recognition result : results) {
                                 Log.v(getLogTag(), "\t\t Title: " + result.getTitle()

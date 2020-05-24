@@ -17,6 +17,7 @@ import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import edu.temple.edge_playground.res_lib.utils.Constants;
 import edu.temple.edge_playground.res_lib.utils.StorageUtil;
 
 import static edu.temple.edge_playground.res_lib.utils.Constants.LOG_TAG;
@@ -59,6 +60,7 @@ public abstract class BaseActivity extends AppCompatActivity
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.d(LOG_TAG, "onCreate " + this);
         super.onCreate(savedInstanceState);
 
         // run stat collection task as background service every five seconds
@@ -83,16 +85,8 @@ public abstract class BaseActivity extends AppCompatActivity
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        serviceTimer.cancel();
-
-        String edgeFilename = StorageUtil.getTimestamp("edge", "csv");
-        StorageUtil.writeContentToFile(this, edgeFilename, edgeEvents);
-
-        String ioFilename = StorageUtil.getTimestamp("fileIO", "csv");
-        StorageUtil.writeContentToFile(this, ioFilename, fileIoEvents);
-
-        String mlFilename = StorageUtil.getTimestamp("ml", "csv");
-        StorageUtil.writeContentToFile(this, mlFilename, mlEvents);
+        Log.d(LOG_TAG, "onDestroy " + this);
+        writeEventDataToFile();
     }
 
     @Override
@@ -133,6 +127,20 @@ public abstract class BaseActivity extends AppCompatActivity
         String eventString = (StorageUtil.getTimestamp() + "," + descriptor);
         Log.i(LOG_TAG, "Logging ML event: " + eventString);
         mlEvents.add(eventString);
+    }
+
+    protected void writeEventDataToFile() {
+        serviceTimer.cancel();
+        Log.i(LOG_TAG, "Writing event data to files.");
+
+        String edgeFilename = StorageUtil.getTimestamp("edge", "csv");
+        StorageUtil.writeContentToFile(this, edgeFilename, edgeEvents);
+
+        String ioFilename = StorageUtil.getTimestamp("fileIO", "csv");
+        StorageUtil.writeContentToFile(this, ioFilename, fileIoEvents);
+
+        String mlFilename = StorageUtil.getTimestamp("ml", "csv");
+        StorageUtil.writeContentToFile(this, mlFilename, mlEvents);
     }
 
     // -----------------------------------------------------------------------------------

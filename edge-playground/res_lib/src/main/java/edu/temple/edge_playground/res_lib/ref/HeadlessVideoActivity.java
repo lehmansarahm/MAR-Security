@@ -11,6 +11,8 @@ import android.widget.MediaController;
 import android.widget.Toast;
 import android.widget.VideoView;
 
+import edu.temple.edge_playground.res_lib.utils.Constants;
+
 import static android.media.MediaMetadataRetriever.METADATA_KEY_VIDEO_FRAME_COUNT;
 
 public abstract class HeadlessVideoActivity extends BaseActivity {
@@ -26,6 +28,8 @@ public abstract class HeadlessVideoActivity extends BaseActivity {
     protected MediaMetadataRetriever retriever;
 
     protected int previewWidth = 0, previewHeight = 0;
+
+    protected boolean readyToShutdown;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,8 +69,11 @@ public abstract class HeadlessVideoActivity extends BaseActivity {
             // mp.setLooping(true);
         });
 
-        simpleVideoView.setOnCompletionListener(mp ->
-                HeadlessVideoActivity.this.finishAndRemoveTask());
+        simpleVideoView.setOnCompletionListener(mp -> {
+            Log.i(Constants.LOG_TAG, "Video execution complete!  Writing event data and closing down...");
+            writeEventDataToFile();
+            HeadlessVideoActivity.this.finishAndRemoveTask();
+        });
 
         simpleVideoView.setOnErrorListener((mp, what, extra) -> {
             // display a toast when an error is occurred while playing an video
@@ -108,6 +115,12 @@ public abstract class HeadlessVideoActivity extends BaseActivity {
         }
 
         super.onPause();
+    }
+
+    @Override
+    public synchronized void onDestroy() {
+        Log.d(getLogTag(), "onDestroy " + this);
+        super.onDestroy();
     }
 
     protected synchronized void runInBackground(final Runnable r) {

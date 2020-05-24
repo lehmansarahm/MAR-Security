@@ -25,7 +25,7 @@ public class MainActivity extends FbBaseActivity {
         simpleVideoView = findViewById(R.id.simpleVideoView);
 
         super.onCreate(savedInstanceState);
-        Log.d(getLogTag(), "onCreate");
+        Log.d(getLogTag(), "onCreate" + this);
     }
 
 }
