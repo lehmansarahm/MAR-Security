@@ -87,7 +87,7 @@ public abstract class FbBaseActivity extends HeadlessVideoActivity implements Pr
 
         Bitmap frameBmp = retriever.getFrameAtTime(frameTimeMicros);
         if (frameBmp != null) {
-            Bitmap convertedBmp = frameBmp.copy(Bitmap.Config.ARGB_8888, true);
+            Bitmap convertedBmp = frameBmp.copy(Bitmap.Config.ARGB_8888, false);
             processor.process(convertedBmp);
         }
     }

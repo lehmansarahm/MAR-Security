@@ -13,7 +13,7 @@ public class MainActivity extends FbBaseActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         // TODO - update the video name to whatever you're using
-        VIDEO_NAME = "fetch.mp4";
+        VIDEO_NAME = "dogs_1_crf23.mp4";
 
         // TODO - update the processor instantiation
         processor = new ImageLabelProcessor(this, USE_LOCAL_PROCESSING);

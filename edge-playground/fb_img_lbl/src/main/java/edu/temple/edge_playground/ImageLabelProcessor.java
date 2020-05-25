@@ -67,8 +67,9 @@ public class ImageLabelProcessor implements HeadlessImageProcessor {
 
                     BaseActivity.logMLEvent("End successful result processing");
                     if (listener != null) listener.onResultsAvailable();
-                }).addOnFailureListener((OnFailureListener) e -> {
-                    Log.e(Constants.LOG_TAG, "Image label generation failed", e);
+                }).addOnFailureListener(e -> {
+                    Log.e(Constants.LOG_TAG, "Image label generation failed: "
+                            + e.getLocalizedMessage(), e);
                     if (listener != null) listener.onResultsAvailable();
                 });
 

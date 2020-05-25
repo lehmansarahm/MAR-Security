@@ -83,7 +83,8 @@ public class TextProcessor implements HeadlessImageProcessor {
                     BaseActivity.logMLEvent("End successful result processing");
                     if (listener != null) listener.onResultsAvailable();
                 }).addOnFailureListener(e -> {
-                    Log.e(TAG, "Barcode detection failed", e);
+                    Log.e(TAG, "Barcode detection failed: "
+                            + e.getLocalizedMessage(), e);
                     if (listener != null) listener.onResultsAvailable();
                 });
 

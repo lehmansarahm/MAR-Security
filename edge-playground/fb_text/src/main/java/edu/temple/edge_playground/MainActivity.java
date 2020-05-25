@@ -8,12 +8,12 @@ import edu.temple.edge_playground.res_lib.fb.FbBaseActivity;
 public class MainActivity extends FbBaseActivity {
 
     // TODO - indicate the type of processing to do
-    private static final boolean USE_LOCAL_PROCESSING = true;
+    private static final boolean USE_LOCAL_PROCESSING = false;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         // TODO - update the video name to whatever you're using
-        VIDEO_NAME = "text_wall.mp4";
+        VIDEO_NAME = "text_65pt_crf51.mp4";
 
         // TODO - update the processor instantiation
         processor = new TextProcessor(this, USE_LOCAL_PROCESSING);
