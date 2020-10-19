@@ -1,0 +1,556 @@
+2020-05-25 02:09:41.029,FirebaseVision - getInstance() - getCloudImageLabeler()
+2020-05-25 02:09:41.432,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:42.214,Begin successful result processing
+2020-05-25 02:09:42.214,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:42.214,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:42.215,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:42.215,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:42.216,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:42.216,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:42.216,Detected image label: Retriever 	 with confidence: 0.95780146
+2020-05-25 02:09:42.217,Detected image label: Companion dog 	 with confidence: 0.8953573
+2020-05-25 02:09:42.217,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:09:42.217,Detected image label: Sporting Group 	 with confidence: 0.8658778
+2020-05-25 02:09:42.218,Detected image label: Labrador retriever 	 with confidence: 0.7873954
+2020-05-25 02:09:42.218,Detected image label: Puppy 	 with confidence: 0.7070536
+2020-05-25 02:09:42.218,Detected image label: Hovawart 	 with confidence: 0.62148994
+2020-05-25 02:09:42.219,Detected image label: Ancient dog breeds 	 with confidence: 0.6175184
+2020-05-25 02:09:42.219,Detected image label: Cocker spaniel 	 with confidence: 0.5942074
+2020-05-25 02:09:42.220,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:42.220,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:09:42.220,Detected image label: Small greek domestic dog 	 with confidence: 0.5269777
+2020-05-25 02:09:42.221,End successful result processing
+2020-05-25 02:09:42.312,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:42.750,Begin successful result processing
+2020-05-25 02:09:42.751,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:42.751,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:42.752,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:42.752,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:42.752,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:42.753,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:42.753,Detected image label: Retriever 	 with confidence: 0.95780146
+2020-05-25 02:09:42.753,Detected image label: Companion dog 	 with confidence: 0.8953573
+2020-05-25 02:09:42.754,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:09:42.754,Detected image label: Sporting Group 	 with confidence: 0.8658778
+2020-05-25 02:09:42.755,Detected image label: Labrador retriever 	 with confidence: 0.7873954
+2020-05-25 02:09:42.755,Detected image label: Puppy 	 with confidence: 0.7070536
+2020-05-25 02:09:42.756,Detected image label: Hovawart 	 with confidence: 0.62148994
+2020-05-25 02:09:42.756,Detected image label: Ancient dog breeds 	 with confidence: 0.6175184
+2020-05-25 02:09:42.756,Detected image label: Cocker spaniel 	 with confidence: 0.5942074
+2020-05-25 02:09:42.757,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:42.757,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:09:42.757,Detected image label: Small greek domestic dog 	 with confidence: 0.5269777
+2020-05-25 02:09:42.758,End successful result processing
+2020-05-25 02:09:42.871,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:43.375,Begin successful result processing
+2020-05-25 02:09:43.375,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:43.376,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:43.376,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:43.376,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:43.377,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:43.377,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:43.377,Detected image label: Retriever 	 with confidence: 0.95780146
+2020-05-25 02:09:43.378,Detected image label: Companion dog 	 with confidence: 0.8953573
+2020-05-25 02:09:43.378,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:09:43.378,Detected image label: Sporting Group 	 with confidence: 0.8658778
+2020-05-25 02:09:43.379,Detected image label: Labrador retriever 	 with confidence: 0.7873954
+2020-05-25 02:09:43.379,Detected image label: Puppy 	 with confidence: 0.7070536
+2020-05-25 02:09:43.379,Detected image label: Hovawart 	 with confidence: 0.62148994
+2020-05-25 02:09:43.380,Detected image label: Ancient dog breeds 	 with confidence: 0.6175184
+2020-05-25 02:09:43.380,Detected image label: Cocker spaniel 	 with confidence: 0.5942074
+2020-05-25 02:09:43.381,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:43.381,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:09:43.381,Detected image label: Small greek domestic dog 	 with confidence: 0.5269777
+2020-05-25 02:09:43.382,End successful result processing
+2020-05-25 02:09:43.483,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:43.896,Begin successful result processing
+2020-05-25 02:09:43.897,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:43.897,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:43.898,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:43.898,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:43.899,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:43.899,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:43.900,Detected image label: Retriever 	 with confidence: 0.95780146
+2020-05-25 02:09:43.900,Detected image label: Companion dog 	 with confidence: 0.8953573
+2020-05-25 02:09:43.901,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:09:43.901,Detected image label: Sporting Group 	 with confidence: 0.8658778
+2020-05-25 02:09:43.902,Detected image label: Labrador retriever 	 with confidence: 0.7873954
+2020-05-25 02:09:43.902,Detected image label: Puppy 	 with confidence: 0.7070536
+2020-05-25 02:09:43.903,Detected image label: Hovawart 	 with confidence: 0.62148994
+2020-05-25 02:09:43.903,Detected image label: Ancient dog breeds 	 with confidence: 0.6175184
+2020-05-25 02:09:43.904,Detected image label: Cocker spaniel 	 with confidence: 0.5942074
+2020-05-25 02:09:43.904,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:43.905,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:09:43.905,Detected image label: Small greek domestic dog 	 with confidence: 0.5269777
+2020-05-25 02:09:43.905,End successful result processing
+2020-05-25 02:09:44.004,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:44.583,Begin successful result processing
+2020-05-25 02:09:44.584,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:44.584,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:44.585,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:44.585,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:44.585,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:44.586,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:44.586,Detected image label: Retriever 	 with confidence: 0.95780146
+2020-05-25 02:09:44.587,Detected image label: Companion dog 	 with confidence: 0.8953573
+2020-05-25 02:09:44.587,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:09:44.587,Detected image label: Sporting Group 	 with confidence: 0.8658778
+2020-05-25 02:09:44.588,Detected image label: Labrador retriever 	 with confidence: 0.7873954
+2020-05-25 02:09:44.588,Detected image label: Puppy 	 with confidence: 0.7070536
+2020-05-25 02:09:44.589,Detected image label: Hovawart 	 with confidence: 0.62148994
+2020-05-25 02:09:44.589,Detected image label: Ancient dog breeds 	 with confidence: 0.6175184
+2020-05-25 02:09:44.589,Detected image label: Cocker spaniel 	 with confidence: 0.5942074
+2020-05-25 02:09:44.590,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:44.590,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:09:44.590,Detected image label: Small greek domestic dog 	 with confidence: 0.5269777
+2020-05-25 02:09:44.591,End successful result processing
+2020-05-25 02:09:44.700,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:45.448,Begin successful result processing
+2020-05-25 02:09:45.449,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:45.449,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:45.450,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:45.450,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:45.450,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:45.451,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:45.451,Detected image label: Retriever 	 with confidence: 0.95780146
+2020-05-25 02:09:45.451,Detected image label: Companion dog 	 with confidence: 0.8953573
+2020-05-25 02:09:45.452,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:09:45.452,Detected image label: Sporting Group 	 with confidence: 0.8658778
+2020-05-25 02:09:45.452,Detected image label: Labrador retriever 	 with confidence: 0.7873954
+2020-05-25 02:09:45.452,Detected image label: Puppy 	 with confidence: 0.7070536
+2020-05-25 02:09:45.453,Detected image label: Hovawart 	 with confidence: 0.62148994
+2020-05-25 02:09:45.453,Detected image label: Ancient dog breeds 	 with confidence: 0.6175184
+2020-05-25 02:09:45.453,Detected image label: Cocker spaniel 	 with confidence: 0.5942074
+2020-05-25 02:09:45.454,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:45.454,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:09:45.455,Detected image label: Small greek domestic dog 	 with confidence: 0.5269777
+2020-05-25 02:09:45.456,End successful result processing
+2020-05-25 02:09:45.574,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:46.258,Begin successful result processing
+2020-05-25 02:09:46.258,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:46.258,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:46.259,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:46.259,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:46.259,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:46.259,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:46.259,Detected image label: Retriever 	 with confidence: 0.95780146
+2020-05-25 02:09:46.260,Detected image label: Companion dog 	 with confidence: 0.8953573
+2020-05-25 02:09:46.260,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:09:46.260,Detected image label: Sporting Group 	 with confidence: 0.8658778
+2020-05-25 02:09:46.260,Detected image label: Labrador retriever 	 with confidence: 0.7873954
+2020-05-25 02:09:46.260,Detected image label: Puppy 	 with confidence: 0.7070536
+2020-05-25 02:09:46.261,Detected image label: Hovawart 	 with confidence: 0.62148994
+2020-05-25 02:09:46.261,Detected image label: Ancient dog breeds 	 with confidence: 0.6175184
+2020-05-25 02:09:46.261,Detected image label: Cocker spaniel 	 with confidence: 0.5942074
+2020-05-25 02:09:46.261,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:46.261,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:09:46.261,Detected image label: Small greek domestic dog 	 with confidence: 0.5269777
+2020-05-25 02:09:46.262,End successful result processing
+2020-05-25 02:09:46.410,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:46.974,Begin successful result processing
+2020-05-25 02:09:46.974,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:46.974,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:46.975,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:46.975,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:46.975,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:46.975,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:46.975,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:09:46.976,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:09:46.976,Detected image label: Companion dog 	 with confidence: 0.8475549
+2020-05-25 02:09:46.976,Detected image label: Sporting Group 	 with confidence: 0.8468863
+2020-05-25 02:09:46.976,Detected image label: Labrador retriever 	 with confidence: 0.75066906
+2020-05-25 02:09:46.977,Detected image label: Ancient dog breeds 	 with confidence: 0.6175184
+2020-05-25 02:09:46.977,Detected image label: Hovawart 	 with confidence: 0.6104056
+2020-05-25 02:09:46.977,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:46.977,End successful result processing
+2020-05-25 02:09:47.115,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:47.522,Begin successful result processing
+2020-05-25 02:09:47.522,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:47.522,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:47.522,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:47.523,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:47.523,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:47.523,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:47.523,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:09:47.524,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:09:47.524,Detected image label: Companion dog 	 with confidence: 0.8475549
+2020-05-25 02:09:47.524,Detected image label: Sporting Group 	 with confidence: 0.8468863
+2020-05-25 02:09:47.524,Detected image label: Labrador retriever 	 with confidence: 0.75066906
+2020-05-25 02:09:47.524,Detected image label: Ancient dog breeds 	 with confidence: 0.6175184
+2020-05-25 02:09:47.525,Detected image label: Hovawart 	 with confidence: 0.6104056
+2020-05-25 02:09:47.525,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:47.525,End successful result processing
+2020-05-25 02:09:47.637,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:48.100,Begin successful result processing
+2020-05-25 02:09:48.100,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:48.100,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:48.100,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:48.100,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:48.101,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:48.101,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:48.101,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:09:48.101,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:09:48.101,Detected image label: Companion dog 	 with confidence: 0.8475549
+2020-05-25 02:09:48.101,Detected image label: Sporting Group 	 with confidence: 0.8468863
+2020-05-25 02:09:48.102,Detected image label: Labrador retriever 	 with confidence: 0.75066906
+2020-05-25 02:09:48.102,Detected image label: Ancient dog breeds 	 with confidence: 0.6175184
+2020-05-25 02:09:48.102,Detected image label: Hovawart 	 with confidence: 0.6104056
+2020-05-25 02:09:48.102,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:48.102,End successful result processing
+2020-05-25 02:09:48.252,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:48.820,Begin successful result processing
+2020-05-25 02:09:48.820,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:48.820,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:48.820,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:48.821,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:48.821,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:48.821,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:48.821,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:09:48.821,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:09:48.821,Detected image label: Companion dog 	 with confidence: 0.8475549
+2020-05-25 02:09:48.822,Detected image label: Sporting Group 	 with confidence: 0.8468863
+2020-05-25 02:09:48.822,Detected image label: Labrador retriever 	 with confidence: 0.75066906
+2020-05-25 02:09:48.822,Detected image label: Ancient dog breeds 	 with confidence: 0.6175184
+2020-05-25 02:09:48.822,Detected image label: Hovawart 	 with confidence: 0.6104056
+2020-05-25 02:09:48.822,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:48.823,End successful result processing
+2020-05-25 02:09:48.958,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:49.542,Begin successful result processing
+2020-05-25 02:09:49.543,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:49.544,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:49.544,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:49.544,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:49.545,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:49.545,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:49.545,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:09:49.545,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:09:49.546,Detected image label: Companion dog 	 with confidence: 0.8475549
+2020-05-25 02:09:49.546,Detected image label: Sporting Group 	 with confidence: 0.8468863
+2020-05-25 02:09:49.546,Detected image label: Labrador retriever 	 with confidence: 0.75066906
+2020-05-25 02:09:49.547,Detected image label: Ancient dog breeds 	 with confidence: 0.6175184
+2020-05-25 02:09:49.547,Detected image label: Hovawart 	 with confidence: 0.6104056
+2020-05-25 02:09:49.547,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:49.547,End successful result processing
+2020-05-25 02:09:49.679,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:50.248,Begin successful result processing
+2020-05-25 02:09:50.249,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:50.249,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:50.249,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:50.249,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:50.249,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:50.249,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:50.250,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:09:50.250,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:09:50.250,Detected image label: Companion dog 	 with confidence: 0.8475549
+2020-05-25 02:09:50.250,Detected image label: Sporting Group 	 with confidence: 0.8468863
+2020-05-25 02:09:50.250,Detected image label: Labrador retriever 	 with confidence: 0.75066906
+2020-05-25 02:09:50.250,Detected image label: Ancient dog breeds 	 with confidence: 0.6175184
+2020-05-25 02:09:50.251,Detected image label: Hovawart 	 with confidence: 0.6104056
+2020-05-25 02:09:50.251,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:50.251,End successful result processing
+2020-05-25 02:09:50.394,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:51.074,Begin successful result processing
+2020-05-25 02:09:51.075,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:51.075,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:51.075,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:51.075,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:51.076,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:51.076,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:51.076,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:09:51.076,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:09:51.076,Detected image label: Companion dog 	 with confidence: 0.8475549
+2020-05-25 02:09:51.077,Detected image label: Sporting Group 	 with confidence: 0.8468863
+2020-05-25 02:09:51.077,Detected image label: Labrador retriever 	 with confidence: 0.75066906
+2020-05-25 02:09:51.077,Detected image label: Ancient dog breeds 	 with confidence: 0.6175184
+2020-05-25 02:09:51.077,Detected image label: Hovawart 	 with confidence: 0.6104056
+2020-05-25 02:09:51.077,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:51.078,End successful result processing
+2020-05-25 02:09:51.194,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:51.885,Begin successful result processing
+2020-05-25 02:09:51.886,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:51.886,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:51.886,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:51.886,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:51.886,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:51.886,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:51.887,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:09:51.887,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:09:51.887,Detected image label: Companion dog 	 with confidence: 0.8475549
+2020-05-25 02:09:51.887,Detected image label: Sporting Group 	 with confidence: 0.8468863
+2020-05-25 02:09:51.887,Detected image label: Labrador retriever 	 with confidence: 0.75066906
+2020-05-25 02:09:51.887,Detected image label: Ancient dog breeds 	 with confidence: 0.6175184
+2020-05-25 02:09:51.887,Detected image label: Hovawart 	 with confidence: 0.6104056
+2020-05-25 02:09:51.888,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:51.888,End successful result processing
+2020-05-25 02:09:52.016,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:52.557,Begin successful result processing
+2020-05-25 02:09:52.557,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:52.557,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:52.558,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:52.558,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:52.558,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:52.558,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:52.558,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:09:52.558,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:09:52.558,Detected image label: Companion dog 	 with confidence: 0.8475549
+2020-05-25 02:09:52.559,Detected image label: Sporting Group 	 with confidence: 0.8468863
+2020-05-25 02:09:52.559,Detected image label: Labrador retriever 	 with confidence: 0.75066906
+2020-05-25 02:09:52.559,Detected image label: Ancient dog breeds 	 with confidence: 0.6175184
+2020-05-25 02:09:52.559,Detected image label: Hovawart 	 with confidence: 0.6104056
+2020-05-25 02:09:52.559,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:52.559,End successful result processing
+2020-05-25 02:09:52.674,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:53.143,Begin successful result processing
+2020-05-25 02:09:53.143,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:53.144,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:53.144,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:53.144,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:53.144,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:53.145,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:53.145,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:09:53.145,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:09:53.145,Detected image label: Companion dog 	 with confidence: 0.8475549
+2020-05-25 02:09:53.146,Detected image label: Sporting Group 	 with confidence: 0.8468863
+2020-05-25 02:09:53.146,Detected image label: Labrador retriever 	 with confidence: 0.75066906
+2020-05-25 02:09:53.146,Detected image label: Ancient dog breeds 	 with confidence: 0.6175184
+2020-05-25 02:09:53.146,Detected image label: Hovawart 	 with confidence: 0.6104056
+2020-05-25 02:09:53.146,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:53.147,End successful result processing
+2020-05-25 02:09:53.278,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:53.839,Begin successful result processing
+2020-05-25 02:09:53.840,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:53.840,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:53.840,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:53.841,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:53.841,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:53.842,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:53.842,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:09:53.842,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:09:53.843,Detected image label: Companion dog 	 with confidence: 0.8475549
+2020-05-25 02:09:53.843,Detected image label: Sporting Group 	 with confidence: 0.8468863
+2020-05-25 02:09:53.844,Detected image label: Labrador retriever 	 with confidence: 0.75066906
+2020-05-25 02:09:53.844,Detected image label: Ancient dog breeds 	 with confidence: 0.6175184
+2020-05-25 02:09:53.844,Detected image label: Hovawart 	 with confidence: 0.6104056
+2020-05-25 02:09:53.845,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:53.845,End successful result processing
+2020-05-25 02:09:53.983,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:54.547,Begin successful result processing
+2020-05-25 02:09:54.548,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:54.548,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:54.548,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:54.548,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:54.548,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:54.548,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:54.549,Detected image label: Retriever 	 with confidence: 0.9628438
+2020-05-25 02:09:54.549,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:09:54.549,Detected image label: Companion dog 	 with confidence: 0.8654578
+2020-05-25 02:09:54.549,Detected image label: Sporting Group 	 with confidence: 0.8653945
+2020-05-25 02:09:54.549,Detected image label: Labrador retriever 	 with confidence: 0.816123
+2020-05-25 02:09:54.549,Detected image label: Puppy 	 with confidence: 0.6786258
+2020-05-25 02:09:54.549,Detected image label: Hovawart 	 with confidence: 0.63649935
+2020-05-25 02:09:54.549,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:54.550,Detected image label: Ancient dog breeds 	 with confidence: 0.5431446
+2020-05-25 02:09:54.550,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:09:54.550,Detected image label: Flat-coated retriever 	 with confidence: 0.5176926
+2020-05-25 02:09:54.550,End successful result processing
+2020-05-25 02:09:54.688,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:55.380,Begin successful result processing
+2020-05-25 02:09:55.380,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:55.380,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:55.380,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:55.381,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:55.381,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:55.381,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:55.381,Detected image label: Retriever 	 with confidence: 0.9628438
+2020-05-25 02:09:55.381,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:09:55.381,Detected image label: Companion dog 	 with confidence: 0.8654578
+2020-05-25 02:09:55.381,Detected image label: Sporting Group 	 with confidence: 0.8653945
+2020-05-25 02:09:55.381,Detected image label: Labrador retriever 	 with confidence: 0.816123
+2020-05-25 02:09:55.381,Detected image label: Puppy 	 with confidence: 0.6786258
+2020-05-25 02:09:55.381,Detected image label: Hovawart 	 with confidence: 0.63649935
+2020-05-25 02:09:55.382,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:55.382,Detected image label: Ancient dog breeds 	 with confidence: 0.5431446
+2020-05-25 02:09:55.382,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:09:55.382,Detected image label: Flat-coated retriever 	 with confidence: 0.5176926
+2020-05-25 02:09:55.382,End successful result processing
+2020-05-25 02:09:55.525,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:56.183,Begin successful result processing
+2020-05-25 02:09:56.183,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:56.183,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:56.184,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:56.184,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:56.184,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:56.185,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:56.185,Detected image label: Retriever 	 with confidence: 0.9628438
+2020-05-25 02:09:56.185,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:09:56.185,Detected image label: Companion dog 	 with confidence: 0.8654578
+2020-05-25 02:09:56.185,Detected image label: Sporting Group 	 with confidence: 0.8653945
+2020-05-25 02:09:56.185,Detected image label: Labrador retriever 	 with confidence: 0.816123
+2020-05-25 02:09:56.186,Detected image label: Puppy 	 with confidence: 0.6786258
+2020-05-25 02:09:56.186,Detected image label: Hovawart 	 with confidence: 0.63649935
+2020-05-25 02:09:56.186,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:56.186,Detected image label: Ancient dog breeds 	 with confidence: 0.5431446
+2020-05-25 02:09:56.186,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:09:56.187,Detected image label: Flat-coated retriever 	 with confidence: 0.5176926
+2020-05-25 02:09:56.187,End successful result processing
+2020-05-25 02:09:56.346,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:57.108,Begin successful result processing
+2020-05-25 02:09:57.108,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:57.108,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:57.108,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:57.109,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:57.109,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:57.109,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:57.109,Detected image label: Retriever 	 with confidence: 0.9628438
+2020-05-25 02:09:57.109,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:09:57.109,Detected image label: Companion dog 	 with confidence: 0.8654578
+2020-05-25 02:09:57.109,Detected image label: Sporting Group 	 with confidence: 0.8653945
+2020-05-25 02:09:57.109,Detected image label: Labrador retriever 	 with confidence: 0.816123
+2020-05-25 02:09:57.109,Detected image label: Puppy 	 with confidence: 0.6786258
+2020-05-25 02:09:57.110,Detected image label: Hovawart 	 with confidence: 0.63649935
+2020-05-25 02:09:57.110,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:57.110,Detected image label: Ancient dog breeds 	 with confidence: 0.5431446
+2020-05-25 02:09:57.110,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:09:57.110,Detected image label: Flat-coated retriever 	 with confidence: 0.5176926
+2020-05-25 02:09:57.110,End successful result processing
+2020-05-25 02:09:57.238,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:57.825,Begin successful result processing
+2020-05-25 02:09:57.825,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:57.825,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:57.825,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:57.825,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:57.825,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:57.825,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:57.825,Detected image label: Retriever 	 with confidence: 0.9628438
+2020-05-25 02:09:57.826,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:09:57.826,Detected image label: Companion dog 	 with confidence: 0.8654578
+2020-05-25 02:09:57.826,Detected image label: Sporting Group 	 with confidence: 0.8653945
+2020-05-25 02:09:57.826,Detected image label: Labrador retriever 	 with confidence: 0.816123
+2020-05-25 02:09:57.826,Detected image label: Puppy 	 with confidence: 0.6786258
+2020-05-25 02:09:57.826,Detected image label: Hovawart 	 with confidence: 0.63649935
+2020-05-25 02:09:57.826,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:57.826,Detected image label: Ancient dog breeds 	 with confidence: 0.5431446
+2020-05-25 02:09:57.827,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:09:57.827,Detected image label: Flat-coated retriever 	 with confidence: 0.5176926
+2020-05-25 02:09:57.827,End successful result processing
+2020-05-25 02:09:57.947,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:58.545,Begin successful result processing
+2020-05-25 02:09:58.545,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:58.545,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:58.545,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:58.545,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:58.546,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:58.546,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:58.546,Detected image label: Retriever 	 with confidence: 0.9628438
+2020-05-25 02:09:58.546,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:09:58.546,Detected image label: Companion dog 	 with confidence: 0.8654578
+2020-05-25 02:09:58.546,Detected image label: Sporting Group 	 with confidence: 0.8653945
+2020-05-25 02:09:58.546,Detected image label: Labrador retriever 	 with confidence: 0.816123
+2020-05-25 02:09:58.547,Detected image label: Puppy 	 with confidence: 0.6786258
+2020-05-25 02:09:58.547,Detected image label: Hovawart 	 with confidence: 0.63649935
+2020-05-25 02:09:58.547,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:58.547,Detected image label: Ancient dog breeds 	 with confidence: 0.5431446
+2020-05-25 02:09:58.547,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:09:58.547,Detected image label: Flat-coated retriever 	 with confidence: 0.5176926
+2020-05-25 02:09:58.547,End successful result processing
+2020-05-25 02:09:58.690,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:09:59.282,Begin successful result processing
+2020-05-25 02:09:59.282,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:09:59.283,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:09:59.283,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:09:59.283,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:09:59.283,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:09:59.283,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:09:59.283,Detected image label: Retriever 	 with confidence: 0.9628438
+2020-05-25 02:09:59.283,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:09:59.284,Detected image label: Companion dog 	 with confidence: 0.8654578
+2020-05-25 02:09:59.284,Detected image label: Sporting Group 	 with confidence: 0.8653945
+2020-05-25 02:09:59.284,Detected image label: Labrador retriever 	 with confidence: 0.816123
+2020-05-25 02:09:59.284,Detected image label: Puppy 	 with confidence: 0.6786258
+2020-05-25 02:09:59.284,Detected image label: Hovawart 	 with confidence: 0.63649935
+2020-05-25 02:09:59.284,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:09:59.284,Detected image label: Ancient dog breeds 	 with confidence: 0.5431446
+2020-05-25 02:09:59.284,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:09:59.284,Detected image label: Flat-coated retriever 	 with confidence: 0.5176926
+2020-05-25 02:09:59.285,End successful result processing
+2020-05-25 02:09:59.440,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:10:00.067,Begin successful result processing
+2020-05-25 02:10:00.067,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:10:00.067,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:10:00.067,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:10:00.067,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:10:00.068,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:10:00.068,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:10:00.068,Detected image label: Retriever 	 with confidence: 0.9628438
+2020-05-25 02:10:00.068,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:10:00.068,Detected image label: Companion dog 	 with confidence: 0.8654578
+2020-05-25 02:10:00.068,Detected image label: Sporting Group 	 with confidence: 0.8653945
+2020-05-25 02:10:00.068,Detected image label: Labrador retriever 	 with confidence: 0.816123
+2020-05-25 02:10:00.068,Detected image label: Puppy 	 with confidence: 0.6786258
+2020-05-25 02:10:00.068,Detected image label: Hovawart 	 with confidence: 0.63649935
+2020-05-25 02:10:00.068,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:10:00.068,Detected image label: Ancient dog breeds 	 with confidence: 0.5431446
+2020-05-25 02:10:00.069,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:10:00.069,Detected image label: Flat-coated retriever 	 with confidence: 0.5176926
+2020-05-25 02:10:00.069,End successful result processing
+2020-05-25 02:10:00.193,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:10:00.693,Begin successful result processing
+2020-05-25 02:10:00.693,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:10:00.693,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:10:00.693,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:10:00.693,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:10:00.693,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:10:00.693,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:10:00.693,Detected image label: Retriever 	 with confidence: 0.9628438
+2020-05-25 02:10:00.694,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:10:00.694,Detected image label: Companion dog 	 with confidence: 0.8654578
+2020-05-25 02:10:00.694,Detected image label: Sporting Group 	 with confidence: 0.8653945
+2020-05-25 02:10:00.694,Detected image label: Labrador retriever 	 with confidence: 0.816123
+2020-05-25 02:10:00.694,Detected image label: Puppy 	 with confidence: 0.6786258
+2020-05-25 02:10:00.694,Detected image label: Hovawart 	 with confidence: 0.63649935
+2020-05-25 02:10:00.694,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:10:00.694,Detected image label: Ancient dog breeds 	 with confidence: 0.5431446
+2020-05-25 02:10:00.694,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:10:00.694,Detected image label: Flat-coated retriever 	 with confidence: 0.5176926
+2020-05-25 02:10:00.695,End successful result processing
+2020-05-25 02:10:00.834,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:10:01.508,Begin successful result processing
+2020-05-25 02:10:01.508,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:10:01.508,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:10:01.508,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:10:01.509,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:10:01.509,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:10:01.509,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:10:01.509,Detected image label: Retriever 	 with confidence: 0.9628438
+2020-05-25 02:10:01.509,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:10:01.509,Detected image label: Companion dog 	 with confidence: 0.8654578
+2020-05-25 02:10:01.509,Detected image label: Sporting Group 	 with confidence: 0.8653945
+2020-05-25 02:10:01.509,Detected image label: Labrador retriever 	 with confidence: 0.816123
+2020-05-25 02:10:01.509,Detected image label: Puppy 	 with confidence: 0.6786258
+2020-05-25 02:10:01.509,Detected image label: Hovawart 	 with confidence: 0.63649935
+2020-05-25 02:10:01.509,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:10:01.509,Detected image label: Ancient dog breeds 	 with confidence: 0.5431446
+2020-05-25 02:10:01.510,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:10:01.510,Detected image label: Flat-coated retriever 	 with confidence: 0.5176926
+2020-05-25 02:10:01.510,End successful result processing
+2020-05-25 02:10:01.654,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:10:02.394,Begin successful result processing
+2020-05-25 02:10:02.394,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:10:02.394,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:10:02.394,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:10:02.394,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:10:02.394,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:10:02.394,Detected image label: Golden retriever 	 with confidence: 0.9645161
+2020-05-25 02:10:02.394,Detected image label: Retriever 	 with confidence: 0.9628438
+2020-05-25 02:10:02.394,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:10:02.394,Detected image label: Companion dog 	 with confidence: 0.8654578
+2020-05-25 02:10:02.395,Detected image label: Sporting Group 	 with confidence: 0.8653945
+2020-05-25 02:10:02.395,Detected image label: Labrador retriever 	 with confidence: 0.816123
+2020-05-25 02:10:02.395,Detected image label: Puppy 	 with confidence: 0.6786258
+2020-05-25 02:10:02.395,Detected image label: Hovawart 	 with confidence: 0.63649935
+2020-05-25 02:10:02.395,Detected image label: Wildlife 	 with confidence: 0.5761504
+2020-05-25 02:10:02.395,Detected image label: Ancient dog breeds 	 with confidence: 0.5431446
+2020-05-25 02:10:02.395,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:10:02.395,Detected image label: Flat-coated retriever 	 with confidence: 0.5176926
+2020-05-25 02:10:02.395,End successful result processing
+2020-05-25 02:10:02.509,FirebaseVisionImageLabeler - processImage()

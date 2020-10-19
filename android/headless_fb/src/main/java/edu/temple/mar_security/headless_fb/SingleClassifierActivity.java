@@ -36,7 +36,7 @@ public class SingleClassifierActivity extends HeadlessVideoActivity implements P
         // ------------------------------------------------------------------------------
         // TODO - update processor instantiation
         // ------------------------------------------------------------------------------
-        processor = new BarcodeProcessor(this);
+        processor = new BarcodeProcessor(this, this);
         // ------------------------------------------------------------------------------
 
 

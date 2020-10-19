@@ -1,0 +1,545 @@
+2020-05-25 02:51:01.072,FirebaseVision - getInstance() - getCloudImageLabeler()
+2020-05-25 02:51:01.398,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:02.147,Begin successful result processing
+2020-05-25 02:51:02.147,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:02.147,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:02.148,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:02.148,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:51:02.149,Detected image label: Puppy 	 with confidence: 0.9593637
+2020-05-25 02:51:02.149,Detected image label: Labrador retriever 	 with confidence: 0.93261904
+2020-05-25 02:51:02.149,Detected image label: Golden retriever 	 with confidence: 0.92996037
+2020-05-25 02:51:02.150,Detected image label: Retriever 	 with confidence: 0.88184106
+2020-05-25 02:51:02.150,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:51:02.150,Detected image label: Companion dog 	 with confidence: 0.86170965
+2020-05-25 02:51:02.151,Detected image label: Sporting Group 	 with confidence: 0.833569
+2020-05-25 02:51:02.151,Detected image label: Grass 	 with confidence: 0.798715
+2020-05-25 02:51:02.152,Detected image label: Snout 	 with confidence: 0.7840312
+2020-05-25 02:51:02.152,Detected image label: Puppy love 	 with confidence: 0.5927149
+2020-05-25 02:51:02.152,Detected image label: Fawn 	 with confidence: 0.5822328
+2020-05-25 02:51:02.153,Detected image label: Wildflower 	 with confidence: 0.52589315
+2020-05-25 02:51:02.153,End successful result processing
+2020-05-25 02:51:02.244,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:02.944,Begin successful result processing
+2020-05-25 02:51:02.944,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:02.944,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:02.945,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:02.945,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:51:02.945,Detected image label: Puppy 	 with confidence: 0.9593637
+2020-05-25 02:51:02.946,Detected image label: Labrador retriever 	 with confidence: 0.93261904
+2020-05-25 02:51:02.946,Detected image label: Golden retriever 	 with confidence: 0.92996037
+2020-05-25 02:51:02.946,Detected image label: Retriever 	 with confidence: 0.88184106
+2020-05-25 02:51:02.947,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:51:02.947,Detected image label: Companion dog 	 with confidence: 0.86170965
+2020-05-25 02:51:02.948,Detected image label: Sporting Group 	 with confidence: 0.833569
+2020-05-25 02:51:02.948,Detected image label: Grass 	 with confidence: 0.798715
+2020-05-25 02:51:02.948,Detected image label: Snout 	 with confidence: 0.7840312
+2020-05-25 02:51:02.949,Detected image label: Puppy love 	 with confidence: 0.5927149
+2020-05-25 02:51:02.949,Detected image label: Fawn 	 with confidence: 0.5822328
+2020-05-25 02:51:02.949,Detected image label: Wildflower 	 with confidence: 0.52589315
+2020-05-25 02:51:02.950,End successful result processing
+2020-05-25 02:51:03.078,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:03.663,Begin successful result processing
+2020-05-25 02:51:03.663,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:03.664,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:03.664,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:03.665,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:51:03.665,Detected image label: Puppy 	 with confidence: 0.9593637
+2020-05-25 02:51:03.666,Detected image label: Labrador retriever 	 with confidence: 0.93261904
+2020-05-25 02:51:03.666,Detected image label: Golden retriever 	 with confidence: 0.92996037
+2020-05-25 02:51:03.667,Detected image label: Retriever 	 with confidence: 0.88184106
+2020-05-25 02:51:03.667,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:51:03.668,Detected image label: Companion dog 	 with confidence: 0.86170965
+2020-05-25 02:51:03.669,Detected image label: Sporting Group 	 with confidence: 0.833569
+2020-05-25 02:51:03.669,Detected image label: Grass 	 with confidence: 0.798715
+2020-05-25 02:51:03.670,Detected image label: Snout 	 with confidence: 0.7840312
+2020-05-25 02:51:03.670,Detected image label: Puppy love 	 with confidence: 0.5927149
+2020-05-25 02:51:03.671,Detected image label: Fawn 	 with confidence: 0.5822328
+2020-05-25 02:51:03.671,Detected image label: Wildflower 	 with confidence: 0.52589315
+2020-05-25 02:51:03.672,End successful result processing
+2020-05-25 02:51:03.788,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:04.486,Begin successful result processing
+2020-05-25 02:51:04.487,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:04.487,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:04.488,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:04.489,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:51:04.489,Detected image label: Puppy 	 with confidence: 0.9593637
+2020-05-25 02:51:04.490,Detected image label: Labrador retriever 	 with confidence: 0.93261904
+2020-05-25 02:51:04.491,Detected image label: Golden retriever 	 with confidence: 0.92996037
+2020-05-25 02:51:04.492,Detected image label: Retriever 	 with confidence: 0.88184106
+2020-05-25 02:51:04.492,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:51:04.493,Detected image label: Companion dog 	 with confidence: 0.86170965
+2020-05-25 02:51:04.494,Detected image label: Sporting Group 	 with confidence: 0.833569
+2020-05-25 02:51:04.494,Detected image label: Grass 	 with confidence: 0.798715
+2020-05-25 02:51:04.495,Detected image label: Snout 	 with confidence: 0.7840312
+2020-05-25 02:51:04.496,Detected image label: Puppy love 	 with confidence: 0.5927149
+2020-05-25 02:51:04.496,Detected image label: Fawn 	 with confidence: 0.5822328
+2020-05-25 02:51:04.497,Detected image label: Wildflower 	 with confidence: 0.52589315
+2020-05-25 02:51:04.498,End successful result processing
+2020-05-25 02:51:04.642,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:05.066,Begin successful result processing
+2020-05-25 02:51:05.066,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:05.067,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:05.067,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:05.067,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:51:05.068,Detected image label: Puppy 	 with confidence: 0.9593637
+2020-05-25 02:51:05.068,Detected image label: Labrador retriever 	 with confidence: 0.93261904
+2020-05-25 02:51:05.068,Detected image label: Golden retriever 	 with confidence: 0.92996037
+2020-05-25 02:51:05.069,Detected image label: Retriever 	 with confidence: 0.88184106
+2020-05-25 02:51:05.069,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:51:05.069,Detected image label: Companion dog 	 with confidence: 0.86170965
+2020-05-25 02:51:05.070,Detected image label: Sporting Group 	 with confidence: 0.833569
+2020-05-25 02:51:05.070,Detected image label: Grass 	 with confidence: 0.798715
+2020-05-25 02:51:05.070,Detected image label: Snout 	 with confidence: 0.7840312
+2020-05-25 02:51:05.070,Detected image label: Puppy love 	 with confidence: 0.5927149
+2020-05-25 02:51:05.071,Detected image label: Fawn 	 with confidence: 0.5822328
+2020-05-25 02:51:05.071,Detected image label: Wildflower 	 with confidence: 0.52589315
+2020-05-25 02:51:05.072,End successful result processing
+2020-05-25 02:51:05.173,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:05.712,Begin successful result processing
+2020-05-25 02:51:05.712,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:05.713,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:05.713,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:05.713,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:51:05.714,Detected image label: Puppy 	 with confidence: 0.9593637
+2020-05-25 02:51:05.714,Detected image label: Labrador retriever 	 with confidence: 0.93261904
+2020-05-25 02:51:05.714,Detected image label: Golden retriever 	 with confidence: 0.92996037
+2020-05-25 02:51:05.714,Detected image label: Retriever 	 with confidence: 0.88184106
+2020-05-25 02:51:05.715,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:51:05.715,Detected image label: Companion dog 	 with confidence: 0.86170965
+2020-05-25 02:51:05.715,Detected image label: Sporting Group 	 with confidence: 0.833569
+2020-05-25 02:51:05.715,Detected image label: Grass 	 with confidence: 0.798715
+2020-05-25 02:51:05.716,Detected image label: Snout 	 with confidence: 0.7840312
+2020-05-25 02:51:05.716,Detected image label: Puppy love 	 with confidence: 0.5927149
+2020-05-25 02:51:05.716,Detected image label: Fawn 	 with confidence: 0.5822328
+2020-05-25 02:51:05.716,Detected image label: Wildflower 	 with confidence: 0.52589315
+2020-05-25 02:51:05.717,End successful result processing
+2020-05-25 02:51:05.853,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:06.530,Begin successful result processing
+2020-05-25 02:51:06.530,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:06.531,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:51:06.531,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:06.532,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:06.532,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:06.532,Detected image label: Golden retriever 	 with confidence: 0.95438075
+2020-05-25 02:51:06.533,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:51:06.533,Detected image label: Puppy 	 with confidence: 0.9338506
+2020-05-25 02:51:06.534,Detected image label: Labrador retriever 	 with confidence: 0.93261904
+2020-05-25 02:51:06.534,Detected image label: Companion dog 	 with confidence: 0.8840447
+2020-05-25 02:51:06.535,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:51:06.535,Detected image label: Sporting Group 	 with confidence: 0.8461077
+2020-05-25 02:51:06.536,Detected image label: Grass 	 with confidence: 0.82184535
+2020-05-25 02:51:06.536,Detected image label: Snout 	 with confidence: 0.7342774
+2020-05-25 02:51:06.536,Detected image label: Plant 	 with confidence: 0.58547497
+2020-05-25 02:51:06.537,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:06.537,Detected image label: Puppy love 	 with confidence: 0.5278938
+2020-05-25 02:51:06.538,End successful result processing
+2020-05-25 02:51:06.676,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:07.160,Begin successful result processing
+2020-05-25 02:51:07.160,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:07.161,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:51:07.161,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:07.161,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:07.161,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:07.162,Detected image label: Golden retriever 	 with confidence: 0.95438075
+2020-05-25 02:51:07.162,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:51:07.162,Detected image label: Puppy 	 with confidence: 0.9338506
+2020-05-25 02:51:07.162,Detected image label: Labrador retriever 	 with confidence: 0.93261904
+2020-05-25 02:51:07.162,Detected image label: Companion dog 	 with confidence: 0.8840447
+2020-05-25 02:51:07.163,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:51:07.163,Detected image label: Sporting Group 	 with confidence: 0.8461077
+2020-05-25 02:51:07.163,Detected image label: Grass 	 with confidence: 0.82184535
+2020-05-25 02:51:07.163,Detected image label: Snout 	 with confidence: 0.7342774
+2020-05-25 02:51:07.163,Detected image label: Plant 	 with confidence: 0.58547497
+2020-05-25 02:51:07.164,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:07.164,Detected image label: Puppy love 	 with confidence: 0.5278938
+2020-05-25 02:51:07.164,End successful result processing
+2020-05-25 02:51:07.266,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:07.746,Begin successful result processing
+2020-05-25 02:51:07.747,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:07.747,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:51:07.747,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:07.747,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:07.748,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:07.748,Detected image label: Golden retriever 	 with confidence: 0.95438075
+2020-05-25 02:51:07.748,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:51:07.748,Detected image label: Puppy 	 with confidence: 0.9338506
+2020-05-25 02:51:07.748,Detected image label: Labrador retriever 	 with confidence: 0.93261904
+2020-05-25 02:51:07.749,Detected image label: Companion dog 	 with confidence: 0.8840447
+2020-05-25 02:51:07.749,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:51:07.749,Detected image label: Sporting Group 	 with confidence: 0.8461077
+2020-05-25 02:51:07.749,Detected image label: Grass 	 with confidence: 0.82184535
+2020-05-25 02:51:07.749,Detected image label: Snout 	 with confidence: 0.7342774
+2020-05-25 02:51:07.750,Detected image label: Plant 	 with confidence: 0.58547497
+2020-05-25 02:51:07.750,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:07.750,Detected image label: Puppy love 	 with confidence: 0.5278938
+2020-05-25 02:51:07.750,End successful result processing
+2020-05-25 02:51:07.887,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:08.585,Begin successful result processing
+2020-05-25 02:51:08.586,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:08.586,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:51:08.586,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:08.587,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:08.587,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:08.587,Detected image label: Golden retriever 	 with confidence: 0.95438075
+2020-05-25 02:51:08.588,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:51:08.588,Detected image label: Puppy 	 with confidence: 0.9338506
+2020-05-25 02:51:08.588,Detected image label: Labrador retriever 	 with confidence: 0.93261904
+2020-05-25 02:51:08.589,Detected image label: Companion dog 	 with confidence: 0.8840447
+2020-05-25 02:51:08.589,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:51:08.589,Detected image label: Sporting Group 	 with confidence: 0.8461077
+2020-05-25 02:51:08.589,Detected image label: Grass 	 with confidence: 0.82184535
+2020-05-25 02:51:08.590,Detected image label: Snout 	 with confidence: 0.7342774
+2020-05-25 02:51:08.590,Detected image label: Plant 	 with confidence: 0.58547497
+2020-05-25 02:51:08.590,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:08.591,Detected image label: Puppy love 	 with confidence: 0.5278938
+2020-05-25 02:51:08.591,End successful result processing
+2020-05-25 02:51:08.711,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:09.264,Begin successful result processing
+2020-05-25 02:51:09.265,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:09.265,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:51:09.265,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:09.266,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:09.266,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:09.267,Detected image label: Golden retriever 	 with confidence: 0.95438075
+2020-05-25 02:51:09.267,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:51:09.267,Detected image label: Puppy 	 with confidence: 0.9338506
+2020-05-25 02:51:09.268,Detected image label: Labrador retriever 	 with confidence: 0.93261904
+2020-05-25 02:51:09.268,Detected image label: Companion dog 	 with confidence: 0.8840447
+2020-05-25 02:51:09.268,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:51:09.269,Detected image label: Sporting Group 	 with confidence: 0.8461077
+2020-05-25 02:51:09.269,Detected image label: Grass 	 with confidence: 0.82184535
+2020-05-25 02:51:09.269,Detected image label: Snout 	 with confidence: 0.7342774
+2020-05-25 02:51:09.270,Detected image label: Plant 	 with confidence: 0.58547497
+2020-05-25 02:51:09.270,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:09.270,Detected image label: Puppy love 	 with confidence: 0.5278938
+2020-05-25 02:51:09.270,End successful result processing
+2020-05-25 02:51:09.389,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:09.850,Begin successful result processing
+2020-05-25 02:51:09.850,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:09.851,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:51:09.851,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:09.851,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:09.851,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:09.851,Detected image label: Golden retriever 	 with confidence: 0.95438075
+2020-05-25 02:51:09.852,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:51:09.852,Detected image label: Puppy 	 with confidence: 0.9338506
+2020-05-25 02:51:09.852,Detected image label: Labrador retriever 	 with confidence: 0.93261904
+2020-05-25 02:51:09.852,Detected image label: Companion dog 	 with confidence: 0.8840447
+2020-05-25 02:51:09.853,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:51:09.853,Detected image label: Sporting Group 	 with confidence: 0.8461077
+2020-05-25 02:51:09.853,Detected image label: Grass 	 with confidence: 0.82184535
+2020-05-25 02:51:09.853,Detected image label: Snout 	 with confidence: 0.7342774
+2020-05-25 02:51:09.853,Detected image label: Plant 	 with confidence: 0.58547497
+2020-05-25 02:51:09.854,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:09.854,Detected image label: Puppy love 	 with confidence: 0.5278938
+2020-05-25 02:51:09.854,End successful result processing
+2020-05-25 02:51:09.963,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:10.520,Begin successful result processing
+2020-05-25 02:51:10.520,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:10.520,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:51:10.521,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:10.521,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:10.521,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:10.521,Detected image label: Golden retriever 	 with confidence: 0.95438075
+2020-05-25 02:51:10.521,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:51:10.522,Detected image label: Puppy 	 with confidence: 0.9338506
+2020-05-25 02:51:10.522,Detected image label: Labrador retriever 	 with confidence: 0.93261904
+2020-05-25 02:51:10.522,Detected image label: Companion dog 	 with confidence: 0.8840447
+2020-05-25 02:51:10.522,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:51:10.522,Detected image label: Sporting Group 	 with confidence: 0.8461077
+2020-05-25 02:51:10.523,Detected image label: Grass 	 with confidence: 0.82184535
+2020-05-25 02:51:10.523,Detected image label: Snout 	 with confidence: 0.7342774
+2020-05-25 02:51:10.523,Detected image label: Plant 	 with confidence: 0.58547497
+2020-05-25 02:51:10.523,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:10.523,Detected image label: Puppy love 	 with confidence: 0.5278938
+2020-05-25 02:51:10.523,End successful result processing
+2020-05-25 02:51:10.649,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:11.347,Begin successful result processing
+2020-05-25 02:51:11.348,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:11.348,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:51:11.348,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:11.348,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:11.349,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:11.349,Detected image label: Golden retriever 	 with confidence: 0.95438075
+2020-05-25 02:51:11.349,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:51:11.350,Detected image label: Puppy 	 with confidence: 0.9338506
+2020-05-25 02:51:11.350,Detected image label: Labrador retriever 	 with confidence: 0.93261904
+2020-05-25 02:51:11.350,Detected image label: Companion dog 	 with confidence: 0.8840447
+2020-05-25 02:51:11.350,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:51:11.351,Detected image label: Sporting Group 	 with confidence: 0.8461077
+2020-05-25 02:51:11.351,Detected image label: Grass 	 with confidence: 0.82184535
+2020-05-25 02:51:11.351,Detected image label: Snout 	 with confidence: 0.7342774
+2020-05-25 02:51:11.352,Detected image label: Plant 	 with confidence: 0.58547497
+2020-05-25 02:51:11.352,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:11.352,Detected image label: Puppy love 	 with confidence: 0.5278938
+2020-05-25 02:51:11.352,End successful result processing
+2020-05-25 02:51:11.486,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:12.161,Begin successful result processing
+2020-05-25 02:51:12.161,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:12.161,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:51:12.161,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:12.162,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:12.162,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:12.162,Detected image label: Golden retriever 	 with confidence: 0.95438075
+2020-05-25 02:51:12.162,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:51:12.162,Detected image label: Puppy 	 with confidence: 0.9338506
+2020-05-25 02:51:12.162,Detected image label: Labrador retriever 	 with confidence: 0.93261904
+2020-05-25 02:51:12.163,Detected image label: Companion dog 	 with confidence: 0.8840447
+2020-05-25 02:51:12.163,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:51:12.163,Detected image label: Sporting Group 	 with confidence: 0.8461077
+2020-05-25 02:51:12.164,Detected image label: Grass 	 with confidence: 0.82184535
+2020-05-25 02:51:12.164,Detected image label: Snout 	 with confidence: 0.7342774
+2020-05-25 02:51:12.164,Detected image label: Plant 	 with confidence: 0.58547497
+2020-05-25 02:51:12.164,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:12.164,Detected image label: Puppy love 	 with confidence: 0.5278938
+2020-05-25 02:51:12.165,End successful result processing
+2020-05-25 02:51:12.271,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:12.882,Begin successful result processing
+2020-05-25 02:51:12.882,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:12.882,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:51:12.882,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:12.882,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:12.883,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:12.883,Detected image label: Golden retriever 	 with confidence: 0.95438075
+2020-05-25 02:51:12.883,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:51:12.883,Detected image label: Puppy 	 with confidence: 0.9338506
+2020-05-25 02:51:12.883,Detected image label: Labrador retriever 	 with confidence: 0.93261904
+2020-05-25 02:51:12.884,Detected image label: Companion dog 	 with confidence: 0.8840447
+2020-05-25 02:51:12.884,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:51:12.884,Detected image label: Sporting Group 	 with confidence: 0.8461077
+2020-05-25 02:51:12.884,Detected image label: Grass 	 with confidence: 0.82184535
+2020-05-25 02:51:12.885,Detected image label: Snout 	 with confidence: 0.7342774
+2020-05-25 02:51:12.885,Detected image label: Plant 	 with confidence: 0.58547497
+2020-05-25 02:51:12.885,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:12.885,Detected image label: Puppy love 	 with confidence: 0.5278938
+2020-05-25 02:51:12.886,End successful result processing
+2020-05-25 02:51:12.996,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:13.637,Begin successful result processing
+2020-05-25 02:51:13.638,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:13.638,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:51:13.638,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:13.638,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:13.638,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:13.638,Detected image label: Golden retriever 	 with confidence: 0.95438075
+2020-05-25 02:51:13.638,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:51:13.639,Detected image label: Puppy 	 with confidence: 0.9338506
+2020-05-25 02:51:13.639,Detected image label: Labrador retriever 	 with confidence: 0.93261904
+2020-05-25 02:51:13.639,Detected image label: Companion dog 	 with confidence: 0.8840447
+2020-05-25 02:51:13.639,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:51:13.639,Detected image label: Sporting Group 	 with confidence: 0.8461077
+2020-05-25 02:51:13.639,Detected image label: Grass 	 with confidence: 0.82184535
+2020-05-25 02:51:13.639,Detected image label: Snout 	 with confidence: 0.7342774
+2020-05-25 02:51:13.639,Detected image label: Plant 	 with confidence: 0.58547497
+2020-05-25 02:51:13.640,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:13.640,Detected image label: Puppy love 	 with confidence: 0.5278938
+2020-05-25 02:51:13.640,End successful result processing
+2020-05-25 02:51:13.747,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:14.204,Begin successful result processing
+2020-05-25 02:51:14.205,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:14.205,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:51:14.205,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:14.205,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:14.205,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:14.206,Detected image label: Golden retriever 	 with confidence: 0.95438075
+2020-05-25 02:51:14.206,Detected image label: Retriever 	 with confidence: 0.9359748
+2020-05-25 02:51:14.206,Detected image label: Puppy 	 with confidence: 0.9338506
+2020-05-25 02:51:14.206,Detected image label: Labrador retriever 	 with confidence: 0.93261904
+2020-05-25 02:51:14.206,Detected image label: Companion dog 	 with confidence: 0.8840447
+2020-05-25 02:51:14.206,Detected image label: Carnivore 	 with confidence: 0.8834781
+2020-05-25 02:51:14.207,Detected image label: Sporting Group 	 with confidence: 0.8461077
+2020-05-25 02:51:14.207,Detected image label: Grass 	 with confidence: 0.82184535
+2020-05-25 02:51:14.207,Detected image label: Snout 	 with confidence: 0.7342774
+2020-05-25 02:51:14.207,Detected image label: Plant 	 with confidence: 0.58547497
+2020-05-25 02:51:14.207,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:14.208,Detected image label: Puppy love 	 with confidence: 0.5278938
+2020-05-25 02:51:14.208,End successful result processing
+2020-05-25 02:51:14.344,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:14.925,Begin successful result processing
+2020-05-25 02:51:14.925,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:14.925,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:14.926,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:14.926,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:14.926,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:51:14.927,Detected image label: Puppy 	 with confidence: 0.94706595
+2020-05-25 02:51:14.927,Detected image label: Golden retriever 	 with confidence: 0.9202066
+2020-05-25 02:51:14.927,Detected image label: Labrador retriever 	 with confidence: 0.9020475
+2020-05-25 02:51:14.927,Detected image label: Retriever 	 with confidence: 0.8916858
+2020-05-25 02:51:14.928,Detected image label: Companion dog 	 with confidence: 0.8688483
+2020-05-25 02:51:14.928,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:51:14.928,Detected image label: Sporting Group 	 with confidence: 0.8319468
+2020-05-25 02:51:14.929,Detected image label: Grass 	 with confidence: 0.798715
+2020-05-25 02:51:14.929,Detected image label: Snout 	 with confidence: 0.7840312
+2020-05-25 02:51:14.929,Detected image label: American cocker spaniel 	 with confidence: 0.73210585
+2020-05-25 02:51:14.929,Detected image label: Cocker spaniel 	 with confidence: 0.68766165
+2020-05-25 02:51:14.930,Detected image label: Puppy love 	 with confidence: 0.54926556
+2020-05-25 02:51:14.930,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:14.930,End successful result processing
+2020-05-25 02:51:15.066,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:15.736,Begin successful result processing
+2020-05-25 02:51:15.736,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:15.736,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:15.737,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:15.737,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:15.737,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:51:15.738,Detected image label: Puppy 	 with confidence: 0.94706595
+2020-05-25 02:51:15.738,Detected image label: Golden retriever 	 with confidence: 0.9202066
+2020-05-25 02:51:15.738,Detected image label: Labrador retriever 	 with confidence: 0.9020475
+2020-05-25 02:51:15.739,Detected image label: Retriever 	 with confidence: 0.8916858
+2020-05-25 02:51:15.739,Detected image label: Companion dog 	 with confidence: 0.8688483
+2020-05-25 02:51:15.739,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:51:15.740,Detected image label: Sporting Group 	 with confidence: 0.8319468
+2020-05-25 02:51:15.740,Detected image label: Grass 	 with confidence: 0.798715
+2020-05-25 02:51:15.740,Detected image label: Snout 	 with confidence: 0.7840312
+2020-05-25 02:51:15.741,Detected image label: American cocker spaniel 	 with confidence: 0.73210585
+2020-05-25 02:51:15.741,Detected image label: Cocker spaniel 	 with confidence: 0.68766165
+2020-05-25 02:51:15.741,Detected image label: Puppy love 	 with confidence: 0.54926556
+2020-05-25 02:51:15.742,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:15.742,End successful result processing
+2020-05-25 02:51:15.894,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:16.466,Begin successful result processing
+2020-05-25 02:51:16.466,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:16.467,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:16.467,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:16.467,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:16.467,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:51:16.467,Detected image label: Puppy 	 with confidence: 0.94706595
+2020-05-25 02:51:16.467,Detected image label: Golden retriever 	 with confidence: 0.9202066
+2020-05-25 02:51:16.468,Detected image label: Labrador retriever 	 with confidence: 0.9020475
+2020-05-25 02:51:16.468,Detected image label: Retriever 	 with confidence: 0.8916858
+2020-05-25 02:51:16.468,Detected image label: Companion dog 	 with confidence: 0.8688483
+2020-05-25 02:51:16.468,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:51:16.468,Detected image label: Sporting Group 	 with confidence: 0.8319468
+2020-05-25 02:51:16.468,Detected image label: Grass 	 with confidence: 0.798715
+2020-05-25 02:51:16.468,Detected image label: Snout 	 with confidence: 0.7840312
+2020-05-25 02:51:16.469,Detected image label: American cocker spaniel 	 with confidence: 0.73210585
+2020-05-25 02:51:16.469,Detected image label: Cocker spaniel 	 with confidence: 0.68766165
+2020-05-25 02:51:16.469,Detected image label: Puppy love 	 with confidence: 0.54926556
+2020-05-25 02:51:16.469,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:16.469,End successful result processing
+2020-05-25 02:51:16.589,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:17.280,Begin successful result processing
+2020-05-25 02:51:17.281,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:17.281,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:17.281,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:17.282,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:17.282,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:51:17.282,Detected image label: Puppy 	 with confidence: 0.94706595
+2020-05-25 02:51:17.282,Detected image label: Golden retriever 	 with confidence: 0.9202066
+2020-05-25 02:51:17.283,Detected image label: Labrador retriever 	 with confidence: 0.9020475
+2020-05-25 02:51:17.283,Detected image label: Retriever 	 with confidence: 0.8916858
+2020-05-25 02:51:17.283,Detected image label: Companion dog 	 with confidence: 0.8688483
+2020-05-25 02:51:17.284,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:51:17.284,Detected image label: Sporting Group 	 with confidence: 0.8319468
+2020-05-25 02:51:17.284,Detected image label: Grass 	 with confidence: 0.798715
+2020-05-25 02:51:17.284,Detected image label: Snout 	 with confidence: 0.7840312
+2020-05-25 02:51:17.284,Detected image label: American cocker spaniel 	 with confidence: 0.73210585
+2020-05-25 02:51:17.284,Detected image label: Cocker spaniel 	 with confidence: 0.68766165
+2020-05-25 02:51:17.285,Detected image label: Puppy love 	 with confidence: 0.54926556
+2020-05-25 02:51:17.285,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:17.285,End successful result processing
+2020-05-25 02:51:17.432,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:18.065,Begin successful result processing
+2020-05-25 02:51:18.066,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:18.066,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:18.066,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:18.066,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:18.066,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:51:18.066,Detected image label: Puppy 	 with confidence: 0.94706595
+2020-05-25 02:51:18.066,Detected image label: Golden retriever 	 with confidence: 0.9202066
+2020-05-25 02:51:18.067,Detected image label: Labrador retriever 	 with confidence: 0.9020475
+2020-05-25 02:51:18.067,Detected image label: Retriever 	 with confidence: 0.8916858
+2020-05-25 02:51:18.067,Detected image label: Companion dog 	 with confidence: 0.8688483
+2020-05-25 02:51:18.067,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:51:18.067,Detected image label: Sporting Group 	 with confidence: 0.8319468
+2020-05-25 02:51:18.067,Detected image label: Grass 	 with confidence: 0.798715
+2020-05-25 02:51:18.067,Detected image label: Snout 	 with confidence: 0.7840312
+2020-05-25 02:51:18.067,Detected image label: American cocker spaniel 	 with confidence: 0.73210585
+2020-05-25 02:51:18.067,Detected image label: Cocker spaniel 	 with confidence: 0.68766165
+2020-05-25 02:51:18.068,Detected image label: Puppy love 	 with confidence: 0.54926556
+2020-05-25 02:51:18.068,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:18.068,End successful result processing
+2020-05-25 02:51:18.183,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:18.855,Begin successful result processing
+2020-05-25 02:51:18.856,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:18.856,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:18.856,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:18.856,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:18.856,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:51:18.856,Detected image label: Puppy 	 with confidence: 0.94706595
+2020-05-25 02:51:18.856,Detected image label: Golden retriever 	 with confidence: 0.9202066
+2020-05-25 02:51:18.856,Detected image label: Labrador retriever 	 with confidence: 0.9020475
+2020-05-25 02:51:18.856,Detected image label: Retriever 	 with confidence: 0.8916858
+2020-05-25 02:51:18.856,Detected image label: Companion dog 	 with confidence: 0.8688483
+2020-05-25 02:51:18.856,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:51:18.856,Detected image label: Sporting Group 	 with confidence: 0.8319468
+2020-05-25 02:51:18.856,Detected image label: Grass 	 with confidence: 0.798715
+2020-05-25 02:51:18.856,Detected image label: Snout 	 with confidence: 0.7840312
+2020-05-25 02:51:18.857,Detected image label: American cocker spaniel 	 with confidence: 0.73210585
+2020-05-25 02:51:18.857,Detected image label: Cocker spaniel 	 with confidence: 0.68766165
+2020-05-25 02:51:18.857,Detected image label: Puppy love 	 with confidence: 0.54926556
+2020-05-25 02:51:18.857,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:18.857,End successful result processing
+2020-05-25 02:51:18.985,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:19.736,Begin successful result processing
+2020-05-25 02:51:19.737,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:19.737,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:19.737,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:19.737,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:19.738,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:51:19.739,Detected image label: Puppy 	 with confidence: 0.94706595
+2020-05-25 02:51:19.739,Detected image label: Golden retriever 	 with confidence: 0.9202066
+2020-05-25 02:51:19.739,Detected image label: Labrador retriever 	 with confidence: 0.9020475
+2020-05-25 02:51:19.739,Detected image label: Retriever 	 with confidence: 0.8916858
+2020-05-25 02:51:19.740,Detected image label: Companion dog 	 with confidence: 0.8688483
+2020-05-25 02:51:19.740,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:51:19.740,Detected image label: Sporting Group 	 with confidence: 0.8319468
+2020-05-25 02:51:19.740,Detected image label: Grass 	 with confidence: 0.798715
+2020-05-25 02:51:19.740,Detected image label: Snout 	 with confidence: 0.7840312
+2020-05-25 02:51:19.741,Detected image label: American cocker spaniel 	 with confidence: 0.73210585
+2020-05-25 02:51:19.741,Detected image label: Cocker spaniel 	 with confidence: 0.68766165
+2020-05-25 02:51:19.741,Detected image label: Puppy love 	 with confidence: 0.54926556
+2020-05-25 02:51:19.742,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:19.742,End successful result processing
+2020-05-25 02:51:19.884,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:20.548,Begin successful result processing
+2020-05-25 02:51:20.548,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:20.548,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:20.549,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:20.549,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:20.549,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:51:20.549,Detected image label: Puppy 	 with confidence: 0.94706595
+2020-05-25 02:51:20.549,Detected image label: Golden retriever 	 with confidence: 0.9202066
+2020-05-25 02:51:20.549,Detected image label: Labrador retriever 	 with confidence: 0.9020475
+2020-05-25 02:51:20.549,Detected image label: Retriever 	 with confidence: 0.8916858
+2020-05-25 02:51:20.549,Detected image label: Companion dog 	 with confidence: 0.8688483
+2020-05-25 02:51:20.549,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:51:20.549,Detected image label: Sporting Group 	 with confidence: 0.8319468
+2020-05-25 02:51:20.549,Detected image label: Grass 	 with confidence: 0.798715
+2020-05-25 02:51:20.550,Detected image label: Snout 	 with confidence: 0.7840312
+2020-05-25 02:51:20.550,Detected image label: American cocker spaniel 	 with confidence: 0.73210585
+2020-05-25 02:51:20.550,Detected image label: Cocker spaniel 	 with confidence: 0.68766165
+2020-05-25 02:51:20.550,Detected image label: Puppy love 	 with confidence: 0.54926556
+2020-05-25 02:51:20.550,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:20.550,End successful result processing
+2020-05-25 02:51:20.684,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:51:21.362,Begin successful result processing
+2020-05-25 02:51:21.362,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:51:21.362,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:51:21.362,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:51:21.362,Detected image label: Canidae 	 with confidence: 0.981378
+2020-05-25 02:51:21.362,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:51:21.362,Detected image label: Puppy 	 with confidence: 0.94706595
+2020-05-25 02:51:21.363,Detected image label: Golden retriever 	 with confidence: 0.9202066
+2020-05-25 02:51:21.363,Detected image label: Labrador retriever 	 with confidence: 0.9020475
+2020-05-25 02:51:21.363,Detected image label: Retriever 	 with confidence: 0.8916858
+2020-05-25 02:51:21.363,Detected image label: Companion dog 	 with confidence: 0.8688483
+2020-05-25 02:51:21.363,Detected image label: Carnivore 	 with confidence: 0.8667573
+2020-05-25 02:51:21.363,Detected image label: Sporting Group 	 with confidence: 0.8319468
+2020-05-25 02:51:21.363,Detected image label: Grass 	 with confidence: 0.798715
+2020-05-25 02:51:21.363,Detected image label: Snout 	 with confidence: 0.7840312
+2020-05-25 02:51:21.364,Detected image label: American cocker spaniel 	 with confidence: 0.73210585
+2020-05-25 02:51:21.364,Detected image label: Cocker spaniel 	 with confidence: 0.68766165
+2020-05-25 02:51:21.364,Detected image label: Puppy love 	 with confidence: 0.54926556
+2020-05-25 02:51:21.364,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:51:21.364,End successful result processing
+2020-05-25 02:51:21.504,FirebaseVisionImageLabeler - processImage()

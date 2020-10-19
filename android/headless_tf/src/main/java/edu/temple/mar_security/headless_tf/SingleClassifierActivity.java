@@ -135,7 +135,7 @@ public class SingleClassifierActivity extends HeadlessVideoActivity {
 
                             Log.v(getLogTag(), "Found " + results.size()
                                     + " results in " + lastProcessingTimeMs + "ms");
-                            for (Classifier.Recognition result : results) {
+                            for (Recognition result : results) {
                                 Log.v(getLogTag(), "\t\t Title: " + result.getTitle()
                                         + " \t\t Confidence: " + result.getConfidence());
                             }

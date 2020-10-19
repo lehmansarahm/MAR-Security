@@ -1,0 +1,1169 @@
+2020-05-25 03:38:17.106,FirebaseVision - getInstance() - getOnDeviceImageLabeler()
+2020-05-25 03:38:17.421,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:17.573,Begin successful result processing
+2020-05-25 03:38:17.573,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:17.573,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:17.574,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:17.574,End successful result processing
+2020-05-25 03:38:17.633,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:17.677,Begin successful result processing
+2020-05-25 03:38:17.678,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:17.678,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:17.679,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:17.679,End successful result processing
+2020-05-25 03:38:17.749,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:17.797,Begin successful result processing
+2020-05-25 03:38:17.797,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:17.798,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:17.798,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:17.800,End successful result processing
+2020-05-25 03:38:17.861,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:17.903,Begin successful result processing
+2020-05-25 03:38:17.903,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:17.904,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:17.904,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:17.905,End successful result processing
+2020-05-25 03:38:17.963,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:18.006,Begin successful result processing
+2020-05-25 03:38:18.006,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:18.007,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:18.007,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:18.008,End successful result processing
+2020-05-25 03:38:18.079,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:18.120,Begin successful result processing
+2020-05-25 03:38:18.121,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:18.121,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:18.121,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:18.122,End successful result processing
+2020-05-25 03:38:18.180,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:18.222,Begin successful result processing
+2020-05-25 03:38:18.223,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:18.223,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:18.223,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:18.224,End successful result processing
+2020-05-25 03:38:18.282,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:18.324,Begin successful result processing
+2020-05-25 03:38:18.325,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:18.325,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:18.326,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:18.326,End successful result processing
+2020-05-25 03:38:18.387,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:18.429,Begin successful result processing
+2020-05-25 03:38:18.429,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:18.429,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:18.430,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:18.430,End successful result processing
+2020-05-25 03:38:18.496,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:18.544,Begin successful result processing
+2020-05-25 03:38:18.544,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:18.545,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:18.545,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:18.545,End successful result processing
+2020-05-25 03:38:18.617,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:18.659,Begin successful result processing
+2020-05-25 03:38:18.659,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:18.659,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:18.660,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:18.660,End successful result processing
+2020-05-25 03:38:18.724,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:18.769,Begin successful result processing
+2020-05-25 03:38:18.769,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:18.769,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:18.770,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:18.770,End successful result processing
+2020-05-25 03:38:18.839,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:18.885,Begin successful result processing
+2020-05-25 03:38:18.885,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:18.885,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:18.886,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:18.886,End successful result processing
+2020-05-25 03:38:18.949,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:18.991,Begin successful result processing
+2020-05-25 03:38:18.991,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:18.991,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:18.991,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:18.992,End successful result processing
+2020-05-25 03:38:19.056,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:19.098,Begin successful result processing
+2020-05-25 03:38:19.098,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:19.099,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:19.099,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:19.099,End successful result processing
+2020-05-25 03:38:19.161,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:19.203,Begin successful result processing
+2020-05-25 03:38:19.203,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:19.203,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:19.204,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:19.204,End successful result processing
+2020-05-25 03:38:19.267,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:19.309,Begin successful result processing
+2020-05-25 03:38:19.309,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:19.309,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:19.310,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:19.310,End successful result processing
+2020-05-25 03:38:19.390,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:19.432,Begin successful result processing
+2020-05-25 03:38:19.432,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:19.432,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:19.433,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:19.433,End successful result processing
+2020-05-25 03:38:19.495,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:19.541,Begin successful result processing
+2020-05-25 03:38:19.541,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:19.542,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:19.542,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:19.542,End successful result processing
+2020-05-25 03:38:19.625,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:19.669,Begin successful result processing
+2020-05-25 03:38:19.669,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:19.669,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:19.669,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:19.669,End successful result processing
+2020-05-25 03:38:19.739,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:19.780,Begin successful result processing
+2020-05-25 03:38:19.781,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:19.781,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:19.781,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:19.781,End successful result processing
+2020-05-25 03:38:19.842,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:19.883,Begin successful result processing
+2020-05-25 03:38:19.884,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:19.884,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:19.884,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:19.884,End successful result processing
+2020-05-25 03:38:19.949,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:19.990,Begin successful result processing
+2020-05-25 03:38:19.991,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:19.991,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:19.991,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:19.991,End successful result processing
+2020-05-25 03:38:20.060,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:20.102,Begin successful result processing
+2020-05-25 03:38:20.102,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:20.102,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:20.103,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:20.103,End successful result processing
+2020-05-25 03:38:20.165,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:20.206,Begin successful result processing
+2020-05-25 03:38:20.206,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:20.206,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:20.207,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:20.207,End successful result processing
+2020-05-25 03:38:20.270,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:20.311,Begin successful result processing
+2020-05-25 03:38:20.311,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:20.311,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:20.311,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:20.312,End successful result processing
+2020-05-25 03:38:20.374,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:20.416,Begin successful result processing
+2020-05-25 03:38:20.416,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:20.416,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:20.417,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:20.417,End successful result processing
+2020-05-25 03:38:20.484,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:20.526,Begin successful result processing
+2020-05-25 03:38:20.526,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:20.527,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:20.527,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:20.527,End successful result processing
+2020-05-25 03:38:20.613,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:20.660,Begin successful result processing
+2020-05-25 03:38:20.660,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:20.660,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:20.660,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:20.660,End successful result processing
+2020-05-25 03:38:20.723,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:20.765,Begin successful result processing
+2020-05-25 03:38:20.765,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:20.765,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:20.765,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:20.765,End successful result processing
+2020-05-25 03:38:20.831,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:20.872,Begin successful result processing
+2020-05-25 03:38:20.872,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:20.872,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:20.873,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:20.873,End successful result processing
+2020-05-25 03:38:20.938,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:20.980,Begin successful result processing
+2020-05-25 03:38:20.980,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:20.980,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:20.981,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:20.981,End successful result processing
+2020-05-25 03:38:21.043,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:21.084,Begin successful result processing
+2020-05-25 03:38:21.084,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:21.085,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:21.085,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:21.085,End successful result processing
+2020-05-25 03:38:21.145,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:21.186,Begin successful result processing
+2020-05-25 03:38:21.186,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:21.186,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:21.186,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:21.186,End successful result processing
+2020-05-25 03:38:21.248,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:21.290,Begin successful result processing
+2020-05-25 03:38:21.290,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:21.290,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:21.290,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:21.290,End successful result processing
+2020-05-25 03:38:21.357,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:21.400,Begin successful result processing
+2020-05-25 03:38:21.400,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:21.400,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:21.400,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:21.401,End successful result processing
+2020-05-25 03:38:21.462,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:21.504,Begin successful result processing
+2020-05-25 03:38:21.505,Detected image label: Dog 	 with confidence: 0.97870976
+2020-05-25 03:38:21.505,Detected image label: Pet 	 with confidence: 0.89348954
+2020-05-25 03:38:21.507,Detected image label: Cat 	 with confidence: 0.5333221
+2020-05-25 03:38:21.507,End successful result processing
+2020-05-25 03:38:21.578,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:21.619,Begin successful result processing
+2020-05-25 03:38:21.619,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:21.619,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:21.619,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:21.619,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:21.620,End successful result processing
+2020-05-25 03:38:21.727,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:21.770,Begin successful result processing
+2020-05-25 03:38:21.770,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:21.770,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:21.770,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:21.770,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:21.770,End successful result processing
+2020-05-25 03:38:21.837,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:21.880,Begin successful result processing
+2020-05-25 03:38:21.880,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:21.880,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:21.880,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:21.880,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:21.880,End successful result processing
+2020-05-25 03:38:21.943,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:21.984,Begin successful result processing
+2020-05-25 03:38:21.984,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:21.984,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:21.985,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:21.985,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:21.985,End successful result processing
+2020-05-25 03:38:22.045,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:22.087,Begin successful result processing
+2020-05-25 03:38:22.087,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:22.087,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:22.087,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:22.088,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:22.088,End successful result processing
+2020-05-25 03:38:22.152,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:22.193,Begin successful result processing
+2020-05-25 03:38:22.193,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:22.194,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:22.194,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:22.194,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:22.194,End successful result processing
+2020-05-25 03:38:22.259,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:22.302,Begin successful result processing
+2020-05-25 03:38:22.303,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:22.303,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:22.303,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:22.303,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:22.303,End successful result processing
+2020-05-25 03:38:22.380,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:22.421,Begin successful result processing
+2020-05-25 03:38:22.421,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:22.421,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:22.421,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:22.421,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:22.421,End successful result processing
+2020-05-25 03:38:22.485,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:22.527,Begin successful result processing
+2020-05-25 03:38:22.527,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:22.527,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:22.527,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:22.527,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:22.527,End successful result processing
+2020-05-25 03:38:22.591,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:22.632,Begin successful result processing
+2020-05-25 03:38:22.633,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:22.633,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:22.633,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:22.633,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:22.633,End successful result processing
+2020-05-25 03:38:22.697,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:22.739,Begin successful result processing
+2020-05-25 03:38:22.740,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:22.740,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:22.740,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:22.740,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:22.740,End successful result processing
+2020-05-25 03:38:22.803,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:22.850,Begin successful result processing
+2020-05-25 03:38:22.850,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:22.850,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:22.850,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:22.850,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:22.850,End successful result processing
+2020-05-25 03:38:22.958,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:22.999,Begin successful result processing
+2020-05-25 03:38:22.999,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:22.999,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:22.999,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:22.999,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:22.999,End successful result processing
+2020-05-25 03:38:23.077,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:23.133,Begin successful result processing
+2020-05-25 03:38:23.133,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:23.133,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:23.134,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:23.134,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:23.134,End successful result processing
+2020-05-25 03:38:23.204,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:23.253,Begin successful result processing
+2020-05-25 03:38:23.253,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:23.253,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:23.254,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:23.254,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:23.254,End successful result processing
+2020-05-25 03:38:23.329,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:23.371,Begin successful result processing
+2020-05-25 03:38:23.371,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:23.371,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:23.371,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:23.371,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:23.371,End successful result processing
+2020-05-25 03:38:23.436,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:23.478,Begin successful result processing
+2020-05-25 03:38:23.478,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:23.478,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:23.478,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:23.478,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:23.478,End successful result processing
+2020-05-25 03:38:23.545,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:23.586,Begin successful result processing
+2020-05-25 03:38:23.586,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:23.586,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:23.586,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:23.587,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:23.587,End successful result processing
+2020-05-25 03:38:23.747,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:23.794,Begin successful result processing
+2020-05-25 03:38:23.794,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:23.794,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:23.794,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:23.794,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:23.794,End successful result processing
+2020-05-25 03:38:23.891,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:23.937,Begin successful result processing
+2020-05-25 03:38:23.937,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:23.937,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:23.937,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:23.937,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:23.937,End successful result processing
+2020-05-25 03:38:24.000,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:24.041,Begin successful result processing
+2020-05-25 03:38:24.041,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:24.041,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:24.041,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:24.041,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:24.041,End successful result processing
+2020-05-25 03:38:24.150,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:24.194,Begin successful result processing
+2020-05-25 03:38:24.195,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:24.195,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:24.195,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:24.195,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:24.195,End successful result processing
+2020-05-25 03:38:24.263,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:24.305,Begin successful result processing
+2020-05-25 03:38:24.305,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:24.305,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:24.305,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:24.305,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:24.305,End successful result processing
+2020-05-25 03:38:24.369,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:24.417,Begin successful result processing
+2020-05-25 03:38:24.417,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:24.417,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:24.417,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:24.417,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:24.417,End successful result processing
+2020-05-25 03:38:24.483,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:24.524,Begin successful result processing
+2020-05-25 03:38:24.524,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:24.525,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:24.525,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:24.525,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:24.525,End successful result processing
+2020-05-25 03:38:24.587,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:24.628,Begin successful result processing
+2020-05-25 03:38:24.628,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:24.628,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:24.629,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:24.629,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:24.629,End successful result processing
+2020-05-25 03:38:24.694,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:24.735,Begin successful result processing
+2020-05-25 03:38:24.735,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:24.735,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:24.735,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:24.735,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:24.735,End successful result processing
+2020-05-25 03:38:24.801,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:24.842,Begin successful result processing
+2020-05-25 03:38:24.842,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:24.842,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:24.842,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:24.842,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:24.842,End successful result processing
+2020-05-25 03:38:24.906,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:24.948,Begin successful result processing
+2020-05-25 03:38:24.948,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:24.948,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:24.948,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:24.948,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:24.948,End successful result processing
+2020-05-25 03:38:25.050,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:25.091,Begin successful result processing
+2020-05-25 03:38:25.092,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:25.092,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:25.092,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:25.092,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:25.092,End successful result processing
+2020-05-25 03:38:25.156,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:25.198,Begin successful result processing
+2020-05-25 03:38:25.198,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:25.198,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:25.198,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:25.198,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:25.198,End successful result processing
+2020-05-25 03:38:25.286,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:25.327,Begin successful result processing
+2020-05-25 03:38:25.327,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:25.327,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:25.328,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:25.328,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:25.328,End successful result processing
+2020-05-25 03:38:25.429,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:25.470,Begin successful result processing
+2020-05-25 03:38:25.470,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:25.470,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:25.470,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:25.471,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:25.471,End successful result processing
+2020-05-25 03:38:25.570,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:25.614,Begin successful result processing
+2020-05-25 03:38:25.614,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:25.614,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:25.614,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:25.614,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:25.614,End successful result processing
+2020-05-25 03:38:25.686,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:25.727,Begin successful result processing
+2020-05-25 03:38:25.727,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:25.727,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:25.727,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:25.727,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:25.728,End successful result processing
+2020-05-25 03:38:25.837,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:25.878,Begin successful result processing
+2020-05-25 03:38:25.878,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:25.878,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:25.879,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:25.879,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:25.879,End successful result processing
+2020-05-25 03:38:25.971,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:26.013,Begin successful result processing
+2020-05-25 03:38:26.013,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:26.013,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:26.014,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:26.014,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:26.014,End successful result processing
+2020-05-25 03:38:26.146,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:26.192,Begin successful result processing
+2020-05-25 03:38:26.193,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:26.193,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:26.193,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:26.193,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:26.193,End successful result processing
+2020-05-25 03:38:26.257,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:26.300,Begin successful result processing
+2020-05-25 03:38:26.300,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:26.300,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:26.300,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:26.300,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:26.300,End successful result processing
+2020-05-25 03:38:26.362,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:26.403,Begin successful result processing
+2020-05-25 03:38:26.403,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:26.403,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:26.403,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:26.403,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:26.403,End successful result processing
+2020-05-25 03:38:26.493,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:26.535,Begin successful result processing
+2020-05-25 03:38:26.535,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:26.535,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:26.535,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:26.535,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:26.535,End successful result processing
+2020-05-25 03:38:26.603,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:26.644,Begin successful result processing
+2020-05-25 03:38:26.644,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:26.645,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:26.645,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:26.645,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:26.645,End successful result processing
+2020-05-25 03:38:26.709,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:26.751,Begin successful result processing
+2020-05-25 03:38:26.751,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:26.751,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:26.751,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:26.752,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:26.752,End successful result processing
+2020-05-25 03:38:26.903,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:26.951,Begin successful result processing
+2020-05-25 03:38:26.951,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:26.951,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:26.951,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:26.951,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:26.951,End successful result processing
+2020-05-25 03:38:27.064,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:27.105,Begin successful result processing
+2020-05-25 03:38:27.105,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:27.105,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:27.105,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:27.105,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:27.105,End successful result processing
+2020-05-25 03:38:27.216,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:27.257,Begin successful result processing
+2020-05-25 03:38:27.257,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:27.257,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:27.257,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:27.257,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:27.257,End successful result processing
+2020-05-25 03:38:27.370,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:27.412,Begin successful result processing
+2020-05-25 03:38:27.412,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:27.412,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:27.412,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:27.412,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:27.412,End successful result processing
+2020-05-25 03:38:27.476,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:27.520,Begin successful result processing
+2020-05-25 03:38:27.520,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:27.520,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:27.520,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:27.521,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:27.521,End successful result processing
+2020-05-25 03:38:27.612,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:27.657,Begin successful result processing
+2020-05-25 03:38:27.657,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:27.657,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:27.657,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:27.657,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:27.657,End successful result processing
+2020-05-25 03:38:27.801,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:27.870,Begin successful result processing
+2020-05-25 03:38:27.870,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:27.870,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:27.870,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:27.870,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:27.870,End successful result processing
+2020-05-25 03:38:27.938,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:27.980,Begin successful result processing
+2020-05-25 03:38:27.980,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:27.980,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:27.980,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:27.980,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:27.981,End successful result processing
+2020-05-25 03:38:28.104,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:28.146,Begin successful result processing
+2020-05-25 03:38:28.146,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:28.147,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:28.147,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:28.147,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:28.147,End successful result processing
+2020-05-25 03:38:28.209,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:28.249,Begin successful result processing
+2020-05-25 03:38:28.249,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:28.249,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:28.249,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:28.249,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:28.249,End successful result processing
+2020-05-25 03:38:28.387,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:28.427,Begin successful result processing
+2020-05-25 03:38:28.427,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:28.427,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:28.427,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:28.427,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:28.427,End successful result processing
+2020-05-25 03:38:28.514,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:28.555,Begin successful result processing
+2020-05-25 03:38:28.555,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:28.555,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:28.555,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:28.555,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:28.555,End successful result processing
+2020-05-25 03:38:28.620,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:28.661,Begin successful result processing
+2020-05-25 03:38:28.661,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:28.661,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:28.661,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:28.661,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:28.661,End successful result processing
+2020-05-25 03:38:28.723,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:28.764,Begin successful result processing
+2020-05-25 03:38:28.764,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:28.764,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:28.764,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:28.764,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:28.764,End successful result processing
+2020-05-25 03:38:28.829,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:28.868,Begin successful result processing
+2020-05-25 03:38:28.868,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:28.868,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:28.869,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:28.869,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:28.869,End successful result processing
+2020-05-25 03:38:28.933,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:28.975,Begin successful result processing
+2020-05-25 03:38:28.975,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:28.975,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:28.975,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:28.975,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:28.975,End successful result processing
+2020-05-25 03:38:29.074,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:29.120,Begin successful result processing
+2020-05-25 03:38:29.120,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:29.121,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:29.121,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:29.121,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:29.121,End successful result processing
+2020-05-25 03:38:29.238,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:29.279,Begin successful result processing
+2020-05-25 03:38:29.279,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:29.279,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:29.279,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:29.279,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:29.279,End successful result processing
+2020-05-25 03:38:29.342,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:29.383,Begin successful result processing
+2020-05-25 03:38:29.383,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:29.383,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:29.383,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:29.383,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:29.383,End successful result processing
+2020-05-25 03:38:29.447,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:29.488,Begin successful result processing
+2020-05-25 03:38:29.488,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:29.488,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:29.488,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:29.488,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:29.488,End successful result processing
+2020-05-25 03:38:29.576,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:29.618,Begin successful result processing
+2020-05-25 03:38:29.618,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:29.618,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:29.618,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:29.618,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:29.618,End successful result processing
+2020-05-25 03:38:29.683,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:29.724,Begin successful result processing
+2020-05-25 03:38:29.724,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:29.724,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:29.724,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:29.724,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:29.725,End successful result processing
+2020-05-25 03:38:29.791,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:29.835,Begin successful result processing
+2020-05-25 03:38:29.835,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:29.836,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:29.836,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:29.836,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:29.836,End successful result processing
+2020-05-25 03:38:29.902,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:29.944,Begin successful result processing
+2020-05-25 03:38:29.944,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:29.944,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:29.944,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:29.944,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:29.944,End successful result processing
+2020-05-25 03:38:30.071,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:30.117,Begin successful result processing
+2020-05-25 03:38:30.117,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:30.117,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:30.117,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:30.117,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:30.117,End successful result processing
+2020-05-25 03:38:30.184,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:30.226,Begin successful result processing
+2020-05-25 03:38:30.226,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:30.226,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:30.226,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:30.226,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:30.227,End successful result processing
+2020-05-25 03:38:30.331,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:30.379,Begin successful result processing
+2020-05-25 03:38:30.379,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:30.379,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:30.379,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:30.379,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:30.379,End successful result processing
+2020-05-25 03:38:30.445,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:30.487,Begin successful result processing
+2020-05-25 03:38:30.487,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:30.487,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:30.487,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:30.487,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:30.487,End successful result processing
+2020-05-25 03:38:30.599,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:30.642,Begin successful result processing
+2020-05-25 03:38:30.642,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:30.643,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:30.643,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:30.643,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:30.643,End successful result processing
+2020-05-25 03:38:30.786,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:30.828,Begin successful result processing
+2020-05-25 03:38:30.828,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:30.828,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:30.828,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:30.828,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:30.828,End successful result processing
+2020-05-25 03:38:30.903,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:30.945,Begin successful result processing
+2020-05-25 03:38:30.945,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:30.945,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:30.945,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:30.945,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:30.945,End successful result processing
+2020-05-25 03:38:31.012,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:31.054,Begin successful result processing
+2020-05-25 03:38:31.054,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:31.054,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:31.054,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:31.054,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:31.054,End successful result processing
+2020-05-25 03:38:31.120,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:31.161,Begin successful result processing
+2020-05-25 03:38:31.161,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:31.161,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:31.161,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:31.161,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:31.161,End successful result processing
+2020-05-25 03:38:31.227,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:31.268,Begin successful result processing
+2020-05-25 03:38:31.268,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:31.268,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:31.268,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:31.269,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:31.269,End successful result processing
+2020-05-25 03:38:31.333,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:31.372,Begin successful result processing
+2020-05-25 03:38:31.373,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:31.373,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:31.373,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:31.373,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:31.373,End successful result processing
+2020-05-25 03:38:31.439,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:31.481,Begin successful result processing
+2020-05-25 03:38:31.481,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:31.481,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:31.481,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:31.481,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:31.481,End successful result processing
+2020-05-25 03:38:31.546,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:31.586,Begin successful result processing
+2020-05-25 03:38:31.586,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:31.586,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:31.586,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:31.587,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:31.587,End successful result processing
+2020-05-25 03:38:31.654,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:31.700,Begin successful result processing
+2020-05-25 03:38:31.700,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:31.700,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:31.700,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:31.700,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:31.700,End successful result processing
+2020-05-25 03:38:31.795,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:31.847,Begin successful result processing
+2020-05-25 03:38:31.848,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:31.848,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:31.848,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:31.848,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:31.848,End successful result processing
+2020-05-25 03:38:31.942,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:31.990,Begin successful result processing
+2020-05-25 03:38:31.990,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:31.990,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:31.990,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:31.990,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:31.990,End successful result processing
+2020-05-25 03:38:32.054,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:32.095,Begin successful result processing
+2020-05-25 03:38:32.095,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:32.095,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:32.096,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:32.096,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:32.096,End successful result processing
+2020-05-25 03:38:32.172,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:32.218,Begin successful result processing
+2020-05-25 03:38:32.219,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:32.219,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:32.219,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:32.219,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:32.219,End successful result processing
+2020-05-25 03:38:32.281,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:32.323,Begin successful result processing
+2020-05-25 03:38:32.323,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:32.323,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:32.323,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:32.323,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:32.323,End successful result processing
+2020-05-25 03:38:32.391,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:32.439,Begin successful result processing
+2020-05-25 03:38:32.439,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:32.439,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:32.439,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:32.439,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:32.439,End successful result processing
+2020-05-25 03:38:32.518,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:32.560,Begin successful result processing
+2020-05-25 03:38:32.560,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:32.560,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:32.560,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:32.561,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:32.561,End successful result processing
+2020-05-25 03:38:32.621,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:32.660,Begin successful result processing
+2020-05-25 03:38:32.661,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:32.661,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:32.661,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:32.661,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:32.661,End successful result processing
+2020-05-25 03:38:32.724,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:32.763,Begin successful result processing
+2020-05-25 03:38:32.763,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:32.763,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:32.763,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:32.763,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:32.763,End successful result processing
+2020-05-25 03:38:32.827,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:32.868,Begin successful result processing
+2020-05-25 03:38:32.868,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:32.868,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:32.868,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:32.868,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:32.868,End successful result processing
+2020-05-25 03:38:32.930,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:32.970,Begin successful result processing
+2020-05-25 03:38:32.970,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:32.971,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:32.971,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:32.971,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:32.971,End successful result processing
+2020-05-25 03:38:33.105,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:33.144,Begin successful result processing
+2020-05-25 03:38:33.144,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:33.144,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:33.145,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:33.145,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:33.145,End successful result processing
+2020-05-25 03:38:33.207,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:33.247,Begin successful result processing
+2020-05-25 03:38:33.247,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:33.247,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:33.247,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:33.247,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:33.247,End successful result processing
+2020-05-25 03:38:33.309,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:33.350,Begin successful result processing
+2020-05-25 03:38:33.350,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:33.350,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:33.350,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:33.350,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:33.350,End successful result processing
+2020-05-25 03:38:33.463,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:33.508,Begin successful result processing
+2020-05-25 03:38:33.508,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:33.508,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:33.508,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:33.508,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:33.509,End successful result processing
+2020-05-25 03:38:33.611,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:33.651,Begin successful result processing
+2020-05-25 03:38:33.651,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:33.651,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:33.651,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:33.651,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:33.651,End successful result processing
+2020-05-25 03:38:33.754,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:33.798,Begin successful result processing
+2020-05-25 03:38:33.798,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:33.798,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:33.798,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:33.798,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:33.798,End successful result processing
+2020-05-25 03:38:33.863,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:33.904,Begin successful result processing
+2020-05-25 03:38:33.904,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:33.904,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:33.904,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:33.904,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:33.904,End successful result processing
+2020-05-25 03:38:33.967,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:34.007,Begin successful result processing
+2020-05-25 03:38:34.007,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:34.008,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:34.008,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:34.008,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:34.008,End successful result processing
+2020-05-25 03:38:34.071,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:34.111,Begin successful result processing
+2020-05-25 03:38:34.111,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:34.111,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:34.111,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:34.111,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:34.111,End successful result processing
+2020-05-25 03:38:34.176,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:34.217,Begin successful result processing
+2020-05-25 03:38:34.217,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:34.217,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:34.217,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:34.217,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:34.217,End successful result processing
+2020-05-25 03:38:34.283,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:34.325,Begin successful result processing
+2020-05-25 03:38:34.326,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:34.326,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:34.326,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:34.326,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:34.326,End successful result processing
+2020-05-25 03:38:34.430,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:34.473,Begin successful result processing
+2020-05-25 03:38:34.473,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:34.473,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:34.473,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:34.474,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:34.474,End successful result processing
+2020-05-25 03:38:34.637,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:34.691,Begin successful result processing
+2020-05-25 03:38:34.691,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:34.691,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:34.691,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:34.691,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:34.691,End successful result processing
+2020-05-25 03:38:34.764,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:34.808,Begin successful result processing
+2020-05-25 03:38:34.809,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:34.809,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:34.810,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:34.810,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:34.811,End successful result processing
+2020-05-25 03:38:34.891,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:34.932,Begin successful result processing
+2020-05-25 03:38:34.932,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:34.932,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:34.932,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:34.932,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:34.932,End successful result processing
+2020-05-25 03:38:35.037,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:35.076,Begin successful result processing
+2020-05-25 03:38:35.077,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:35.077,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:35.077,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:35.077,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:35.077,End successful result processing
+2020-05-25 03:38:35.139,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:35.185,Begin successful result processing
+2020-05-25 03:38:35.185,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:35.185,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:35.185,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:35.185,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:35.185,End successful result processing
+2020-05-25 03:38:35.292,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:35.331,Begin successful result processing
+2020-05-25 03:38:35.332,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:35.332,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:35.332,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:35.332,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:35.332,End successful result processing
+2020-05-25 03:38:35.395,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:35.436,Begin successful result processing
+2020-05-25 03:38:35.436,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:35.436,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:35.437,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:35.437,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:35.437,End successful result processing
+2020-05-25 03:38:35.532,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:35.577,Begin successful result processing
+2020-05-25 03:38:35.577,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:35.577,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:35.577,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:35.577,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:35.577,End successful result processing
+2020-05-25 03:38:35.644,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:35.685,Begin successful result processing
+2020-05-25 03:38:35.685,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:35.685,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:35.685,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:35.685,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:35.685,End successful result processing
+2020-05-25 03:38:35.746,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:35.788,Begin successful result processing
+2020-05-25 03:38:35.788,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:35.788,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:35.788,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:35.788,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:35.788,End successful result processing
+2020-05-25 03:38:35.852,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:35.893,Begin successful result processing
+2020-05-25 03:38:35.893,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:35.893,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:35.893,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:35.893,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:35.893,End successful result processing
+2020-05-25 03:38:35.961,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:36.000,Begin successful result processing
+2020-05-25 03:38:36.000,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:36.000,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:36.000,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:36.000,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:36.000,End successful result processing
+2020-05-25 03:38:36.063,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:36.103,Begin successful result processing
+2020-05-25 03:38:36.103,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:36.103,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:36.103,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:36.104,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:36.104,End successful result processing
+2020-05-25 03:38:36.165,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:36.205,Begin successful result processing
+2020-05-25 03:38:36.205,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:36.205,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:36.205,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:36.205,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:36.205,End successful result processing
+2020-05-25 03:38:36.265,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:36.308,Begin successful result processing
+2020-05-25 03:38:36.308,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:36.308,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:36.308,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:36.308,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:36.308,End successful result processing
+2020-05-25 03:38:36.412,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:36.452,Begin successful result processing
+2020-05-25 03:38:36.452,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:36.452,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:36.452,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:36.452,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:36.453,End successful result processing
+2020-05-25 03:38:36.513,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:36.552,Begin successful result processing
+2020-05-25 03:38:36.552,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:36.553,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:36.553,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:36.553,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:36.553,End successful result processing
+2020-05-25 03:38:36.672,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:36.718,Begin successful result processing
+2020-05-25 03:38:36.718,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:36.718,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:36.718,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:36.718,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:36.718,End successful result processing
+2020-05-25 03:38:36.782,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:36.823,Begin successful result processing
+2020-05-25 03:38:36.823,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:36.823,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:36.823,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:36.823,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:36.823,End successful result processing
+2020-05-25 03:38:36.932,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:36.978,Begin successful result processing
+2020-05-25 03:38:36.979,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:36.979,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:36.979,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:36.979,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:36.979,End successful result processing
+2020-05-25 03:38:37.039,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:37.078,Begin successful result processing
+2020-05-25 03:38:37.078,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:37.078,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:37.078,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:37.079,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:37.079,End successful result processing
+2020-05-25 03:38:37.144,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:37.183,Begin successful result processing
+2020-05-25 03:38:37.183,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:37.183,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:37.184,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:37.184,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:37.184,End successful result processing
+2020-05-25 03:38:37.247,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:37.288,Begin successful result processing
+2020-05-25 03:38:37.288,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:37.288,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:37.288,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:37.288,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:37.288,End successful result processing
+2020-05-25 03:38:37.384,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:37.423,Begin successful result processing
+2020-05-25 03:38:37.423,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:37.424,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:37.424,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:37.424,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:37.424,End successful result processing
+2020-05-25 03:38:37.509,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:37.552,Begin successful result processing
+2020-05-25 03:38:37.552,Detected image label: Dog 	 with confidence: 0.9696709
+2020-05-25 03:38:37.552,Detected image label: Pet 	 with confidence: 0.84408617
+2020-05-25 03:38:37.552,Detected image label: Television 	 with confidence: 0.73498607
+2020-05-25 03:38:37.552,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:37.552,End successful result processing
+2020-05-25 03:38:37.619,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:37.658,Begin successful result processing
+2020-05-25 03:38:37.658,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:37.658,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:37.658,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:37.658,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:37.659,End successful result processing
+2020-05-25 03:38:37.726,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:37.766,Begin successful result processing
+2020-05-25 03:38:37.767,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:37.767,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:37.767,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:37.767,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:37.767,End successful result processing
+2020-05-25 03:38:37.945,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:37.999,Begin successful result processing
+2020-05-25 03:38:38.000,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:38.000,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:38.000,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:38.000,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:38.000,End successful result processing
+2020-05-25 03:38:38.063,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:38.102,Begin successful result processing
+2020-05-25 03:38:38.102,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:38.102,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:38.102,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:38.103,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:38.103,End successful result processing
+2020-05-25 03:38:38.166,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:38.230,Begin successful result processing
+2020-05-25 03:38:38.230,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:38.230,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:38.230,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:38.230,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:38.230,End successful result processing
+2020-05-25 03:38:38.356,FirebaseVisionImageLabeler - processImage()
+2020-05-25 03:38:38.421,Begin successful result processing
+2020-05-25 03:38:38.421,Detected image label: Dog 	 with confidence: 0.98275137
+2020-05-25 03:38:38.421,Detected image label: Pet 	 with confidence: 0.9216542
+2020-05-25 03:38:38.421,Detected image label: Television 	 with confidence: 0.62062764
+2020-05-25 03:38:38.422,Detected image label: Cat 	 with confidence: 0.5141823
+2020-05-25 03:38:38.422,End successful result processing
+2020-05-25 03:38:38.503,FirebaseVisionImageLabeler - processImage()

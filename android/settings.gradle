@@ -1,8 +1,13 @@
 rootProject.name='MAR Security'
-include ':headless_tf'
-include ':headless_tf_mal'
+
+include ':ml_kit'
+
+// include ':headless_tf'
+// include ':headless_tf_mal'
+// include ':res_lib_tf'
+
+// include ':headless_fb'
+// include ':headless_fb_mal'
+// include ':res_lib_fb'
+
 include ':res_lib'
-include ':headless_fb'
-include ':headless_fb_mal'
-include ':res_lib_tf'
-include ':res_lib_fb'

@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MAR Security.iml" filepath="$PROJECT_DIR$/MAR Security.iml" group="MAR Security" />
-      <module fileurl="file://$PROJECT_DIR$/headless_fb/headless_fb.iml" filepath="$PROJECT_DIR$/headless_fb/headless_fb.iml" group="MAR Security/headless_fb" />
-      <module fileurl="file://$PROJECT_DIR$/headless_fb_mal/headless_fb_mal.iml" filepath="$PROJECT_DIR$/headless_fb_mal/headless_fb_mal.iml" group="MAR Security/headless_fb_mal" />
-      <module fileurl="file://$PROJECT_DIR$/headless_tf/headless_tf.iml" filepath="$PROJECT_DIR$/headless_tf/headless_tf.iml" group="MAR Security/headless_tf" />
-      <module fileurl="file://$PROJECT_DIR$/headless_tf_mal/headless_tf_mal.iml" filepath="$PROJECT_DIR$/headless_tf_mal/headless_tf_mal.iml" group="MAR Security/headless_tf_mal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MAR_Security.iml" filepath="$PROJECT_DIR$/.idea/modules/MAR_Security.iml" group="MAR_Security" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ml_kit/ml_kit.iml" filepath="$PROJECT_DIR$/.idea/modules/ml_kit/ml_kit.iml" group="MAR Security/ml_kit" />
       <module fileurl="file://$PROJECT_DIR$/res_lib/res_lib.iml" filepath="$PROJECT_DIR$/res_lib/res_lib.iml" group="MAR Security/res_lib" />
-      <module fileurl="file://$PROJECT_DIR$/res_lib_fb/res_lib_fb.iml" filepath="$PROJECT_DIR$/res_lib_fb/res_lib_fb.iml" group="MAR Security/res_lib_fb" />
-      <module fileurl="file://$PROJECT_DIR$/res_lib_tf/res_lib_tf.iml" filepath="$PROJECT_DIR$/res_lib_tf/res_lib_tf.iml" group="MAR Security/res_lib_tf" />
     </modules>
   </component>
 </project>

@@ -40,7 +40,7 @@ public class HiddenClassifierActivity extends HeadlessVideoActivity implements P
         // ------------------------------------------------------------------------------
         // TODO - update processor instantiation
         // ------------------------------------------------------------------------------
-        processor = new BarcodeProcessor(this);
+        processor = new BarcodeProcessor(this, this);
         hiddenProcessor = new TextProcessor(this);
         // ------------------------------------------------------------------------------
 

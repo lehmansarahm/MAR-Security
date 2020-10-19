@@ -1,0 +1,622 @@
+2020-05-25 02:13:39.074,FirebaseVision - getInstance() - getCloudImageLabeler()
+2020-05-25 02:13:39.437,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:40.229,Begin successful result processing
+2020-05-25 02:13:40.229,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:13:40.230,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:13:40.230,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:40.231,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:40.231,Detected image label: Canidae 	 with confidence: 0.97653943
+2020-05-25 02:13:40.231,Detected image label: Tibetan terrier 	 with confidence: 0.8878531
+2020-05-25 02:13:40.232,Detected image label: Carnivore 	 with confidence: 0.8546947
+2020-05-25 02:13:40.232,Detected image label: Sapsali 	 with confidence: 0.77510524
+2020-05-25 02:13:40.233,Detected image label: Companion dog 	 with confidence: 0.76756173
+2020-05-25 02:13:40.233,Detected image label: Old english sheepdog 	 with confidence: 0.7538089
+2020-05-25 02:13:40.234,Detected image label: Ancient dog breeds 	 with confidence: 0.70248884
+2020-05-25 02:13:40.234,Detected image label: Rare breed (dog) 	 with confidence: 0.6907072
+2020-05-25 02:13:40.235,Detected image label: Bearded collie 	 with confidence: 0.6795054
+2020-05-25 02:13:40.235,Detected image label: Terrier 	 with confidence: 0.6697164
+2020-05-25 02:13:40.235,Detected image label: Löwchen 	 with confidence: 0.63350576
+2020-05-25 02:13:40.236,Detected image label: Havanese 	 with confidence: 0.59442496
+2020-05-25 02:13:40.236,Detected image label: Toy dog 	 with confidence: 0.55247927
+2020-05-25 02:13:40.237,Detected image label: Catalan sheepdog 	 with confidence: 0.52341753
+2020-05-25 02:13:40.237,End successful result processing
+2020-05-25 02:13:40.326,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:41.027,Begin successful result processing
+2020-05-25 02:13:41.028,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:13:41.028,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:13:41.029,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:41.029,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:41.030,Detected image label: Canidae 	 with confidence: 0.97653943
+2020-05-25 02:13:41.030,Detected image label: Tibetan terrier 	 with confidence: 0.8878531
+2020-05-25 02:13:41.031,Detected image label: Carnivore 	 with confidence: 0.8546947
+2020-05-25 02:13:41.031,Detected image label: Sapsali 	 with confidence: 0.77510524
+2020-05-25 02:13:41.032,Detected image label: Companion dog 	 with confidence: 0.76756173
+2020-05-25 02:13:41.032,Detected image label: Old english sheepdog 	 with confidence: 0.7538089
+2020-05-25 02:13:41.033,Detected image label: Ancient dog breeds 	 with confidence: 0.70248884
+2020-05-25 02:13:41.033,Detected image label: Rare breed (dog) 	 with confidence: 0.6907072
+2020-05-25 02:13:41.034,Detected image label: Bearded collie 	 with confidence: 0.6795054
+2020-05-25 02:13:41.034,Detected image label: Terrier 	 with confidence: 0.6697164
+2020-05-25 02:13:41.034,Detected image label: Löwchen 	 with confidence: 0.63350576
+2020-05-25 02:13:41.035,Detected image label: Havanese 	 with confidence: 0.59442496
+2020-05-25 02:13:41.035,Detected image label: Toy dog 	 with confidence: 0.55247927
+2020-05-25 02:13:41.036,Detected image label: Catalan sheepdog 	 with confidence: 0.52341753
+2020-05-25 02:13:41.036,End successful result processing
+2020-05-25 02:13:41.159,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:41.883,Begin successful result processing
+2020-05-25 02:13:41.883,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:13:41.884,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:13:41.884,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:41.885,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:41.885,Detected image label: Canidae 	 with confidence: 0.97653943
+2020-05-25 02:13:41.886,Detected image label: Tibetan terrier 	 with confidence: 0.8878531
+2020-05-25 02:13:41.886,Detected image label: Carnivore 	 with confidence: 0.8546947
+2020-05-25 02:13:41.887,Detected image label: Sapsali 	 with confidence: 0.77510524
+2020-05-25 02:13:41.887,Detected image label: Companion dog 	 with confidence: 0.76756173
+2020-05-25 02:13:41.888,Detected image label: Old english sheepdog 	 with confidence: 0.7538089
+2020-05-25 02:13:41.888,Detected image label: Ancient dog breeds 	 with confidence: 0.70248884
+2020-05-25 02:13:41.889,Detected image label: Rare breed (dog) 	 with confidence: 0.6907072
+2020-05-25 02:13:41.889,Detected image label: Bearded collie 	 with confidence: 0.6795054
+2020-05-25 02:13:41.890,Detected image label: Terrier 	 with confidence: 0.6697164
+2020-05-25 02:13:41.890,Detected image label: Löwchen 	 with confidence: 0.63350576
+2020-05-25 02:13:41.890,Detected image label: Havanese 	 with confidence: 0.59442496
+2020-05-25 02:13:41.891,Detected image label: Toy dog 	 with confidence: 0.55247927
+2020-05-25 02:13:41.891,Detected image label: Catalan sheepdog 	 with confidence: 0.52341753
+2020-05-25 02:13:41.892,End successful result processing
+2020-05-25 02:13:42.032,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:42.662,Begin successful result processing
+2020-05-25 02:13:42.664,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:13:42.664,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:13:42.665,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:42.665,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:42.666,Detected image label: Canidae 	 with confidence: 0.97653943
+2020-05-25 02:13:42.667,Detected image label: Tibetan terrier 	 with confidence: 0.8878531
+2020-05-25 02:13:42.667,Detected image label: Carnivore 	 with confidence: 0.8546947
+2020-05-25 02:13:42.668,Detected image label: Sapsali 	 with confidence: 0.77510524
+2020-05-25 02:13:42.668,Detected image label: Companion dog 	 with confidence: 0.76756173
+2020-05-25 02:13:42.669,Detected image label: Old english sheepdog 	 with confidence: 0.7538089
+2020-05-25 02:13:42.669,Detected image label: Ancient dog breeds 	 with confidence: 0.70248884
+2020-05-25 02:13:42.670,Detected image label: Rare breed (dog) 	 with confidence: 0.6907072
+2020-05-25 02:13:42.670,Detected image label: Bearded collie 	 with confidence: 0.6795054
+2020-05-25 02:13:42.671,Detected image label: Terrier 	 with confidence: 0.6697164
+2020-05-25 02:13:42.671,Detected image label: Löwchen 	 with confidence: 0.63350576
+2020-05-25 02:13:42.672,Detected image label: Havanese 	 with confidence: 0.59442496
+2020-05-25 02:13:42.673,Detected image label: Toy dog 	 with confidence: 0.55247927
+2020-05-25 02:13:42.673,Detected image label: Catalan sheepdog 	 with confidence: 0.52341753
+2020-05-25 02:13:42.674,End successful result processing
+2020-05-25 02:13:42.801,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:43.367,Begin successful result processing
+2020-05-25 02:13:43.368,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:13:43.368,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:13:43.369,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:43.369,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:43.369,Detected image label: Canidae 	 with confidence: 0.97653943
+2020-05-25 02:13:43.370,Detected image label: Tibetan terrier 	 with confidence: 0.8878531
+2020-05-25 02:13:43.370,Detected image label: Carnivore 	 with confidence: 0.8546947
+2020-05-25 02:13:43.370,Detected image label: Sapsali 	 with confidence: 0.77510524
+2020-05-25 02:13:43.371,Detected image label: Companion dog 	 with confidence: 0.76756173
+2020-05-25 02:13:43.371,Detected image label: Old english sheepdog 	 with confidence: 0.7538089
+2020-05-25 02:13:43.371,Detected image label: Ancient dog breeds 	 with confidence: 0.70248884
+2020-05-25 02:13:43.372,Detected image label: Rare breed (dog) 	 with confidence: 0.6907072
+2020-05-25 02:13:43.372,Detected image label: Bearded collie 	 with confidence: 0.6795054
+2020-05-25 02:13:43.372,Detected image label: Terrier 	 with confidence: 0.6697164
+2020-05-25 02:13:43.373,Detected image label: Löwchen 	 with confidence: 0.63350576
+2020-05-25 02:13:43.373,Detected image label: Havanese 	 with confidence: 0.59442496
+2020-05-25 02:13:43.373,Detected image label: Toy dog 	 with confidence: 0.55247927
+2020-05-25 02:13:43.374,Detected image label: Catalan sheepdog 	 with confidence: 0.52341753
+2020-05-25 02:13:43.374,End successful result processing
+2020-05-25 02:13:43.503,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:44.245,Begin successful result processing
+2020-05-25 02:13:44.246,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:13:44.246,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:13:44.247,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:44.247,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:44.247,Detected image label: Canidae 	 with confidence: 0.97653943
+2020-05-25 02:13:44.248,Detected image label: Tibetan terrier 	 with confidence: 0.8878531
+2020-05-25 02:13:44.248,Detected image label: Carnivore 	 with confidence: 0.8546947
+2020-05-25 02:13:44.248,Detected image label: Sapsali 	 with confidence: 0.77510524
+2020-05-25 02:13:44.248,Detected image label: Companion dog 	 with confidence: 0.76756173
+2020-05-25 02:13:44.249,Detected image label: Old english sheepdog 	 with confidence: 0.7538089
+2020-05-25 02:13:44.249,Detected image label: Ancient dog breeds 	 with confidence: 0.70248884
+2020-05-25 02:13:44.249,Detected image label: Rare breed (dog) 	 with confidence: 0.6907072
+2020-05-25 02:13:44.250,Detected image label: Bearded collie 	 with confidence: 0.6795054
+2020-05-25 02:13:44.250,Detected image label: Terrier 	 with confidence: 0.6697164
+2020-05-25 02:13:44.250,Detected image label: Löwchen 	 with confidence: 0.63350576
+2020-05-25 02:13:44.251,Detected image label: Havanese 	 with confidence: 0.59442496
+2020-05-25 02:13:44.251,Detected image label: Toy dog 	 with confidence: 0.55247927
+2020-05-25 02:13:44.251,Detected image label: Catalan sheepdog 	 with confidence: 0.52341753
+2020-05-25 02:13:44.252,End successful result processing
+2020-05-25 02:13:44.374,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:45.003,Begin successful result processing
+2020-05-25 02:13:45.004,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:13:45.004,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:13:45.004,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:45.005,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:45.005,Detected image label: Canidae 	 with confidence: 0.9740216
+2020-05-25 02:13:45.005,Detected image label: Carnivore 	 with confidence: 0.8546947
+2020-05-25 02:13:45.005,Detected image label: Companion dog 	 with confidence: 0.8344472
+2020-05-25 02:13:45.005,Detected image label: Tibetan terrier 	 with confidence: 0.8237489
+2020-05-25 02:13:45.006,Detected image label: Ancient dog breeds 	 with confidence: 0.7420997
+2020-05-25 02:13:45.006,Detected image label: Rare breed (dog) 	 with confidence: 0.6805004
+2020-05-25 02:13:45.006,Detected image label: Löwchen 	 with confidence: 0.67006165
+2020-05-25 02:13:45.006,Detected image label: Havanese 	 with confidence: 0.64236885
+2020-05-25 02:13:45.007,Detected image label: Terrier 	 with confidence: 0.6353355
+2020-05-25 02:13:45.007,Detected image label: Sapsali 	 with confidence: 0.61503345
+2020-05-25 02:13:45.007,Detected image label: Bearded collie 	 with confidence: 0.59943384
+2020-05-25 02:13:45.007,Detected image label: Yorkshire terrier 	 with confidence: 0.590137
+2020-05-25 02:13:45.007,Detected image label: Lhasa apso 	 with confidence: 0.5854409
+2020-05-25 02:13:45.008,Detected image label: Toy dog 	 with confidence: 0.5841035
+2020-05-25 02:13:45.008,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:13:45.008,Detected image label: Old english sheepdog 	 with confidence: 0.51917636
+2020-05-25 02:13:45.008,End successful result processing
+2020-05-25 02:13:45.113,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:45.829,Begin successful result processing
+2020-05-25 02:13:45.829,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:13:45.830,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:13:45.830,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:45.830,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:45.830,Detected image label: Canidae 	 with confidence: 0.9740216
+2020-05-25 02:13:45.831,Detected image label: Carnivore 	 with confidence: 0.8546947
+2020-05-25 02:13:45.831,Detected image label: Companion dog 	 with confidence: 0.8344472
+2020-05-25 02:13:45.831,Detected image label: Tibetan terrier 	 with confidence: 0.8237489
+2020-05-25 02:13:45.832,Detected image label: Ancient dog breeds 	 with confidence: 0.7420997
+2020-05-25 02:13:45.832,Detected image label: Rare breed (dog) 	 with confidence: 0.6805004
+2020-05-25 02:13:45.832,Detected image label: Löwchen 	 with confidence: 0.67006165
+2020-05-25 02:13:45.833,Detected image label: Havanese 	 with confidence: 0.64236885
+2020-05-25 02:13:45.833,Detected image label: Terrier 	 with confidence: 0.6353355
+2020-05-25 02:13:45.833,Detected image label: Sapsali 	 with confidence: 0.61503345
+2020-05-25 02:13:45.834,Detected image label: Bearded collie 	 with confidence: 0.59943384
+2020-05-25 02:13:45.834,Detected image label: Yorkshire terrier 	 with confidence: 0.590137
+2020-05-25 02:13:45.834,Detected image label: Lhasa apso 	 with confidence: 0.5854409
+2020-05-25 02:13:45.835,Detected image label: Toy dog 	 with confidence: 0.5841035
+2020-05-25 02:13:45.835,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:13:45.836,Detected image label: Old english sheepdog 	 with confidence: 0.51917636
+2020-05-25 02:13:45.836,End successful result processing
+2020-05-25 02:13:45.983,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:46.646,Begin successful result processing
+2020-05-25 02:13:46.646,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:13:46.646,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:13:46.647,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:46.647,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:46.647,Detected image label: Canidae 	 with confidence: 0.9740216
+2020-05-25 02:13:46.647,Detected image label: Carnivore 	 with confidence: 0.8546947
+2020-05-25 02:13:46.648,Detected image label: Companion dog 	 with confidence: 0.8344472
+2020-05-25 02:13:46.648,Detected image label: Tibetan terrier 	 with confidence: 0.8237489
+2020-05-25 02:13:46.649,Detected image label: Ancient dog breeds 	 with confidence: 0.7420997
+2020-05-25 02:13:46.649,Detected image label: Rare breed (dog) 	 with confidence: 0.6805004
+2020-05-25 02:13:46.649,Detected image label: Löwchen 	 with confidence: 0.67006165
+2020-05-25 02:13:46.649,Detected image label: Havanese 	 with confidence: 0.64236885
+2020-05-25 02:13:46.650,Detected image label: Terrier 	 with confidence: 0.6353355
+2020-05-25 02:13:46.650,Detected image label: Sapsali 	 with confidence: 0.61503345
+2020-05-25 02:13:46.650,Detected image label: Bearded collie 	 with confidence: 0.59943384
+2020-05-25 02:13:46.650,Detected image label: Yorkshire terrier 	 with confidence: 0.590137
+2020-05-25 02:13:46.650,Detected image label: Lhasa apso 	 with confidence: 0.5854409
+2020-05-25 02:13:46.651,Detected image label: Toy dog 	 with confidence: 0.5841035
+2020-05-25 02:13:46.651,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:13:46.651,Detected image label: Old english sheepdog 	 with confidence: 0.51917636
+2020-05-25 02:13:46.651,End successful result processing
+2020-05-25 02:13:46.787,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:47.457,Begin successful result processing
+2020-05-25 02:13:47.457,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:13:47.458,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:13:47.458,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:47.458,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:47.458,Detected image label: Canidae 	 with confidence: 0.9740216
+2020-05-25 02:13:47.458,Detected image label: Carnivore 	 with confidence: 0.8546947
+2020-05-25 02:13:47.458,Detected image label: Companion dog 	 with confidence: 0.8344472
+2020-05-25 02:13:47.459,Detected image label: Tibetan terrier 	 with confidence: 0.8237489
+2020-05-25 02:13:47.459,Detected image label: Ancient dog breeds 	 with confidence: 0.7420997
+2020-05-25 02:13:47.459,Detected image label: Rare breed (dog) 	 with confidence: 0.6805004
+2020-05-25 02:13:47.459,Detected image label: Löwchen 	 with confidence: 0.67006165
+2020-05-25 02:13:47.459,Detected image label: Havanese 	 with confidence: 0.64236885
+2020-05-25 02:13:47.460,Detected image label: Terrier 	 with confidence: 0.6353355
+2020-05-25 02:13:47.460,Detected image label: Sapsali 	 with confidence: 0.61503345
+2020-05-25 02:13:47.460,Detected image label: Bearded collie 	 with confidence: 0.59943384
+2020-05-25 02:13:47.460,Detected image label: Yorkshire terrier 	 with confidence: 0.590137
+2020-05-25 02:13:47.460,Detected image label: Lhasa apso 	 with confidence: 0.5854409
+2020-05-25 02:13:47.460,Detected image label: Toy dog 	 with confidence: 0.5841035
+2020-05-25 02:13:47.461,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:13:47.461,Detected image label: Old english sheepdog 	 with confidence: 0.51917636
+2020-05-25 02:13:47.461,End successful result processing
+2020-05-25 02:13:47.618,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:48.281,Begin successful result processing
+2020-05-25 02:13:48.282,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:13:48.282,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:13:48.282,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:48.282,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:48.282,Detected image label: Canidae 	 with confidence: 0.9740216
+2020-05-25 02:13:48.282,Detected image label: Carnivore 	 with confidence: 0.8546947
+2020-05-25 02:13:48.283,Detected image label: Companion dog 	 with confidence: 0.8344472
+2020-05-25 02:13:48.283,Detected image label: Tibetan terrier 	 with confidence: 0.8237489
+2020-05-25 02:13:48.283,Detected image label: Ancient dog breeds 	 with confidence: 0.7420997
+2020-05-25 02:13:48.283,Detected image label: Rare breed (dog) 	 with confidence: 0.6805004
+2020-05-25 02:13:48.283,Detected image label: Löwchen 	 with confidence: 0.67006165
+2020-05-25 02:13:48.284,Detected image label: Havanese 	 with confidence: 0.64236885
+2020-05-25 02:13:48.284,Detected image label: Terrier 	 with confidence: 0.6353355
+2020-05-25 02:13:48.284,Detected image label: Sapsali 	 with confidence: 0.61503345
+2020-05-25 02:13:48.284,Detected image label: Bearded collie 	 with confidence: 0.59943384
+2020-05-25 02:13:48.284,Detected image label: Yorkshire terrier 	 with confidence: 0.590137
+2020-05-25 02:13:48.285,Detected image label: Lhasa apso 	 with confidence: 0.5854409
+2020-05-25 02:13:48.285,Detected image label: Toy dog 	 with confidence: 0.5841035
+2020-05-25 02:13:48.285,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:13:48.285,Detected image label: Old english sheepdog 	 with confidence: 0.51917636
+2020-05-25 02:13:48.285,End successful result processing
+2020-05-25 02:13:48.415,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:49.003,Begin successful result processing
+2020-05-25 02:13:49.004,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:13:49.004,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:13:49.005,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:49.006,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:49.006,Detected image label: Canidae 	 with confidence: 0.9740216
+2020-05-25 02:13:49.006,Detected image label: Carnivore 	 with confidence: 0.8546947
+2020-05-25 02:13:49.007,Detected image label: Companion dog 	 with confidence: 0.8344472
+2020-05-25 02:13:49.007,Detected image label: Tibetan terrier 	 with confidence: 0.8237489
+2020-05-25 02:13:49.007,Detected image label: Ancient dog breeds 	 with confidence: 0.7420997
+2020-05-25 02:13:49.007,Detected image label: Rare breed (dog) 	 with confidence: 0.6805004
+2020-05-25 02:13:49.008,Detected image label: Löwchen 	 with confidence: 0.67006165
+2020-05-25 02:13:49.008,Detected image label: Havanese 	 with confidence: 0.64236885
+2020-05-25 02:13:49.008,Detected image label: Terrier 	 with confidence: 0.6353355
+2020-05-25 02:13:49.008,Detected image label: Sapsali 	 with confidence: 0.61503345
+2020-05-25 02:13:49.009,Detected image label: Bearded collie 	 with confidence: 0.59943384
+2020-05-25 02:13:49.009,Detected image label: Yorkshire terrier 	 with confidence: 0.590137
+2020-05-25 02:13:49.009,Detected image label: Lhasa apso 	 with confidence: 0.5854409
+2020-05-25 02:13:49.010,Detected image label: Toy dog 	 with confidence: 0.5841035
+2020-05-25 02:13:49.010,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:13:49.010,Detected image label: Old english sheepdog 	 with confidence: 0.51917636
+2020-05-25 02:13:49.010,End successful result processing
+2020-05-25 02:13:49.115,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:49.821,Begin successful result processing
+2020-05-25 02:13:49.821,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:13:49.821,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:13:49.821,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:49.821,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:49.821,Detected image label: Canidae 	 with confidence: 0.9740216
+2020-05-25 02:13:49.821,Detected image label: Carnivore 	 with confidence: 0.8546947
+2020-05-25 02:13:49.822,Detected image label: Companion dog 	 with confidence: 0.8344472
+2020-05-25 02:13:49.822,Detected image label: Tibetan terrier 	 with confidence: 0.8237489
+2020-05-25 02:13:49.822,Detected image label: Ancient dog breeds 	 with confidence: 0.7420997
+2020-05-25 02:13:49.822,Detected image label: Rare breed (dog) 	 with confidence: 0.6805004
+2020-05-25 02:13:49.822,Detected image label: Löwchen 	 with confidence: 0.67006165
+2020-05-25 02:13:49.822,Detected image label: Havanese 	 with confidence: 0.64236885
+2020-05-25 02:13:49.822,Detected image label: Terrier 	 with confidence: 0.6353355
+2020-05-25 02:13:49.823,Detected image label: Sapsali 	 with confidence: 0.61503345
+2020-05-25 02:13:49.823,Detected image label: Bearded collie 	 with confidence: 0.59943384
+2020-05-25 02:13:49.823,Detected image label: Yorkshire terrier 	 with confidence: 0.590137
+2020-05-25 02:13:49.823,Detected image label: Lhasa apso 	 with confidence: 0.5854409
+2020-05-25 02:13:49.823,Detected image label: Toy dog 	 with confidence: 0.5841035
+2020-05-25 02:13:49.823,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:13:49.824,Detected image label: Old english sheepdog 	 with confidence: 0.51917636
+2020-05-25 02:13:49.824,End successful result processing
+2020-05-25 02:13:49.948,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:50.483,Begin successful result processing
+2020-05-25 02:13:50.483,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:13:50.484,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:13:50.484,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:50.484,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:50.484,Detected image label: Canidae 	 with confidence: 0.9740216
+2020-05-25 02:13:50.485,Detected image label: Carnivore 	 with confidence: 0.8546947
+2020-05-25 02:13:50.485,Detected image label: Companion dog 	 with confidence: 0.8344472
+2020-05-25 02:13:50.485,Detected image label: Tibetan terrier 	 with confidence: 0.8237489
+2020-05-25 02:13:50.486,Detected image label: Ancient dog breeds 	 with confidence: 0.7420997
+2020-05-25 02:13:50.486,Detected image label: Rare breed (dog) 	 with confidence: 0.6805004
+2020-05-25 02:13:50.486,Detected image label: Löwchen 	 with confidence: 0.67006165
+2020-05-25 02:13:50.486,Detected image label: Havanese 	 with confidence: 0.64236885
+2020-05-25 02:13:50.487,Detected image label: Terrier 	 with confidence: 0.6353355
+2020-05-25 02:13:50.487,Detected image label: Sapsali 	 with confidence: 0.61503345
+2020-05-25 02:13:50.487,Detected image label: Bearded collie 	 with confidence: 0.59943384
+2020-05-25 02:13:50.487,Detected image label: Yorkshire terrier 	 with confidence: 0.590137
+2020-05-25 02:13:50.488,Detected image label: Lhasa apso 	 with confidence: 0.5854409
+2020-05-25 02:13:50.488,Detected image label: Toy dog 	 with confidence: 0.5841035
+2020-05-25 02:13:50.488,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:13:50.488,Detected image label: Old english sheepdog 	 with confidence: 0.51917636
+2020-05-25 02:13:50.488,End successful result processing
+2020-05-25 02:13:50.627,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:51.155,Begin successful result processing
+2020-05-25 02:13:51.155,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:13:51.156,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:13:51.156,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:51.156,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:51.156,Detected image label: Canidae 	 with confidence: 0.9740216
+2020-05-25 02:13:51.156,Detected image label: Carnivore 	 with confidence: 0.8546947
+2020-05-25 02:13:51.157,Detected image label: Companion dog 	 with confidence: 0.8344472
+2020-05-25 02:13:51.157,Detected image label: Tibetan terrier 	 with confidence: 0.8237489
+2020-05-25 02:13:51.157,Detected image label: Ancient dog breeds 	 with confidence: 0.7420997
+2020-05-25 02:13:51.157,Detected image label: Rare breed (dog) 	 with confidence: 0.6805004
+2020-05-25 02:13:51.157,Detected image label: Löwchen 	 with confidence: 0.67006165
+2020-05-25 02:13:51.157,Detected image label: Havanese 	 with confidence: 0.64236885
+2020-05-25 02:13:51.158,Detected image label: Terrier 	 with confidence: 0.6353355
+2020-05-25 02:13:51.158,Detected image label: Sapsali 	 with confidence: 0.61503345
+2020-05-25 02:13:51.158,Detected image label: Bearded collie 	 with confidence: 0.59943384
+2020-05-25 02:13:51.158,Detected image label: Yorkshire terrier 	 with confidence: 0.590137
+2020-05-25 02:13:51.158,Detected image label: Lhasa apso 	 with confidence: 0.5854409
+2020-05-25 02:13:51.158,Detected image label: Toy dog 	 with confidence: 0.5841035
+2020-05-25 02:13:51.158,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:13:51.159,Detected image label: Old english sheepdog 	 with confidence: 0.51917636
+2020-05-25 02:13:51.159,End successful result processing
+2020-05-25 02:13:51.299,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:51.756,Begin successful result processing
+2020-05-25 02:13:51.756,Detected image label: Dog 	 with confidence: 0.9953705
+2020-05-25 02:13:51.756,Detected image label: Mammal 	 with confidence: 0.9890478
+2020-05-25 02:13:51.756,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:51.756,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:51.756,Detected image label: Canidae 	 with confidence: 0.9740216
+2020-05-25 02:13:51.757,Detected image label: Carnivore 	 with confidence: 0.8546947
+2020-05-25 02:13:51.757,Detected image label: Companion dog 	 with confidence: 0.8344472
+2020-05-25 02:13:51.757,Detected image label: Tibetan terrier 	 with confidence: 0.8237489
+2020-05-25 02:13:51.757,Detected image label: Ancient dog breeds 	 with confidence: 0.7420997
+2020-05-25 02:13:51.757,Detected image label: Rare breed (dog) 	 with confidence: 0.6805004
+2020-05-25 02:13:51.757,Detected image label: Löwchen 	 with confidence: 0.67006165
+2020-05-25 02:13:51.757,Detected image label: Havanese 	 with confidence: 0.64236885
+2020-05-25 02:13:51.757,Detected image label: Terrier 	 with confidence: 0.6353355
+2020-05-25 02:13:51.758,Detected image label: Sapsali 	 with confidence: 0.61503345
+2020-05-25 02:13:51.758,Detected image label: Bearded collie 	 with confidence: 0.59943384
+2020-05-25 02:13:51.758,Detected image label: Yorkshire terrier 	 with confidence: 0.590137
+2020-05-25 02:13:51.758,Detected image label: Lhasa apso 	 with confidence: 0.5854409
+2020-05-25 02:13:51.758,Detected image label: Toy dog 	 with confidence: 0.5841035
+2020-05-25 02:13:51.758,Detected image label: Fawn 	 with confidence: 0.53014284
+2020-05-25 02:13:51.758,Detected image label: Old english sheepdog 	 with confidence: 0.51917636
+2020-05-25 02:13:51.758,End successful result processing
+2020-05-25 02:13:51.890,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:52.297,Begin successful result processing
+2020-05-25 02:13:52.297,Detected image label: Dog 	 with confidence: 0.9876207
+2020-05-25 02:13:52.297,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:52.297,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:52.297,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:13:52.298,Detected image label: Canidae 	 with confidence: 0.9719749
+2020-05-25 02:13:52.298,Detected image label: Tibetan terrier 	 with confidence: 0.85200816
+2020-05-25 02:13:52.298,Detected image label: Carnivore 	 with confidence: 0.8366177
+2020-05-25 02:13:52.298,Detected image label: Companion dog 	 with confidence: 0.81619453
+2020-05-25 02:13:52.298,Detected image label: Sapsali 	 with confidence: 0.75580543
+2020-05-25 02:13:52.298,Detected image label: Old english sheepdog 	 with confidence: 0.7151083
+2020-05-25 02:13:52.298,Detected image label: Ancient dog breeds 	 with confidence: 0.7148116
+2020-05-25 02:13:52.298,Detected image label: Havanese 	 with confidence: 0.7065618
+2020-05-25 02:13:52.298,Detected image label: Bearded collie 	 with confidence: 0.7045132
+2020-05-25 02:13:52.299,Detected image label: Terrier 	 with confidence: 0.6838643
+2020-05-25 02:13:52.299,Detected image label: Rare breed (dog) 	 with confidence: 0.6833632
+2020-05-25 02:13:52.299,Detected image label: Löwchen 	 with confidence: 0.63350576
+2020-05-25 02:13:52.299,Detected image label: Yorkshire terrier 	 with confidence: 0.53724235
+2020-05-25 02:13:52.299,Detected image label: Toy dog 	 with confidence: 0.53525996
+2020-05-25 02:13:52.299,Detected image label: Lhasa apso 	 with confidence: 0.5167078
+2020-05-25 02:13:52.299,End successful result processing
+2020-05-25 02:13:52.436,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:52.987,Begin successful result processing
+2020-05-25 02:13:52.987,Detected image label: Dog 	 with confidence: 0.9876207
+2020-05-25 02:13:52.988,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:52.988,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:52.988,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:13:52.988,Detected image label: Canidae 	 with confidence: 0.9719749
+2020-05-25 02:13:52.988,Detected image label: Tibetan terrier 	 with confidence: 0.85200816
+2020-05-25 02:13:52.989,Detected image label: Carnivore 	 with confidence: 0.8366177
+2020-05-25 02:13:52.989,Detected image label: Companion dog 	 with confidence: 0.81619453
+2020-05-25 02:13:52.989,Detected image label: Sapsali 	 with confidence: 0.75580543
+2020-05-25 02:13:52.989,Detected image label: Old english sheepdog 	 with confidence: 0.7151083
+2020-05-25 02:13:52.989,Detected image label: Ancient dog breeds 	 with confidence: 0.7148116
+2020-05-25 02:13:52.990,Detected image label: Havanese 	 with confidence: 0.7065618
+2020-05-25 02:13:52.990,Detected image label: Bearded collie 	 with confidence: 0.7045132
+2020-05-25 02:13:52.990,Detected image label: Terrier 	 with confidence: 0.6838643
+2020-05-25 02:13:52.990,Detected image label: Rare breed (dog) 	 with confidence: 0.6833632
+2020-05-25 02:13:52.990,Detected image label: Löwchen 	 with confidence: 0.63350576
+2020-05-25 02:13:52.991,Detected image label: Yorkshire terrier 	 with confidence: 0.53724235
+2020-05-25 02:13:52.991,Detected image label: Toy dog 	 with confidence: 0.53525996
+2020-05-25 02:13:52.991,Detected image label: Lhasa apso 	 with confidence: 0.5167078
+2020-05-25 02:13:52.991,End successful result processing
+2020-05-25 02:13:53.105,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:53.712,Begin successful result processing
+2020-05-25 02:13:53.712,Detected image label: Dog 	 with confidence: 0.9876207
+2020-05-25 02:13:53.712,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:53.713,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:53.713,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:13:53.713,Detected image label: Canidae 	 with confidence: 0.9719749
+2020-05-25 02:13:53.713,Detected image label: Tibetan terrier 	 with confidence: 0.85200816
+2020-05-25 02:13:53.714,Detected image label: Carnivore 	 with confidence: 0.8366177
+2020-05-25 02:13:53.714,Detected image label: Companion dog 	 with confidence: 0.81619453
+2020-05-25 02:13:53.714,Detected image label: Sapsali 	 with confidence: 0.75580543
+2020-05-25 02:13:53.714,Detected image label: Old english sheepdog 	 with confidence: 0.7151083
+2020-05-25 02:13:53.714,Detected image label: Ancient dog breeds 	 with confidence: 0.7148116
+2020-05-25 02:13:53.715,Detected image label: Havanese 	 with confidence: 0.7065618
+2020-05-25 02:13:53.715,Detected image label: Bearded collie 	 with confidence: 0.7045132
+2020-05-25 02:13:53.715,Detected image label: Terrier 	 with confidence: 0.6838643
+2020-05-25 02:13:53.715,Detected image label: Rare breed (dog) 	 with confidence: 0.6833632
+2020-05-25 02:13:53.715,Detected image label: Löwchen 	 with confidence: 0.63350576
+2020-05-25 02:13:53.715,Detected image label: Yorkshire terrier 	 with confidence: 0.53724235
+2020-05-25 02:13:53.716,Detected image label: Toy dog 	 with confidence: 0.53525996
+2020-05-25 02:13:53.716,Detected image label: Lhasa apso 	 with confidence: 0.5167078
+2020-05-25 02:13:53.716,End successful result processing
+2020-05-25 02:13:53.838,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:54.302,Begin successful result processing
+2020-05-25 02:13:54.302,Detected image label: Dog 	 with confidence: 0.9876207
+2020-05-25 02:13:54.302,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:54.302,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:54.302,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:13:54.302,Detected image label: Canidae 	 with confidence: 0.9719749
+2020-05-25 02:13:54.302,Detected image label: Tibetan terrier 	 with confidence: 0.85200816
+2020-05-25 02:13:54.302,Detected image label: Carnivore 	 with confidence: 0.8366177
+2020-05-25 02:13:54.302,Detected image label: Companion dog 	 with confidence: 0.81619453
+2020-05-25 02:13:54.302,Detected image label: Sapsali 	 with confidence: 0.75580543
+2020-05-25 02:13:54.303,Detected image label: Old english sheepdog 	 with confidence: 0.7151083
+2020-05-25 02:13:54.303,Detected image label: Ancient dog breeds 	 with confidence: 0.7148116
+2020-05-25 02:13:54.303,Detected image label: Havanese 	 with confidence: 0.7065618
+2020-05-25 02:13:54.303,Detected image label: Bearded collie 	 with confidence: 0.7045132
+2020-05-25 02:13:54.303,Detected image label: Terrier 	 with confidence: 0.6838643
+2020-05-25 02:13:54.303,Detected image label: Rare breed (dog) 	 with confidence: 0.6833632
+2020-05-25 02:13:54.303,Detected image label: Löwchen 	 with confidence: 0.63350576
+2020-05-25 02:13:54.303,Detected image label: Yorkshire terrier 	 with confidence: 0.53724235
+2020-05-25 02:13:54.304,Detected image label: Toy dog 	 with confidence: 0.53525996
+2020-05-25 02:13:54.304,Detected image label: Lhasa apso 	 with confidence: 0.5167078
+2020-05-25 02:13:54.304,End successful result processing
+2020-05-25 02:13:54.418,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:55.040,Begin successful result processing
+2020-05-25 02:13:55.040,Detected image label: Dog 	 with confidence: 0.9876207
+2020-05-25 02:13:55.040,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:55.041,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:55.041,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:13:55.041,Detected image label: Canidae 	 with confidence: 0.9719749
+2020-05-25 02:13:55.041,Detected image label: Tibetan terrier 	 with confidence: 0.85200816
+2020-05-25 02:13:55.042,Detected image label: Carnivore 	 with confidence: 0.8366177
+2020-05-25 02:13:55.042,Detected image label: Companion dog 	 with confidence: 0.81619453
+2020-05-25 02:13:55.042,Detected image label: Sapsali 	 with confidence: 0.75580543
+2020-05-25 02:13:55.042,Detected image label: Old english sheepdog 	 with confidence: 0.7151083
+2020-05-25 02:13:55.043,Detected image label: Ancient dog breeds 	 with confidence: 0.7148116
+2020-05-25 02:13:55.043,Detected image label: Havanese 	 with confidence: 0.7065618
+2020-05-25 02:13:55.043,Detected image label: Bearded collie 	 with confidence: 0.7045132
+2020-05-25 02:13:55.044,Detected image label: Terrier 	 with confidence: 0.6838643
+2020-05-25 02:13:55.044,Detected image label: Rare breed (dog) 	 with confidence: 0.6833632
+2020-05-25 02:13:55.044,Detected image label: Löwchen 	 with confidence: 0.63350576
+2020-05-25 02:13:55.044,Detected image label: Yorkshire terrier 	 with confidence: 0.53724235
+2020-05-25 02:13:55.044,Detected image label: Toy dog 	 with confidence: 0.53525996
+2020-05-25 02:13:55.044,Detected image label: Lhasa apso 	 with confidence: 0.5167078
+2020-05-25 02:13:55.044,End successful result processing
+2020-05-25 02:13:55.164,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:55.574,Begin successful result processing
+2020-05-25 02:13:55.574,Detected image label: Dog 	 with confidence: 0.9876207
+2020-05-25 02:13:55.575,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:55.575,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:55.575,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:13:55.575,Detected image label: Canidae 	 with confidence: 0.9719749
+2020-05-25 02:13:55.576,Detected image label: Tibetan terrier 	 with confidence: 0.85200816
+2020-05-25 02:13:55.576,Detected image label: Carnivore 	 with confidence: 0.8366177
+2020-05-25 02:13:55.576,Detected image label: Companion dog 	 with confidence: 0.81619453
+2020-05-25 02:13:55.576,Detected image label: Sapsali 	 with confidence: 0.75580543
+2020-05-25 02:13:55.576,Detected image label: Old english sheepdog 	 with confidence: 0.7151083
+2020-05-25 02:13:55.577,Detected image label: Ancient dog breeds 	 with confidence: 0.7148116
+2020-05-25 02:13:55.577,Detected image label: Havanese 	 with confidence: 0.7065618
+2020-05-25 02:13:55.577,Detected image label: Bearded collie 	 with confidence: 0.7045132
+2020-05-25 02:13:55.577,Detected image label: Terrier 	 with confidence: 0.6838643
+2020-05-25 02:13:55.577,Detected image label: Rare breed (dog) 	 with confidence: 0.6833632
+2020-05-25 02:13:55.578,Detected image label: Löwchen 	 with confidence: 0.63350576
+2020-05-25 02:13:55.578,Detected image label: Yorkshire terrier 	 with confidence: 0.53724235
+2020-05-25 02:13:55.578,Detected image label: Toy dog 	 with confidence: 0.53525996
+2020-05-25 02:13:55.578,Detected image label: Lhasa apso 	 with confidence: 0.5167078
+2020-05-25 02:13:55.578,End successful result processing
+2020-05-25 02:13:55.708,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:56.260,Begin successful result processing
+2020-05-25 02:13:56.260,Detected image label: Dog 	 with confidence: 0.9876207
+2020-05-25 02:13:56.260,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:56.261,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:56.261,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:13:56.261,Detected image label: Canidae 	 with confidence: 0.9719749
+2020-05-25 02:13:56.261,Detected image label: Tibetan terrier 	 with confidence: 0.85200816
+2020-05-25 02:13:56.261,Detected image label: Carnivore 	 with confidence: 0.8366177
+2020-05-25 02:13:56.261,Detected image label: Companion dog 	 with confidence: 0.81619453
+2020-05-25 02:13:56.261,Detected image label: Sapsali 	 with confidence: 0.75580543
+2020-05-25 02:13:56.261,Detected image label: Old english sheepdog 	 with confidence: 0.7151083
+2020-05-25 02:13:56.262,Detected image label: Ancient dog breeds 	 with confidence: 0.7148116
+2020-05-25 02:13:56.262,Detected image label: Havanese 	 with confidence: 0.7065618
+2020-05-25 02:13:56.262,Detected image label: Bearded collie 	 with confidence: 0.7045132
+2020-05-25 02:13:56.262,Detected image label: Terrier 	 with confidence: 0.6838643
+2020-05-25 02:13:56.262,Detected image label: Rare breed (dog) 	 with confidence: 0.6833632
+2020-05-25 02:13:56.262,Detected image label: Löwchen 	 with confidence: 0.63350576
+2020-05-25 02:13:56.262,Detected image label: Yorkshire terrier 	 with confidence: 0.53724235
+2020-05-25 02:13:56.262,Detected image label: Toy dog 	 with confidence: 0.53525996
+2020-05-25 02:13:56.262,Detected image label: Lhasa apso 	 with confidence: 0.5167078
+2020-05-25 02:13:56.262,End successful result processing
+2020-05-25 02:13:56.374,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:57.082,Begin successful result processing
+2020-05-25 02:13:57.082,Detected image label: Dog 	 with confidence: 0.9876207
+2020-05-25 02:13:57.082,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:57.082,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:57.083,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:13:57.083,Detected image label: Canidae 	 with confidence: 0.9719749
+2020-05-25 02:13:57.083,Detected image label: Tibetan terrier 	 with confidence: 0.85200816
+2020-05-25 02:13:57.083,Detected image label: Carnivore 	 with confidence: 0.8366177
+2020-05-25 02:13:57.083,Detected image label: Companion dog 	 with confidence: 0.81619453
+2020-05-25 02:13:57.083,Detected image label: Sapsali 	 with confidence: 0.75580543
+2020-05-25 02:13:57.084,Detected image label: Old english sheepdog 	 with confidence: 0.7151083
+2020-05-25 02:13:57.084,Detected image label: Ancient dog breeds 	 with confidence: 0.7148116
+2020-05-25 02:13:57.084,Detected image label: Havanese 	 with confidence: 0.7065618
+2020-05-25 02:13:57.084,Detected image label: Bearded collie 	 with confidence: 0.7045132
+2020-05-25 02:13:57.084,Detected image label: Terrier 	 with confidence: 0.6838643
+2020-05-25 02:13:57.084,Detected image label: Rare breed (dog) 	 with confidence: 0.6833632
+2020-05-25 02:13:57.085,Detected image label: Löwchen 	 with confidence: 0.63350576
+2020-05-25 02:13:57.085,Detected image label: Yorkshire terrier 	 with confidence: 0.53724235
+2020-05-25 02:13:57.085,Detected image label: Toy dog 	 with confidence: 0.53525996
+2020-05-25 02:13:57.085,Detected image label: Lhasa apso 	 with confidence: 0.5167078
+2020-05-25 02:13:57.085,End successful result processing
+2020-05-25 02:13:57.225,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:57.800,Begin successful result processing
+2020-05-25 02:13:57.800,Detected image label: Dog 	 with confidence: 0.9876207
+2020-05-25 02:13:57.800,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:57.800,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:57.800,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:13:57.800,Detected image label: Canidae 	 with confidence: 0.9719749
+2020-05-25 02:13:57.801,Detected image label: Tibetan terrier 	 with confidence: 0.85200816
+2020-05-25 02:13:57.801,Detected image label: Carnivore 	 with confidence: 0.8366177
+2020-05-25 02:13:57.801,Detected image label: Companion dog 	 with confidence: 0.81619453
+2020-05-25 02:13:57.801,Detected image label: Sapsali 	 with confidence: 0.75580543
+2020-05-25 02:13:57.801,Detected image label: Old english sheepdog 	 with confidence: 0.7151083
+2020-05-25 02:13:57.801,Detected image label: Ancient dog breeds 	 with confidence: 0.7148116
+2020-05-25 02:13:57.801,Detected image label: Havanese 	 with confidence: 0.7065618
+2020-05-25 02:13:57.801,Detected image label: Bearded collie 	 with confidence: 0.7045132
+2020-05-25 02:13:57.801,Detected image label: Terrier 	 with confidence: 0.6838643
+2020-05-25 02:13:57.801,Detected image label: Rare breed (dog) 	 with confidence: 0.6833632
+2020-05-25 02:13:57.801,Detected image label: Löwchen 	 with confidence: 0.63350576
+2020-05-25 02:13:57.801,Detected image label: Yorkshire terrier 	 with confidence: 0.53724235
+2020-05-25 02:13:57.802,Detected image label: Toy dog 	 with confidence: 0.53525996
+2020-05-25 02:13:57.802,Detected image label: Lhasa apso 	 with confidence: 0.5167078
+2020-05-25 02:13:57.802,End successful result processing
+2020-05-25 02:13:57.919,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:58.376,Begin successful result processing
+2020-05-25 02:13:58.376,Detected image label: Dog 	 with confidence: 0.9876207
+2020-05-25 02:13:58.376,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:58.377,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:58.377,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:13:58.377,Detected image label: Canidae 	 with confidence: 0.9719749
+2020-05-25 02:13:58.377,Detected image label: Tibetan terrier 	 with confidence: 0.85200816
+2020-05-25 02:13:58.378,Detected image label: Carnivore 	 with confidence: 0.8366177
+2020-05-25 02:13:58.378,Detected image label: Companion dog 	 with confidence: 0.81619453
+2020-05-25 02:13:58.378,Detected image label: Sapsali 	 with confidence: 0.75580543
+2020-05-25 02:13:58.378,Detected image label: Old english sheepdog 	 with confidence: 0.7151083
+2020-05-25 02:13:58.378,Detected image label: Ancient dog breeds 	 with confidence: 0.7148116
+2020-05-25 02:13:58.379,Detected image label: Havanese 	 with confidence: 0.7065618
+2020-05-25 02:13:58.379,Detected image label: Bearded collie 	 with confidence: 0.7045132
+2020-05-25 02:13:58.379,Detected image label: Terrier 	 with confidence: 0.6838643
+2020-05-25 02:13:58.379,Detected image label: Rare breed (dog) 	 with confidence: 0.6833632
+2020-05-25 02:13:58.379,Detected image label: Löwchen 	 with confidence: 0.63350576
+2020-05-25 02:13:58.380,Detected image label: Yorkshire terrier 	 with confidence: 0.53724235
+2020-05-25 02:13:58.380,Detected image label: Toy dog 	 with confidence: 0.53525996
+2020-05-25 02:13:58.380,Detected image label: Lhasa apso 	 with confidence: 0.5167078
+2020-05-25 02:13:58.380,End successful result processing
+2020-05-25 02:13:58.535,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:59.123,Begin successful result processing
+2020-05-25 02:13:59.123,Detected image label: Dog 	 with confidence: 0.9876207
+2020-05-25 02:13:59.123,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:59.123,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:59.123,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:13:59.124,Detected image label: Canidae 	 with confidence: 0.9719749
+2020-05-25 02:13:59.124,Detected image label: Tibetan terrier 	 with confidence: 0.85200816
+2020-05-25 02:13:59.124,Detected image label: Carnivore 	 with confidence: 0.8366177
+2020-05-25 02:13:59.124,Detected image label: Companion dog 	 with confidence: 0.81619453
+2020-05-25 02:13:59.124,Detected image label: Sapsali 	 with confidence: 0.75580543
+2020-05-25 02:13:59.124,Detected image label: Old english sheepdog 	 with confidence: 0.7151083
+2020-05-25 02:13:59.124,Detected image label: Ancient dog breeds 	 with confidence: 0.7148116
+2020-05-25 02:13:59.124,Detected image label: Havanese 	 with confidence: 0.7065618
+2020-05-25 02:13:59.125,Detected image label: Bearded collie 	 with confidence: 0.7045132
+2020-05-25 02:13:59.125,Detected image label: Terrier 	 with confidence: 0.6838643
+2020-05-25 02:13:59.125,Detected image label: Rare breed (dog) 	 with confidence: 0.6833632
+2020-05-25 02:13:59.125,Detected image label: Löwchen 	 with confidence: 0.63350576
+2020-05-25 02:13:59.125,Detected image label: Yorkshire terrier 	 with confidence: 0.53724235
+2020-05-25 02:13:59.125,Detected image label: Toy dog 	 with confidence: 0.53525996
+2020-05-25 02:13:59.125,Detected image label: Lhasa apso 	 with confidence: 0.5167078
+2020-05-25 02:13:59.125,End successful result processing
+2020-05-25 02:13:59.289,FirebaseVisionImageLabeler - processImage()
+2020-05-25 02:13:59.847,Begin successful result processing
+2020-05-25 02:13:59.847,Detected image label: Dog 	 with confidence: 0.9876207
+2020-05-25 02:13:59.847,Detected image label: Vertebrate 	 with confidence: 0.9851104
+2020-05-25 02:13:59.848,Detected image label: Dog breed 	 with confidence: 0.9838449
+2020-05-25 02:13:59.848,Detected image label: Mammal 	 with confidence: 0.97581416
+2020-05-25 02:13:59.848,Detected image label: Canidae 	 with confidence: 0.9719749
+2020-05-25 02:13:59.848,Detected image label: Tibetan terrier 	 with confidence: 0.85200816
+2020-05-25 02:13:59.848,Detected image label: Carnivore 	 with confidence: 0.8366177
+2020-05-25 02:13:59.848,Detected image label: Companion dog 	 with confidence: 0.81619453
+2020-05-25 02:13:59.848,Detected image label: Sapsali 	 with confidence: 0.75580543
+2020-05-25 02:13:59.848,Detected image label: Old english sheepdog 	 with confidence: 0.7151083
+2020-05-25 02:13:59.848,Detected image label: Ancient dog breeds 	 with confidence: 0.7148116
+2020-05-25 02:13:59.848,Detected image label: Havanese 	 with confidence: 0.7065618
+2020-05-25 02:13:59.848,Detected image label: Bearded collie 	 with confidence: 0.7045132
+2020-05-25 02:13:59.848,Detected image label: Terrier 	 with confidence: 0.6838643
+2020-05-25 02:13:59.848,Detected image label: Rare breed (dog) 	 with confidence: 0.6833632
+2020-05-25 02:13:59.849,Detected image label: Löwchen 	 with confidence: 0.63350576
+2020-05-25 02:13:59.849,Detected image label: Yorkshire terrier 	 with confidence: 0.53724235
+2020-05-25 02:13:59.849,Detected image label: Toy dog 	 with confidence: 0.53525996
+2020-05-25 02:13:59.849,Detected image label: Lhasa apso 	 with confidence: 0.5167078
+2020-05-25 02:13:59.849,End successful result processing
+2020-05-25 02:13:59.987,FirebaseVisionImageLabeler - processImage()

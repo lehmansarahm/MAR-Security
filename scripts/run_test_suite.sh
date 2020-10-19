@@ -3,13 +3,16 @@
 # -----------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------
 
-PACKAGE='edu.temple.mar_security.headless_tf'               # app package name
-APP_NAME='headless_tf_honest'                               # human-friendly app name
+# PACKAGE='edu.temple.mar_security.headless_fb'             # app package name
+# APP_NAME='barcodes'                                       # human-friendly app name
+    
+PACKAGE='edu.temple.mar_security.headless_fb_mal'           # app package name
+APP_NAME='barcodes_with_text'                               # human-friendly app name
 
-# PACKAGE='edu.temple.mar_security.headless_tf_mal'         # app package name
-# APP_NAME='headless_tf_malicious'                          # human-friendly app name
+# -----------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------------
 
-((WAIT_TIME_PER_READ=2))                                    # Two seconds in between readings
+((WAIT_TIME_PER_READ=1))                                    # One second in between readings
 
 ((TRIAL_TIME=13))                                           # length of time to collect data // length of input video
 ((TOTAL_TRIAL_TIME=$TRIAL_TIME*60*1000))                    # Convert minutes to milliseconds
@@ -23,7 +26,7 @@ mkdir -p ${OUTPUT_DIR_PARENT}
 OUTPUT_DIR="${OUTPUT_DIR_PARENT}/${APP_NAME}"
 mkdir -p ${OUTPUT_DIR}
 
-ANDROID_DATA_DIR='/storage/self/primary/Android/data'
+ANDROID_DATA_DIR='./storage/self/primary/Android/data'
 APP_OUTPUT_DIR="${ANDROID_DATA_DIR}/${PACKAGE}"
 
 # -----------------------------------------------------------------------------------

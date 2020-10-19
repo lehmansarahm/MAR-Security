@@ -10,13 +10,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/headless_fb" />
-            <option value="$PROJECT_DIR$/headless_fb_mal" />
-            <option value="$PROJECT_DIR$/headless_tf" />
-            <option value="$PROJECT_DIR$/headless_tf_mal" />
+            <option value="$PROJECT_DIR$/ml_kit" />
             <option value="$PROJECT_DIR$/res_lib" />
-            <option value="$PROJECT_DIR$/res_lib_fb" />
-            <option value="$PROJECT_DIR$/res_lib_tf" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

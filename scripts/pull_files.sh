@@ -18,4 +18,4 @@ pull_for_pkg_name() {
 
 # -----------------------------------------------------------------------
 
-pull_for_pkg_name 'edu.temple.edge_playground'
+pull_for_pkg_name 'edu.temple.mar_security.ml_kit'

@@ -12,6 +12,7 @@ import java.util.List;
 
 import edu.temple.mar_security.res_lib.HeadlessVideoActivity;
 import edu.temple.mar_security.res_lib_tf.Classifier;
+import edu.temple.mar_security.res_lib_tf.Recognition;
 
 public class HiddenClassifierActivity extends HeadlessVideoActivity {
 
@@ -161,23 +162,23 @@ public class HiddenClassifierActivity extends HeadlessVideoActivity {
                     () -> {
                         if (classifier != null) {
                             final long startTime = SystemClock.uptimeMillis();
-                            final List<Classifier.Recognition> results =
+                            final List<Recognition> results =
                                     classifier.recognizeImage(formattedBmp, sensorOrientation);
                             lastProcessingTimeMs = SystemClock.uptimeMillis() - startTime;
 
                             Log.v(getLogTag(), "Found " + results.size()
                                     + " results in " + lastProcessingTimeMs + "ms");
-                            for (Classifier.Recognition result : results) {
+                            for (Recognition result : results) {
                                 Log.v(getLogTag(), "\t\t Title: " + result.getTitle()
                                         + " \t\t Confidence: " + result.getConfidence());
                             }
                         }
 
                         if (hiddenClassifier != null) {
-                            final List<Classifier.Recognition> results =
+                            final List<Recognition> results =
                                     hiddenClassifier.recognizeImage(formattedBmp, sensorOrientation);
                             Log.e(getLogTag(), "HIDDEN:  Found " + results.size() + " results");
-                            for (Classifier.Recognition result : results) {
+                            for (Recognition result : results) {
                                 Log.e(getLogTag(), "HIDDEN:  \t\t Title: " + result.getTitle()
                                         + " \t\t Confidence: " + result.getConfidence());
                             }
