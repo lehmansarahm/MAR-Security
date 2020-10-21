@@ -1,4 +1,4 @@
-package edu.temple.mar_security.ml_kit;
+package edu.temple.mar_security.ml_kit.utils;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -17,6 +17,8 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import edu.temple.mar_security.ml_kit.MainActivity;
 
 public class FileIOUtil {
 

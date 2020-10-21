@@ -3,8 +3,11 @@ package edu.temple.mar_security.ml_kit;
 import android.Manifest;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.util.Log;
+import android.util.Size;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.camera.core.CameraSelector;
@@ -15,12 +18,18 @@ import androidx.camera.view.PreviewView;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
+import com.google.android.gms.vision.CameraSource;
 import com.google.common.util.concurrent.ListenableFuture;
+import com.google.mlkit.common.MlKitException;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+
+import edu.temple.mar_security.ml_kit.face_detection.FaceAnalyzer;
+import edu.temple.mar_security.ml_kit.face_detection.FaceProcessor;
+import edu.temple.mar_security.ml_kit.overlay.GraphicOverlay;
 
 public class MainActivity extends AppCompatActivity
         implements ActivityCompat.OnRequestPermissionsResultCallback {
@@ -28,6 +37,8 @@ public class MainActivity extends AppCompatActivity
     public static final String TAG = "MAR_Security_MLKit";
 
     private static final boolean ACCURACY_OVER_SPEED = false;
+    private static final int LENS_FACING = CameraSelector.LENS_FACING_FRONT;
+    private static final boolean IS_IMAGE_FLIPPED = (LENS_FACING == CameraSelector.LENS_FACING_FRONT);
 
     private static final int PERMISSION_REQUESTS = 999;
     private static final String[] PERMISSIONS = new String[] {
@@ -36,7 +47,11 @@ public class MainActivity extends AppCompatActivity
 
     private ExecutorService cameraExecutor;
     private FaceProcessor processor;
+
     private PreviewView previewView;
+    private GraphicOverlay graphicOverlay;
+
+    private boolean needUpdateGraphicOverlayImageSourceInfo;
 
     // ----------------------------------------------------------------------------------
     //      ACTIVITY LIFE CYCLE LISTENERS
@@ -49,7 +64,9 @@ public class MainActivity extends AppCompatActivity
 
         cameraExecutor = Executors.newSingleThreadExecutor();
         processor = new FaceProcessor(this);
+
         previewView = findViewById(R.id.viewFinder);
+        graphicOverlay = findViewById(R.id.graphicOverlay);
 
         if (allPermissionsGranted()) startCamera();
         else getRuntimePermissions();
@@ -77,9 +94,30 @@ public class MainActivity extends AppCompatActivity
             Preview preview = new Preview.Builder().build();
             preview.setSurfaceProvider(previewView.createSurfaceProvider());
 
+            needUpdateGraphicOverlayImageSourceInfo = true;
             ImageAnalysis analysis = new ImageAnalysis.Builder().build();
-            analysis.setAnalyzer(cameraExecutor,
-                    new FaceAnalyzer(processor, ACCURACY_OVER_SPEED));
+            analysis.setAnalyzer(
+                    // imageProcessor.processImageProxy will use another thread to run the detection underneath,
+                    // thus we can just runs the analyzer itself on main thread.
+                    ContextCompat.getMainExecutor(this), imageProxy -> {
+                        if (needUpdateGraphicOverlayImageSourceInfo) {
+                            int rotationDegrees = imageProxy.getImageInfo().getRotationDegrees();
+                            if (rotationDegrees == 0 || rotationDegrees == 180) {
+                                graphicOverlay.setImageSourceInfo(imageProxy.getWidth(),
+                                        imageProxy.getHeight(), IS_IMAGE_FLIPPED);
+                            } else {
+                                graphicOverlay.setImageSourceInfo(imageProxy.getHeight(),
+                                        imageProxy.getWidth(), IS_IMAGE_FLIPPED);
+                            }
+                            needUpdateGraphicOverlayImageSourceInfo = false;
+                        }
+
+                        FaceAnalyzer imageAnalyzer =
+                                new FaceAnalyzer(processor, ACCURACY_OVER_SPEED, graphicOverlay);
+                        imageAnalyzer.analyze(imageProxy);
+                    });
+
+
 
             try {
                 ProcessCameraProvider cameraProvider = cameraProviderFuture.get();

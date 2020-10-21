@@ -1,4 +1,4 @@
-package edu.temple.mar_security.ml_kit;
+package edu.temple.mar_security.ml_kit.face_detection;
 
 import android.app.Activity;
 import android.content.Context;
@@ -7,8 +7,10 @@ import android.graphics.Rect;
 import android.media.Image;
 import android.util.Log;
 
-import java.io.File;
 import java.util.List;
+
+import edu.temple.mar_security.ml_kit.utils.FileIOUtil;
+import edu.temple.mar_security.ml_kit.MainActivity;
 
 public class FaceProcessor implements FaceAnalyzer.FaceAnalysisListener {
 

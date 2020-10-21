@@ -1,4 +1,4 @@
-package edu.temple.mar_security.ml_kit;
+package edu.temple.mar_security.ml_kit.face_detection;
 
 import android.annotation.SuppressLint;
 import android.graphics.Rect;
@@ -17,6 +17,9 @@ import com.google.mlkit.vision.face.FaceDetectorOptions;
 import java.util.ArrayList;
 import java.util.List;
 
+import edu.temple.mar_security.ml_kit.MainActivity;
+import edu.temple.mar_security.ml_kit.overlay.GraphicOverlay;
+
 public class FaceAnalyzer implements ImageAnalysis.Analyzer {
 
     public interface FaceAnalysisListener {
@@ -25,9 +28,12 @@ public class FaceAnalyzer implements ImageAnalysis.Analyzer {
 
     private FaceAnalysisListener listener;
     private FaceDetectorOptions options;
+    private GraphicOverlay overlay;
 
-    public FaceAnalyzer(FaceAnalysisListener listener, boolean accuracyOverSpeed) {
+    public FaceAnalyzer(FaceAnalysisListener listener, boolean accuracyOverSpeed, GraphicOverlay overlay) {
         this.listener = listener;
+        this.overlay = overlay;
+
         if (accuracyOverSpeed) {
             // High-accuracy landmark detection and face classification
             options = new FaceDetectorOptions.Builder()
@@ -53,14 +59,19 @@ public class FaceAnalyzer implements ImageAnalysis.Analyzer {
             FaceDetection.getClient(options).process(image)
                     .addOnSuccessListener(faces -> {
                         try {
+                            overlay.clear();
                             List<Rect> boundingBoxes = new ArrayList<>();
+
                             for (Face face : faces) {
-                                // TODO - place something on the person's head
+                                overlay.add(new FaceGraphic(overlay, face));
                                 boundingBoxes.add(face.getBoundingBox());
                             }
+
                             if (boundingBoxes.size() > 0) {
                                 listener.facesFound(mediaImage, rotation, boundingBoxes);
                             }
+
+                            overlay.postInvalidate();
                         } catch (Exception ex) {
                             Log.e(MainActivity.TAG, "Something went wrong while trying to "
                                     + "process the bounding boxes for detected faces!", ex);
