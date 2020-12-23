@@ -4,27 +4,43 @@ import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
-import android.os.Handler;
+import android.os.SystemClock;
 import android.util.Log;
+import android.view.Choreographer;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.camera.core.CameraSelector;
+import androidx.camera.core.ImageAnalysis;
+import androidx.camera.core.Preview;
+import androidx.camera.lifecycle.ProcessCameraProvider;
+import androidx.camera.view.PreviewView;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+
+import com.google.common.util.concurrent.ListenableFuture;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Timer;
-import java.util.TimerTask;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.TimeUnit;
 
-import edu.temple.mar_security.res_lib.utils.StorageUtil;
+import edu.temple.mar_security.res_lib.buffers.StatsMap;
+import edu.temple.mar_security.res_lib.face_detection.FaceAnalyzer;
+import edu.temple.mar_security.res_lib.overlay.GraphicOverlay;
+import edu.temple.mar_security.res_lib.utils.Constants;
+import edu.temple.mar_security.res_lib.utils.FileUtil;
 
 import static edu.temple.mar_security.res_lib.utils.Constants.LOG_TAG;
 import static edu.temple.mar_security.res_lib.utils.Constants.PERMISSION_REQUESTS;
 
 public abstract class BaseActivity extends AppCompatActivity
         implements ActivityCompat.OnRequestPermissionsResultCallback {
+
+    protected String mAppName;
+    protected int mAppPID;
 
     protected boolean arePermissionsGranted() {
         for (String permission : getRequiredPermissions()) {
@@ -54,37 +70,25 @@ public abstract class BaseActivity extends AppCompatActivity
     // -----------------------------------------------------------------------------------
     // -----------------------------------------------------------------------------------
 
-
     private int timerDelay = 0, timerPeriod = 1000;
     private Timer serviceTimer = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        // run stat collection task as background service every five seconds
-        final Handler handler = new Handler();
-
-        serviceTimer = new Timer();
-        serviceTimer.schedule(new TimerTask() {
-            @Override
-            public void run() {
-                handler.post(new Runnable() {
-                    public void run() {
-                        Log.i(LOG_TAG, "Local service heartbeat");
-                        // launchService(FileIoOpsService.class);
-                        // launchService(MLOpsService.class);
-                        // launchService(ProcStatsService.class);
-                    }
-                });
-            }
-        }, timerDelay, timerPeriod);
+        mAppPID = android.os.Process.myPid();
     }
 
     @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        serviceTimer.cancel();
+    protected void onResume() {
+        super.onResume();
+        choreographer.postFrameCallback(frameCallback);
+    }
+
+    @Override
+    protected void onPause() {
+        stopCollection();
+        super.onPause();
     }
 
     @Override
@@ -98,19 +102,93 @@ public abstract class BaseActivity extends AppCompatActivity
     // -----------------------------------------------------------------------------------
     // -----------------------------------------------------------------------------------
 
-    private static List<String> fileIoEvents = new ArrayList<>();
-    private static List<String> mlEvents = new ArrayList<>();
+    private static final String FRAME_HEADER = "Timestamp,Frame Count,Total Frame Time (millis),Avg Frame Time (millis)";
+    private static final String FRAME_FILENAME = "FrameStats.csv";
+    private static StatsMap mFrameStats = new StatsMap(StatsMap.Type.Multi, FRAME_HEADER);
 
-    public static void logFileIoEvent(String filename, String operation, String dataSize) {
-        String eventString = (StorageUtil.getTimestamp() + "," + filename + "," + operation + "," + dataSize);
-        Log.i(LOG_TAG, "Logging File I/O event: " + eventString);
-        fileIoEvents.add(eventString);
+    private static final String ML_EVENT_HEADER = "Timestamp,Result Title,Result Confidence";
+    private static final String ML_EVENT_FILENAME = "MLEvents.csv";
+    private static StatsMap mlEventStats = new StatsMap(StatsMap.Type.ListMulti, ML_EVENT_HEADER);
+
+    private static final long BUFFER_TIME_LIMIT = TimeUnit.SECONDS.toMillis(10);
+    private static List<long[]> mFrameBuffer = new ArrayList<>();
+
+    private static long lastSystemTime = 0, currentBufferTime = 0;
+    private static int frameCounter = 0;
+
+    private static Choreographer choreographer = Choreographer.getInstance();
+    private static Choreographer.FrameCallback frameCallback = new Choreographer.FrameCallback() {
+        @Override
+        public void doFrame(long frameTimeNanos) {
+            // get the time taken from last frame to this one
+            long currentSystemTime = SystemClock.elapsedRealtime();
+            long currentFrameTime = (lastSystemTime == 0) ? 0 : (currentSystemTime - lastSystemTime);
+
+            // put the current frame number / time in the frame buffer
+            mFrameBuffer.add(new long[] { frameCounter, currentFrameTime });
+            currentBufferTime += currentFrameTime;
+
+            if (currentBufferTime >= BUFFER_TIME_LIMIT) {
+                Log.i(Constants.LOG_TAG, "Reached buffer time limit with current buffer time: "
+                        + currentBufferTime);
+
+                // we've filled up our buffer ... retrieve the beginning and ending entries
+                long[] firstEntry = mFrameBuffer.get(0);
+                long[] lastEntry = mFrameBuffer.get(mFrameBuffer.size() - 1);
+                Log.i(Constants.LOG_TAG, "Consolidating buffer with first entry: { "
+                        + firstEntry[0] + ", " + firstEntry[1] + " } \t\t ... and last entry: { "
+                        + lastEntry[0] + ", " + lastEntry[1] + " }");
+
+                // find the total and average frame times represented by this buffer
+                double totalFrameTime = 0.0;
+                for (long[] entry : mFrameBuffer) totalFrameTime += entry[1];
+                double averageFrameTime = (totalFrameTime / mFrameBuffer.size());
+
+                // dump the details to the stats map
+                String[] bufferStats = new String[] {
+                        String.valueOf(mFrameBuffer.size()),    // number of frames in buffer
+                        String.valueOf(totalFrameTime),
+                        String.valueOf(averageFrameTime)
+                };
+                mFrameStats.insert(bufferStats);
+
+                // reset buffer, associated properties
+                mFrameBuffer.clear();
+                currentBufferTime = 0;
+            }
+
+            // update our variables for the next frame
+            lastSystemTime = currentSystemTime;
+            frameCounter++;
+
+            // callback automatically removed ... have to re-associate...
+            choreographer.postFrameCallback(this);
+        }
+    };
+
+    public void logMLEvent(List<String[]> results) {
+        for (String[] result : results) {
+            Log.i(LOG_TAG, "Identified ML event: " + result[0]
+                    + " with confidence: " + result[1]);
+        }
+        mlEventStats.insert(results);
     }
 
-    public static void logMLEvent(String descriptor) {
-        String eventString = (StorageUtil.getTimestamp() + "," + descriptor);
-        Log.i(LOG_TAG, "Logging ML event: " + eventString);
-        mlEvents.add(eventString);
+    private void stopCollection() {
+        // write frame logging results to file
+        if (mFrameStats.size() > 0) {
+            mFrameStats.printToFile(this, FRAME_FILENAME);
+            mFrameStats.clear();
+        }
+
+        // write ML event results to file
+        if (mlEventStats.size() > 0) {
+            mlEventStats.printToFile(this, ML_EVENT_FILENAME);
+            mlEventStats.clear();
+        }
+
+        // release all local variables
+        choreographer.removeFrameCallback(frameCallback);
     }
 
     // -----------------------------------------------------------------------------------
@@ -155,5 +233,62 @@ public abstract class BaseActivity extends AppCompatActivity
 
         startService(serviceIntent);
     } */
+
+    // ----------------------------------------------------------------------------------
+    //      CAMERA CONTROLS
+    // ----------------------------------------------------------------------------------
+
+    protected ExecutorService cameraExecutor;
+    protected PreviewView previewView;
+    protected GraphicOverlay graphicOverlay;
+
+    protected boolean needUpdateGraphicOverlayImageSourceInfo;
+
+    protected void startCamera(FaceAnalyzer.FaceAnalysisListener listener,
+                               int lensDirection, boolean accuracyOverSpeed) {
+        final ListenableFuture<ProcessCameraProvider> cameraProviderFuture =
+                ProcessCameraProvider.getInstance(this);
+        final boolean isImageFlipped = (lensDirection == CameraSelector.LENS_FACING_FRONT);
+
+        cameraProviderFuture.addListener(() -> {
+            CameraSelector camera = new CameraSelector.Builder()
+                    .requireLensFacing(lensDirection)
+                    .build();
+
+            Preview preview = new Preview.Builder().build();
+            preview.setSurfaceProvider(previewView.createSurfaceProvider());
+
+            needUpdateGraphicOverlayImageSourceInfo = true;
+            ImageAnalysis analysis = new ImageAnalysis.Builder().build();
+            analysis.setAnalyzer(
+                    // imageProcessor.processImageProxy will use another thread to run the detection underneath,
+                    // thus we can just runs the analyzer itself on main thread.
+                    ContextCompat.getMainExecutor(this), imageProxy -> {
+                        if (needUpdateGraphicOverlayImageSourceInfo) {
+                            int rotationDegrees = imageProxy.getImageInfo().getRotationDegrees();
+                            if (rotationDegrees == 0 || rotationDegrees == 180) {
+                                graphicOverlay.setImageSourceInfo(imageProxy.getWidth(),
+                                        imageProxy.getHeight(), isImageFlipped);
+                            } else {
+                                graphicOverlay.setImageSourceInfo(imageProxy.getHeight(),
+                                        imageProxy.getWidth(), isImageFlipped);
+                            }
+                            needUpdateGraphicOverlayImageSourceInfo = false;
+                        }
+
+                        FaceAnalyzer imageAnalyzer =
+                                new FaceAnalyzer(listener, accuracyOverSpeed, graphicOverlay);
+                        imageAnalyzer.analyze(imageProxy);
+                    });
+
+            try {
+                ProcessCameraProvider cameraProvider = cameraProviderFuture.get();
+                cameraProvider.unbindAll();
+                cameraProvider.bindToLifecycle(this, camera, preview, analysis);
+            } catch (Exception ex) {
+                Log.e(LOG_TAG, "Something went wrong while trying to start the camera!", ex);
+            }
+        }, ContextCompat.getMainExecutor(this));
+    }
 
 }

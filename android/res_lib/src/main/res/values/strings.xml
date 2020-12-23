@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">GTC Core</string>
+
+    <string name="package_name_services">edu.temple.gtc_services</string>
+    <string name="package_name_remote_processes">edu.temple.gtc_services.remote_process</string>
+
+    <string name="service_class_communicator">edu.temple.gtc_annotator.mobile.CommunicatorService</string>
+    <string name="service_class_resource_logger">edu.temple.gtc_core.services.ResourceLoggerService</string>
+    <string name="service_class_frame_logger">edu.temple.gtc_core.services.FrameLoggerService</string>
+
+    <string name="service_code_register_gtc_listener">0</string>
+    <string name="service_code_register_tester_listener">1</string>
+    <string name="service_code_send_to_tester">2</string>
+    <string name="service_code_send_to_gtc">3</string>
+
+    <string name="service_event_response_tester">service.event.response.tester</string>
+    <string name="service_event_response_gtc">service.event.response.gtc</string>
+
+    <string name="intent_action_restart">edu.temple.gtc_services.RestartService</string>
+    <string name="intent_action_bind_comms_service">edu.temple.gtc_services.CommunicationService.BIND</string>
+    <string name="intent_action_start_comms_service">edu.temple.gtc_services.CommunicationService.START</string>
+    <string name="intent_action_start_resource_logger">edu.temple.gtc_services.ResourceLoggerService.START</string>
+
+    <string name="intent_extra_pid">intent_extra_pid</string>
+    <string name="intent_extra_proc_name">intent_extra_proc_name</string>
+    <string name="intent_extra_comm_service_pid">intent_extra_comm_service_pid</string>
+    <string name="intent_extra_gtc_message_path">intent_extra_gtc_message_path</string>
+    <string name="intent_extra_gtc_message_payload">intent_extra_gtc_message_payload</string>
+    <string name="intent_extra_wearable_receiver_type">intent_extra_wearable_receiver_type</string>
+    <string name="intent_extra_wearable_listener_type">intent_extra_wearable_listener_type</string>
+    <string name="intent_extra_wearable_message_listener">intent_extra_wearable_message_listener</string>
+    <string name="intent_extra_wearable_message_path">intent_extra_wearable_message_path</string>
+    <string name="intent_extra_wearable_message_payload">intent_extra_wearable_message_payload</string>
+
+    <string name="notification_text">GTC background services are running.</string>
+    <string name="start_services_text">No GTC background services running.  Click the button below to launch.</string>
+    <string name="stop_services_text">GTC background services have been launched.  Click button below to stop active services.</string>
+
+    <string name="channel_id">GTC_Services_Channel</string>
+    <string name="channel_name">edu.temple.NotificationChannel</string>
+    <string name="channel_description">Notifications for CCT\'s research projects</string>
+
+    <string name="noti_title_resource_logger">GTC - Resource Logger</string>
+    <string name="noti_title_frame_logger">GTC - Frame Logger</string>
+    <string name="noti_title_communications">GTC - Communications</string>
+
+    <string name="noti_text_resource_logger">GTC - Resource Logger - Running</string>
+    <string name="noti_text_frame_logger">GTC - Frame Logger - Running</string>
+    <string name="noti_text_communications">GTC - Communications - Running</string>
+</resources>

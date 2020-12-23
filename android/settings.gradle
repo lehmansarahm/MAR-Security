@@ -1,6 +1,8 @@
 rootProject.name='MAR Security'
 
-include ':ml_kit'
+include ':mlkit'
+include ':mlkit_comp'
+include ':mlkit_orth'
 
 // include ':headless_tf'
 // include ':headless_tf_mal'

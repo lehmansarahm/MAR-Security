@@ -2,7 +2,7 @@ package edu.temple.mar_security.res_lib.utils;
 
 public class Constants {
 
-    public static final String LOG_TAG = "MAR_Security_ResLib";
+    public static final String LOG_TAG = "MLKit_ResLib";
 
     public static final int PERMISSION_REQUESTS = 1;
 

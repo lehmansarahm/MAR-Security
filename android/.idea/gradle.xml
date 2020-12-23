@@ -10,7 +10,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/ml_kit" />
+            <option value="$PROJECT_DIR$/mlkit" />
+            <option value="$PROJECT_DIR$/mlkit_comp" />
+            <option value="$PROJECT_DIR$/mlkit_orth" />
             <option value="$PROJECT_DIR$/res_lib" />
           </set>
         </option>

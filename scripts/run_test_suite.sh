@@ -6,8 +6,8 @@
 # PACKAGE='edu.temple.mar_security.headless_fb'             # app package name
 # APP_NAME='barcodes'                                       # human-friendly app name
     
-PACKAGE='edu.temple.mar_security.headless_fb_mal'           # app package name
-APP_NAME='barcodes_with_text'                               # human-friendly app name
+PACKAGE='edu.temple.mar_security.mlkit'                     # app package name
+APP_NAME='honest'                                           # human-friendly app name
 
 # -----------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------
