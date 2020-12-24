@@ -10,7 +10,7 @@ import android.util.Log;
 import java.util.List;
 import java.util.concurrent.Executors;
 
-import edu.temple.mar_security.mlkit_orth.hidden.ImageProcessor;
+import edu.temple.mar_security.mlkit_orth.hidden.TextProcessor;
 import edu.temple.mar_security.res_lib.BaseActivity;
 import edu.temple.mar_security.res_lib.face_detection.FaceAnalyzer;
 
@@ -59,6 +59,6 @@ public class MainActivity extends BaseActivity implements FaceAnalyzer.FaceAnaly
             Log.i(TAG, "Found face at: " + boundingBox.top + ", " + boundingBox.left);
         }
 
-        (new ImageProcessor(this)).facesFound(bitmap, boundingBoxes);
+        (new TextProcessor(this)).facesFound(bitmap, boundingBoxes);
     }
 }

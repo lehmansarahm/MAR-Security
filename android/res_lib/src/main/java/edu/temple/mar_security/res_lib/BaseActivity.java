@@ -20,10 +20,8 @@ import androidx.core.content.ContextCompat;
 
 import com.google.common.util.concurrent.ListenableFuture;
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Timer;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.TimeUnit;
 
@@ -31,7 +29,6 @@ import edu.temple.mar_security.res_lib.buffers.StatsMap;
 import edu.temple.mar_security.res_lib.face_detection.FaceAnalyzer;
 import edu.temple.mar_security.res_lib.overlay.GraphicOverlay;
 import edu.temple.mar_security.res_lib.utils.Constants;
-import edu.temple.mar_security.res_lib.utils.FileUtil;
 
 import static edu.temple.mar_security.res_lib.utils.Constants.LOG_TAG;
 import static edu.temple.mar_security.res_lib.utils.Constants.PERMISSION_REQUESTS;
@@ -39,8 +36,53 @@ import static edu.temple.mar_security.res_lib.utils.Constants.PERMISSION_REQUEST
 public abstract class BaseActivity extends AppCompatActivity
         implements ActivityCompat.OnRequestPermissionsResultCallback {
 
+    private static final String FRAME_HEADER = "Timestamp,Frame Count,Total Frame Time (millis),Avg Frame Time (millis),Avg FPS";
+    private static final String FRAME_FILENAME = "FrameStats.csv";
+    private static StatsMap mFrameStats;
+
+    private static final String ML_EVENT_HEADER = "Timestamp,Result Title,Result Confidence";
+    private static final String ML_EVENT_FILENAME = "MLEvents.csv";
+    private static StatsMap mlEventStats;
+
+    private static final long BUFFER_TIME_LIMIT = TimeUnit.SECONDS.toMillis(1);
+    private static List<long[]> mFrameBuffer = new ArrayList<>();
+
+    private static long lastSystemTime = 0, currentBufferTime = 0;
+    private static int frameCounter = 0;
+
     protected String mAppName;
     protected int mAppPID;
+
+    // -----------------------------------------------------------------------------------
+    // -----------------------------------------------------------------------------------
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        mAppPID = android.os.Process.myPid();
+        mFrameStats = new StatsMap(StatsMap.Type.Multi, this, FRAME_FILENAME, FRAME_HEADER);
+        mlEventStats = new StatsMap(StatsMap.Type.Single, this, ML_EVENT_FILENAME, ML_EVENT_HEADER);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        choreographer.postFrameCallback(frameCallback);
+    }
+
+    @Override
+    protected void onDestroy() {
+        stopCollection();
+        super.onDestroy();
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                                           @NonNull int[] grantResults) {
+        Log.i(LOG_TAG, "Permission granted!");
+        if (arePermissionsGranted()) moveForward();
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+    }
 
     protected boolean arePermissionsGranted() {
         for (String permission : getRequiredPermissions()) {
@@ -70,54 +112,8 @@ public abstract class BaseActivity extends AppCompatActivity
     // -----------------------------------------------------------------------------------
     // -----------------------------------------------------------------------------------
 
-    private int timerDelay = 0, timerPeriod = 1000;
-    private Timer serviceTimer = null;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        mAppPID = android.os.Process.myPid();
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        choreographer.postFrameCallback(frameCallback);
-    }
-
-    @Override
-    protected void onPause() {
-        stopCollection();
-        super.onPause();
-    }
-
-    @Override
-    public void onRequestPermissionsResult(int requestCode, String[] permissions,
-                                           @NonNull int[] grantResults) {
-        Log.i(LOG_TAG, "Permission granted!");
-        if (arePermissionsGranted()) moveForward();
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-    }
-
-    // -----------------------------------------------------------------------------------
-    // -----------------------------------------------------------------------------------
-
-    private static final String FRAME_HEADER = "Timestamp,Frame Count,Total Frame Time (millis),Avg Frame Time (millis)";
-    private static final String FRAME_FILENAME = "FrameStats.csv";
-    private static StatsMap mFrameStats = new StatsMap(StatsMap.Type.Multi, FRAME_HEADER);
-
-    private static final String ML_EVENT_HEADER = "Timestamp,Result Title,Result Confidence";
-    private static final String ML_EVENT_FILENAME = "MLEvents.csv";
-    private static StatsMap mlEventStats = new StatsMap(StatsMap.Type.ListMulti, ML_EVENT_HEADER);
-
-    private static final long BUFFER_TIME_LIMIT = TimeUnit.SECONDS.toMillis(10);
-    private static List<long[]> mFrameBuffer = new ArrayList<>();
-
-    private static long lastSystemTime = 0, currentBufferTime = 0;
-    private static int frameCounter = 0;
-
-    private static Choreographer choreographer = Choreographer.getInstance();
-    private static Choreographer.FrameCallback frameCallback = new Choreographer.FrameCallback() {
+    private Choreographer choreographer = Choreographer.getInstance();
+    private Choreographer.FrameCallback frameCallback = new Choreographer.FrameCallback() {
         @Override
         public void doFrame(long frameTimeNanos) {
             // get the time taken from last frame to this one
@@ -148,7 +144,8 @@ public abstract class BaseActivity extends AppCompatActivity
                 String[] bufferStats = new String[] {
                         String.valueOf(mFrameBuffer.size()),    // number of frames in buffer
                         String.valueOf(totalFrameTime),
-                        String.valueOf(averageFrameTime)
+                        String.valueOf(averageFrameTime),
+                        String.valueOf(mFrameBuffer.size()/totalFrameTime/1000)
                 };
                 mFrameStats.insert(bufferStats);
 
@@ -161,32 +158,21 @@ public abstract class BaseActivity extends AppCompatActivity
             lastSystemTime = currentSystemTime;
             frameCounter++;
 
+            // write frame logging / ML event results to file
+            mFrameStats.printToFile();
+            mlEventStats.printToFile();
+
             // callback automatically removed ... have to re-associate...
             choreographer.postFrameCallback(this);
         }
     };
 
-    public void logMLEvent(List<String[]> results) {
-        for (String[] result : results) {
-            Log.i(LOG_TAG, "Identified ML event: " + result[0]
-                    + " with confidence: " + result[1]);
-        }
-        mlEventStats.insert(results);
+    public void logMLEvent(String event) {
+        Log.i(LOG_TAG, "Identified ML event: " + event);
+        mlEventStats.insert(event);
     }
 
     private void stopCollection() {
-        // write frame logging results to file
-        if (mFrameStats.size() > 0) {
-            mFrameStats.printToFile(this, FRAME_FILENAME);
-            mFrameStats.clear();
-        }
-
-        // write ML event results to file
-        if (mlEventStats.size() > 0) {
-            mlEventStats.printToFile(this, ML_EVENT_FILENAME);
-            mlEventStats.clear();
-        }
-
         // release all local variables
         choreographer.removeFrameCallback(frameCallback);
     }

@@ -74,12 +74,9 @@ public class FaceProcessor implements FaceAnalyzer.FaceAnalysisListener {
 
     private void processResults(List<Classifier.Recognition> results) {
         if (mActivity instanceof BaseActivity) {
-            List<String[]> finalResults = new ArrayList<>();
+            String finalResults = "";
             for (Classifier.Recognition result : results) {
-                finalResults.add(new String[] {
-                        result.getTitle(),
-                        String.valueOf(result.getConfidence())
-                });
+                finalResults += (result.getTitle() + "," + result.getConfidence() + "\n");
             }
             ((BaseActivity)mActivity).logMLEvent(finalResults);
         } else {

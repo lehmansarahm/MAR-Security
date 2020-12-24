@@ -3,18 +3,21 @@
 # -----------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------
 
-# PACKAGE='edu.temple.mar_security.headless_fb'             # app package name
-# APP_NAME='barcodes'                                       # human-friendly app name
-    
-PACKAGE='edu.temple.mar_security.mlkit'                     # app package name
-APP_NAME='honest'                                           # human-friendly app name
+# PACKAGE='edu.temple.mar_security.mlkit'                     # app package name
+# APP_NAME='honest'                                           # human-friendly app name
+
+# PACKAGE='edu.temple.mar_security.mlkit_comp'                # app package name
+# APP_NAME='mal_comp'                                         # human-friendly app name
+
+PACKAGE='edu.temple.mar_security.mlkit_orth'                # app package name
+APP_NAME='mal_orth'                                         # human-friendly app name
 
 # -----------------------------------------------------------------------------------
 # -----------------------------------------------------------------------------------
 
-((WAIT_TIME_PER_READ=1))                                    # One second in between readings
+((WAIT_TIME_PER_READ=5))                                    # One second in between readings
 
-((TRIAL_TIME=13))                                           # length of time to collect data // length of input video
+((TRIAL_TIME=3))                                            # length of time to collect data // length of input video
 ((TOTAL_TRIAL_TIME=$TRIAL_TIME*60*1000))                    # Convert minutes to milliseconds
 
 # -----------------------------------------------------------------------------------
@@ -261,7 +264,12 @@ OUTPUT_FILE="${OUTPUT_DIR}/${APP_NAME}.${TODAY}.${NOW}.csv"
 echo "Writing to output file: ${OUTPUT_FILE}"
 
 ((TRIAL_COUNTER=1))
-run_trial >> ${OUTPUT_FILE}
+run_trial >> "${OUTPUT_FILE}"
+
+# pull any residual artifacts from the app's external files directory
+adb pull "${ANDROID_DATA_DIR}/${PACKAGE}/files" "output/${APP_NAME}"
+adb shell rm "${ANDROID_DATA_DIR}/${PACKAGE}/files/*"
+adb shell ls "${ANDROID_DATA_DIR}/${PACKAGE}/files"
 
 
 

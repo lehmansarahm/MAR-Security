@@ -22,19 +22,22 @@ public class StatsMap {
 
     public enum Type { Single, Multi, ListMulti }
     private Type mapType;
-    private String header;
+    private File outputFile;
 
-    public StatsMap(Type mapType, String header) {
+    public StatsMap(Type mapType, Context context, String outputFileName, String header) {
         this.mapType = mapType;
-        this.header = header;
+        this.outputFile = new File(context.getExternalFilesDir(null),
+                FileUtil.getTimestampForFile(outputFileName));
+
+        List<String> content = new ArrayList<>();
+        content.add(header);
+        FileUtil.writeToFile(outputFile, content);
     }
 
     public void clear() {
         singleStatsMap.clear();
         multiStatsMap.clear();
         listMultiStatsMap.clear();
-        mapType = null;
-        header = null;
     }
 
     public void insert(String value) {
@@ -62,10 +65,9 @@ public class StatsMap {
         }
     }
 
-    public void printToFile(Context context, String outputFileName) {
+    public void printToFile() {
         // Log.i(Constants.LOG_TAG, "Writing new stats map to file: " + outputFileName);
         List<String> output = new ArrayList<>();
-        output.add(header);
 
         switch (mapType) {
             case Single:
@@ -98,9 +100,13 @@ public class StatsMap {
                 break;
         }
 
-        File outputFile = new File(context.getExternalFilesDir(null),
-                FileUtil.getTimestampForFile(outputFileName));
-        FileUtil.writeToFile(outputFile, output);
+        if (output.size() > 0) {
+            FileUtil.appendToFile(outputFile, output);
+            clear();
+        } else {
+            Log.e(Constants.LOG_TAG, "No output to write to output file: "
+                    + outputFile.getAbsolutePath());
+        }
     }
 
 }

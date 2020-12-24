@@ -20,6 +20,7 @@ import java.io.OutputStreamWriter;
 import java.nio.ByteBuffer;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
@@ -82,7 +83,10 @@ public class FileUtil {
                     return null;
                 }
 
-                appendToFile(outputFile, new String[] { headerRow });
+                List<String> data = new ArrayList<>();
+                data.add(headerRow);
+
+                appendToFile(outputFile, data);
             } catch (IOException ex) {
                 Log.e(LOG_TAG, "Something went wrong while attempting to create a "
                         + "new output file: " + outputFile.getAbsolutePath(), ex);
@@ -130,7 +134,7 @@ public class FileUtil {
         }
     }
 
-    public static void appendToFile(File outputFile, String[] data) {
+    public static void appendToFile(File outputFile, List<String> data) {
         try {
             FileWriter csvWriter = new FileWriter(outputFile, true);
             for (String rowData : data) {

@@ -19,7 +19,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import edu.temple.mar_security.res_lib.overlay.GraphicOverlay;
-import edu.temple.mar_security.res_lib.utils.FileUtil;
 import edu.temple.mar_security.res_lib.utils.ImageUtil;
 
 public class FaceAnalyzer implements ImageAnalysis.Analyzer {
@@ -69,10 +68,8 @@ public class FaceAnalyzer implements ImageAnalysis.Analyzer {
                                 boundingBoxes.add(face.getBoundingBox());
                             }
 
-                            if (boundingBoxes.size() > 0) {
-                                Bitmap bitmap = ImageUtil.toBitmap(mediaImage, rotation);
-                                listener.facesFound(bitmap, boundingBoxes);
-                            }
+                            Bitmap bitmap = ImageUtil.toBitmap(mediaImage, rotation);
+                            listener.facesFound(bitmap, boundingBoxes);
 
                             overlay.postInvalidate();
                         } catch (Exception ex) {

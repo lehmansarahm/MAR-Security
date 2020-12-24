@@ -1,1 +1,1 @@
-docker run -p 8888:8888 lehmansarahm/scipy-notebook:latest
+docker run -p 8888:8888 30404a35bc30 # lehmansarahm/scipy-notebook:latest

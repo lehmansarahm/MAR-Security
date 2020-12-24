@@ -1,4 +1,4 @@
-CONTAINER_NAME="vigorous_germain"
+CONTAINER_NAME="elastic_wing"
 
 docker stop ${CONTAINER_NAME}
 docker commit $(docker ps -l -q) lehmansarahm/scipy-notebook:latest
