@@ -1,21 +1,61 @@
 #!/usr/bin/env bash
 
-# -----------------------------------------------------------------------------------
-# -----------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
+#                             CUSTOM ATTACK PROTOTYPES
+# --------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
 
 # PACKAGE='edu.temple.mar_security.mlkit'                     # app package name
 # APP_NAME='honest'                                           # human-friendly app name
 
+# --------------------------------------------------------------------------------------------------
+
 # PACKAGE='edu.temple.mar_security.mlkit_comp'                # app package name
 # APP_NAME='mal_comp'                                         # human-friendly app name
 
-PACKAGE='edu.temple.mar_security.mlkit_orth'                # app package name
-APP_NAME='mal_orth'                                         # human-friendly app name
+# --------------------------------------------------------------------------------------------------
 
-# -----------------------------------------------------------------------------------
-# -----------------------------------------------------------------------------------
+# PACKAGE='edu.temple.mar_security.mlkit_orth'                # app package name
+# APP_NAME='mal_orth'                                         # human-friendly app name
 
-((WAIT_TIME_PER_READ=5))                                    # One second in between readings
+# --------------------------------------------------------------------------------------------------
+
+
+
+
+# --------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
+#                               COMMERCIAL APPS ...
+#       DON'T FORGET TO MANUALLY SELECT THE CAMERA OPTION ON START-UP!!
+# --------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
+
+# PACKAGE='com.google.android.apps.translate'               # app package name
+# APP_NAME='translate'                                      # human-friendly app name
+
+# --------------------------------------------------------------------------------------------------
+
+# PACKAGE='com.snapchat.android'                            # app package name
+# APP_NAME='snapchat'                                       # human-friendly app name
+
+# PACKAGE='com.instagram.android'                           # app package name
+# APP_NAME='instagram'                                      # human-friendly app name
+
+PACKAGE='com.ufotosoft.justshot'                          # app package name
+APP_NAME='sweetfacecam'                                   # human-friendly app name
+
+# --------------------------------------------------------------------------------------------------
+
+
+
+
+# --------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------
+
+VERBOSE=false
+
+((WAIT_TIME_PER_READ=2))                                    # Two seconds in between readings
 
 ((TRIAL_TIME=3))                                            # length of time to collect data // length of input video
 ((TOTAL_TRIAL_TIME=$TRIAL_TIME*60*1000))                    # Convert minutes to milliseconds
@@ -36,26 +76,31 @@ APP_OUTPUT_DIR="${ANDROID_DATA_DIR}/${PACKAGE}"
 # -----------------------------------------------------------------------------------
 
 print_header() {
-    echo ""                                 # spacer line
-    echo "--------------------------------------------------------------------------------"
-    echo " \t MAR SECURITY - AUTOMATED TEST SUITE"
-    echo "--------------------------------------------------------------------------------"
-    echo ""                                 # spacer line
 
-    echo "--------------------------------------------------------------------------------"
-    echo " \t TESTING APPLICATION: ${APP_NAME}"
-    echo "--------------------------------------------------------------------------------"
-    echo ""                                 # spacer line
+    if $VERBOSE ; then
 
-    echo "Application output directory created at: ${OUTPUT_DIR}"
-    echo "Output will be written to file: $OUTPUT_FILE"
-    echo ""                                 # spacer line
+        echo ""                                 # spacer line
+        echo "--------------------------------------------------------------------------------"
+        echo " \t MAR SECURITY - AUTOMATED TEST SUITE"
+        echo "--------------------------------------------------------------------------------"
+        echo ""                                 # spacer line
 
-    echo "Running test script with params: "
-    echo "\t Application package name: \t\t ${PACKAGE}"
-    echo "\t Application local name: \t\t ${APP_NAME}"
-    echo "\t Run time (milliseconds): \t\t\t ${TOTAL_TRIAL_TIME}"
-    echo ""                                 # spacer line
+        echo "--------------------------------------------------------------------------------"
+        echo " \t TESTING APPLICATION: ${APP_NAME}"
+        echo "--------------------------------------------------------------------------------"
+        echo ""                                 # spacer line
+
+        echo "Application output directory created at: ${OUTPUT_DIR}"
+        echo "Output will be written to file: $OUTPUT_FILE"
+        echo ""                                 # spacer line
+
+        echo "Running test script with params: "
+        echo "\t Application package name: \t\t ${PACKAGE}"
+        echo "\t Application local name: \t\t ${APP_NAME}"
+        echo "\t Run time (milliseconds): \t\t\t ${TOTAL_TRIAL_TIME}"
+        echo ""                                 # spacer line
+
+    fi
 
     # -----------------------------------------------------------------------------------
     # -----------------------------------------------------------------------------------
@@ -73,17 +118,22 @@ print_header() {
     TRIAL_START_TIME=$(gdate +%s%3N)
 
     adb shell monkey -p ${PACKAGE} 1
-    sleep ${WAIT_TIME_PER_IMG}
+    echo "Starting up the app... You have 5sec to configure it."
+    sleep 5
 
     PID=$(adb shell ps | grep ${PACKAGE} | awk '{print $2}')
 
-    echo ""                         # spacer line
-    echo "--------------------------------------------------------------------------------"
-    echo ""                         # spacer line
+    if $VERBOSE ; then
 
-    echo "App PID: ${PID}"
-    echo "Trial start time (ms): ${TRIAL_START_TIME}"
-    echo ""                         # spacer line
+        echo ""                         # spacer line
+        echo "--------------------------------------------------------------------------------"
+        echo ""                         # spacer line
+
+        echo "App PID: ${PID}"
+        echo "Trial start time (ms): ${TRIAL_START_TIME}"
+        echo ""                         # spacer line
+
+    fi
 
     HEADER="TRIAL,ELAPSED_TIME_MS,CPU_PERC,MEM_PERC,\
     EM_STOR_SIZE_KB,EM_STOR_AVAIL_KB,EM_STOR_USED_KB,EM_STOR_USE_PERC,APP_DIR_SIZE_KB,\
@@ -92,7 +142,7 @@ print_header() {
 
     echo ${HEADER} | tr -d ''      # can't figure out how to prevent it from printing whitespace on line breaks...
 
-    sleep ${WAIT_TIME_PER_IMG}
+    sleep ${WAIT_TIME_PER_READ}
 }
 
 print_resource_line() {
@@ -109,6 +159,11 @@ print_resource_line() {
 
     CPU=$(echo ${TOP} | awk '{print $9}')
     MEM=$(echo ${TOP} | awk '{print $10}')
+
+    if [[ ${CPU} == 'R' ]] ; then
+         CPU=$(echo ${TOP} | awk '{print $10}')
+         MEM=$(echo ${TOP} | awk '{print $11}')
+    fi
 
     # -----------------------------------------------------------------------------------
     #                       "PROC/MEMINFO" FIELDS
@@ -222,13 +277,17 @@ kill_and_print_footer() {
     # -----------------------------------------------------------------------------------
     # -----------------------------------------------------------------------------------
 
-    echo ""                             # spacer line
-    echo "--------------------------------------------------------------------------------"
-    echo " \t APPLICATION TESTING TRIAL COMPLETE"
-    echo "--------------------------------------------------------------------------------"
-    echo "Output available: $OUTPUT_FILE"
-    echo "--------------------------------------------------------------------------------"
-    echo ""                             # spacer line
+    if $VERBOSE ; then
+
+        echo ""                             # spacer line
+        echo "--------------------------------------------------------------------------------"
+        echo " \t APPLICATION TESTING TRIAL COMPLETE"
+        echo "--------------------------------------------------------------------------------"
+        echo "Output available: $OUTPUT_FILE"
+        echo "--------------------------------------------------------------------------------"
+        echo ""                             # spacer line
+
+    fi
 }
 
 run_trial() {
@@ -270,6 +329,9 @@ run_trial >> "${OUTPUT_FILE}"
 adb pull "${ANDROID_DATA_DIR}/${PACKAGE}/files" "output/${APP_NAME}"
 adb shell rm "${ANDROID_DATA_DIR}/${PACKAGE}/files/*"
 adb shell ls "${ANDROID_DATA_DIR}/${PACKAGE}/files"
+
+# reboot the target device
+adb reboot
 
 
 

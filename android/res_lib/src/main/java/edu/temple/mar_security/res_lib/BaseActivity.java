@@ -4,14 +4,18 @@ import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.HandlerThread;
 import android.os.SystemClock;
 import android.util.Log;
 import android.view.Choreographer;
+import android.view.Surface;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.camera.core.CameraSelector;
 import androidx.camera.core.ImageAnalysis;
+import androidx.camera.core.ImageProxy;
 import androidx.camera.core.Preview;
 import androidx.camera.lifecycle.ProcessCameraProvider;
 import androidx.camera.view.PreviewView;
@@ -26,7 +30,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.TimeUnit;
 
 import edu.temple.mar_security.res_lib.buffers.StatsMap;
-import edu.temple.mar_security.res_lib.face_detection.FaceAnalyzer;
 import edu.temple.mar_security.res_lib.overlay.GraphicOverlay;
 import edu.temple.mar_security.res_lib.utils.Constants;
 
@@ -53,6 +56,9 @@ public abstract class BaseActivity extends AppCompatActivity
     protected String mAppName;
     protected int mAppPID;
 
+    private Handler handler;
+    private HandlerThread handlerThread;
+
     // -----------------------------------------------------------------------------------
     // -----------------------------------------------------------------------------------
 
@@ -65,9 +71,28 @@ public abstract class BaseActivity extends AppCompatActivity
     }
 
     @Override
-    protected void onResume() {
+    public synchronized void onResume() {
         super.onResume();
         choreographer.postFrameCallback(frameCallback);
+
+        handlerThread = new HandlerThread("inference");
+        handlerThread.start();
+        handler = new Handler(handlerThread.getLooper());
+    }
+
+    @Override
+    public synchronized void onPause() {
+        handlerThread.quitSafely();
+
+        try {
+            handlerThread.join();
+            handlerThread = null;
+            handler = null;
+        } catch (final InterruptedException e) {
+            Log.e(LOG_TAG, "Exception!", e);
+        }
+
+        super.onPause();
     }
 
     @Override
@@ -75,6 +100,17 @@ public abstract class BaseActivity extends AppCompatActivity
         stopCollection();
         super.onDestroy();
     }
+
+    protected synchronized void runInBackground(final Runnable r) {
+        if (handler != null) {
+            handler.post(r);
+        }
+    }
+
+    protected abstract void moveForward();
+
+    // -----------------------------------------------------------------------------------
+    // -----------------------------------------------------------------------------------
 
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions,
@@ -107,8 +143,6 @@ public abstract class BaseActivity extends AppCompatActivity
         }
     }
 
-    protected abstract void moveForward();
-
     // -----------------------------------------------------------------------------------
     // -----------------------------------------------------------------------------------
 
@@ -125,15 +159,15 @@ public abstract class BaseActivity extends AppCompatActivity
             currentBufferTime += currentFrameTime;
 
             if (currentBufferTime >= BUFFER_TIME_LIMIT) {
-                Log.i(Constants.LOG_TAG, "Reached buffer time limit with current buffer time: "
-                        + currentBufferTime);
+                // Log.i(Constants.LOG_TAG, "Reached buffer time limit with current buffer time: "
+                //         + currentBufferTime);
 
                 // we've filled up our buffer ... retrieve the beginning and ending entries
                 long[] firstEntry = mFrameBuffer.get(0);
                 long[] lastEntry = mFrameBuffer.get(mFrameBuffer.size() - 1);
-                Log.i(Constants.LOG_TAG, "Consolidating buffer with first entry: { "
-                        + firstEntry[0] + ", " + firstEntry[1] + " } \t\t ... and last entry: { "
-                        + lastEntry[0] + ", " + lastEntry[1] + " }");
+                // Log.i(Constants.LOG_TAG, "Consolidating buffer with first entry: { "
+                //         + firstEntry[0] + ", " + firstEntry[1] + " } \t\t ... and last entry: { "
+                //         + lastEntry[0] + ", " + lastEntry[1] + " }");
 
                 // find the total and average frame times represented by this buffer
                 double totalFrameTime = 0.0;
@@ -203,23 +237,6 @@ public abstract class BaseActivity extends AppCompatActivity
         return false;
     }
 
-    /* private void launchService(Class service) {
-        Intent serviceIntent = new Intent(BaseActivity.this, service);
-        serviceIntent.putExtra(EXTRA_KEY_PROC_ID, android.os.Process.myPid());
-
-        if (service.equals(FileIoOpsService.class)) {
-            serviceIntent.putExtra(EXTRA_KEY_EVENT_LIST,
-                    fileIoEvents.toArray(new String[fileIoEvents.size()]));
-            fileIoEvents.clear();
-        } else if (service.equals(MLOpsService.class)) {
-            serviceIntent.putExtra(EXTRA_KEY_EVENT_LIST,
-                    mlEvents.toArray(new String[mlEvents.size()]));
-            mlEvents.clear();
-        }
-
-        startService(serviceIntent);
-    } */
-
     // ----------------------------------------------------------------------------------
     //      CAMERA CONTROLS
     // ----------------------------------------------------------------------------------
@@ -230,8 +247,11 @@ public abstract class BaseActivity extends AppCompatActivity
 
     protected boolean needUpdateGraphicOverlayImageSourceInfo;
 
-    protected void startCamera(FaceAnalyzer.FaceAnalysisListener listener,
-                               int lensDirection, boolean accuracyOverSpeed) {
+    protected abstract void analyze(ImageProxy imageProxy);
+
+    protected void startCamera(int lensDirection) {
+                                // (FaceAnalyzer.FaceAnalysisListener listener,
+                                // int lensDirection, boolean accuracyOverSpeed) {
         final ListenableFuture<ProcessCameraProvider> cameraProviderFuture =
                 ProcessCameraProvider.getInstance(this);
         final boolean isImageFlipped = (lensDirection == CameraSelector.LENS_FACING_FRONT);
@@ -262,9 +282,10 @@ public abstract class BaseActivity extends AppCompatActivity
                             needUpdateGraphicOverlayImageSourceInfo = false;
                         }
 
-                        FaceAnalyzer imageAnalyzer =
+                        analyze(imageProxy);
+                        /* FaceAnalyzer imageAnalyzer =
                                 new FaceAnalyzer(listener, accuracyOverSpeed, graphicOverlay);
-                        imageAnalyzer.analyze(imageProxy);
+                        imageAnalyzer.analyze(imageProxy); */
                     });
 
             try {
@@ -275,6 +296,19 @@ public abstract class BaseActivity extends AppCompatActivity
                 Log.e(LOG_TAG, "Something went wrong while trying to start the camera!", ex);
             }
         }, ContextCompat.getMainExecutor(this));
+    }
+
+    protected int getScreenOrientation() {
+        switch (getWindowManager().getDefaultDisplay().getRotation()) {
+            case Surface.ROTATION_270:
+                return 270;
+            case Surface.ROTATION_180:
+                return 180;
+            case Surface.ROTATION_90:
+                return 90;
+            default:
+                return 0;
+        }
     }
 
 }

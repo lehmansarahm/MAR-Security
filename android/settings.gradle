@@ -4,9 +4,12 @@ include ':mlkit'
 include ':mlkit_comp'
 include ':mlkit_orth'
 
+include ':tensorflow_mal'
+include ':tensorflow'
+include ':res_lib_tf'
+
 // include ':headless_tf'
 // include ':headless_tf_mal'
-// include ':res_lib_tf'
 
 // include ':headless_fb'
 // include ':headless_fb_mal'

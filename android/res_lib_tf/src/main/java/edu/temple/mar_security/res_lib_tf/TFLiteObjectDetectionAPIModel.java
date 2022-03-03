@@ -136,7 +136,7 @@ public class TFLiteObjectDetectionAPIModel {
         return d;
     }
 
-    public List<Recognition> recognizeImage(final Bitmap bitmap) {
+    public List<RecognitionResult> recognizeImage(final Bitmap bitmap) {
         // Log this method so that it can be analyzed with systrace.
         Trace.beginSection("recognizeImage");
 
@@ -192,7 +192,7 @@ public class TFLiteObjectDetectionAPIModel {
         // If you don't use the output's numDetections, you'll get nonsensical data
         int numDetectionsOutput = Math.min(NUM_DETECTIONS, (int) numDetections[0]); // cast from float to integer, use min for safety
 
-        final ArrayList<Recognition> recognitions = new ArrayList<>(numDetectionsOutput);
+        final ArrayList<RecognitionResult> recognitions = new ArrayList<>(numDetectionsOutput);
         for (int i = 0; i < numDetectionsOutput; ++i) {
             final RectF detection =
                     new RectF(
@@ -205,7 +205,7 @@ public class TFLiteObjectDetectionAPIModel {
             // while outputClasses correspond to class index from 0 to number_of_classes
             int labelOffset = 1;
             recognitions.add(
-                    new Recognition(
+                    new RecognitionResult(
                             "" + i,
                             labels.get((int) outputClasses[0][i] + labelOffset),
                             outputScores[0][i],

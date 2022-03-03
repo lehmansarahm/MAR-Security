@@ -104,7 +104,7 @@ public class FileUtil {
         File file = new File(getOutputDirectory(context), filename);
 
         try {
-            Log.i(Constants.LOG_TAG, "Writing image to file: " + file.getAbsolutePath());
+            // Log.i(Constants.LOG_TAG, "Writing image to file: " + file.getAbsolutePath());
             FileOutputStream fOut = new FileOutputStream(file);
             image.compress(Bitmap.CompressFormat.PNG, 100, fOut);
             fOut.flush();
@@ -117,7 +117,7 @@ public class FileUtil {
 
     public static void writeToFile(File outputFile, List<String> content) {
         try {
-            Log.d(Constants.LOG_TAG, "Writing resource stats to file: " + outputFile.getPath());
+            // Log.d(Constants.LOG_TAG, "Writing resource stats to file: " + outputFile.getPath());
             if (!outputFile.exists()) outputFile.createNewFile();
 
             FileOutputStream stream = new FileOutputStream(outputFile);
@@ -138,8 +138,8 @@ public class FileUtil {
         try {
             FileWriter csvWriter = new FileWriter(outputFile, true);
             for (String rowData : data) {
-                Log.i(LOG_TAG, "Opening file: " + outputFile.getAbsolutePath()
-                        + "\n\t Appending: " + rowData);
+                // Log.i(LOG_TAG, "Opening file: " + outputFile.getAbsolutePath()
+                //         + "\n\t Appending: " + rowData);
                 csvWriter.append(rowData);
                 csvWriter.append("\n");
             }

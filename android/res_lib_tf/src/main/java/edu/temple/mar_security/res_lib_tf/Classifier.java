@@ -2,7 +2,6 @@ package edu.temple.mar_security.res_lib_tf;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
-import android.graphics.RectF;
 import android.os.SystemClock;
 import android.os.Trace;
 import android.util.Log;
@@ -89,7 +88,7 @@ public abstract class Classifier {
      * @return A classifier with the desired configuration.
      */
     public static Classifier create(Activity activity, String modelFilename, String labelFilename,
-                                    Device device, int numThreads) throws IOException {
+                                    Classifier.Device device, int numThreads) throws IOException {
         return new ClassifierFloatMobileNet(activity, modelFilename, labelFilename, device, numThreads);
     }
 
@@ -143,7 +142,7 @@ public abstract class Classifier {
     }
 
     /** Runs inference and returns the classification results. */
-    public List<Recognition> recognizeImage(final Bitmap bitmap, int sensorOrientation) {
+    public List<RecognitionResult> recognizeImage(final Bitmap bitmap, int sensorOrientation) {
         // Logs this method so that it can be analyzed with systrace.
         Trace.beginSection("recognizeImage");
 
@@ -223,24 +222,24 @@ public abstract class Classifier {
     }
 
     /** Gets the top-k results. */
-    private static List<Recognition> getTopKProbability(Map<String, Float> labelProb) {
+    private static List<RecognitionResult> getTopKProbability(Map<String, Float> labelProb) {
         // Find the best classifications.
-        PriorityQueue<Recognition> pq =
+        PriorityQueue<RecognitionResult> pq =
                 new PriorityQueue<>(
                         MAX_RESULTS,
-                        new Comparator<Recognition>() {
+                        new Comparator<RecognitionResult>() {
                             @Override
-                            public int compare(Recognition lhs, Recognition rhs) {
+                            public int compare(RecognitionResult lhs, RecognitionResult rhs) {
                                 // Intentionally reversed to put high confidence at the head of the queue.
                                 return Float.compare(rhs.getConfidence(), lhs.getConfidence());
                             }
                         });
 
         for (Map.Entry<String, Float> entry : labelProb.entrySet()) {
-            pq.add(new Recognition("" + entry.getKey(), entry.getKey(), entry.getValue(), null));
+            pq.add(new RecognitionResult("" + entry.getKey(), entry.getKey(), entry.getValue(), null));
         }
 
-        final ArrayList<Recognition> recognitions = new ArrayList<>();
+        final ArrayList<RecognitionResult> recognitions = new ArrayList<>();
         int recognitionsSize = Math.min(pq.size(), MAX_RESULTS);
         for (int i = 0; i < recognitionsSize; ++i) {
             recognitions.add(pq.poll());

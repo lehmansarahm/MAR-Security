@@ -1,0 +1,331 @@
+{
+  "pages": [],
+  "components": [],
+	"default_tokens": [
+		{
+			"token_name": "CTA_BUTTON_BACKGROUND",
+			"properties": {
+				"display_name": "CTA Background Color",
+				"cacheable": false,
+				"data_type": "color",
+				"default_value": "#01b27a",
+				"group_id": "Button Controls"
+			},
+			"role": {
+				"name": "system",
+				"valueRequired": true,
+				"overrides": []
+			}
+		},
+		{
+			"token_name": "CLOSE_BUTTON_DELAY_SECONDS",
+			"properties": {
+				"display_name": "Close Button Delay",
+				"cacheable": false,
+				"data_type": "float",
+				"default_value": "0",
+				"group_id": "Button Controls"
+			},
+			"role": {
+				"name": "publisher",
+				"valueRequired": true,
+				"overrides": [
+					{
+						"name": "system",
+						"priority": 1
+					}
+				]
+			}
+		},
+		{
+			"token_name": "INCENTIVIZED_CLOSE_BUTTON_DELAY_SECONDS",
+			"properties": {
+				"display_name": "Incentivized Close Button Delay",
+				"cacheable": false,
+				"data_type": "float",
+				"default_value": "0",
+				"group_id": "Button Controls"
+			},
+			"role": {
+				"name": "publisher",
+				"valueRequired": true,
+				"overrides": [
+					{
+						"name": "system",
+						"priority": 1
+					}
+				]
+			}
+		},
+		{
+			"token_name": "CTA_BUTTON_URL",
+			"properties": {
+				"display_name": "CTA URL",
+				"cacheable": false,
+				"data_type": "url",
+				"default_value": null,
+				"group_id": "Product Description"
+			},
+			"role": {
+				"name": "advertiser",
+				"valueRequired": true,
+				"overrides": []
+			}
+		},
+		{
+			"token_name": "ENDCARD_CTA_URL",
+			"properties": {
+				"display_name": "Endcard CTA URL",
+				"cacheable": false,
+				"data_type": "url",
+				"default_value": null,
+				"group_id": "Product Description"
+			},
+			"role": {
+				"name": "advertiser",
+				"valueRequired": true,
+				"overrides": []
+			}
+		},
+		{
+			"token_name": "MAIN_VIDEO",
+			"properties": {
+				"display_name": "Video",
+				"cacheable": true,
+				"data_type": "video",
+				"default_value": null,
+				"group_id": "Product Description"
+			},
+			"role": {
+				"name": "system",
+				"valueRequired": true,
+				"overrides": []
+			}
+		},
+		{
+			"token_name": "VUNGLE_PRIVACY_URL",
+			"properties": {
+				"display_name": "Vungle Privacy URL",
+				"cacheable": false,
+				"data_type": "url",
+				"default_value": "https://privacy.vungle.com/",
+				"group_id": "Advanced Settings"
+			},
+			"role": {
+				"name": "system",
+				"valueRequired": true,
+				"overrides": []
+			}
+		},
+		{
+			"token_name": "ACTION_TRACKING",
+			"properties": {
+				"display_name": "User Action Tracking",
+				"cacheable": false,
+				"data_type": "boolean",
+				"default_value": "false",
+				"group_id": "Advanced Settings"
+			},
+			"role": {
+				"name": "system",
+				"valueRequired": true,
+				"overrides": []
+			}
+		},
+		{
+			"token_name": "PRIVACY_BODY_TEXT",
+			"properties": {
+				"display_name": "Privacy Dialog Body Text",
+				"cacheable": false,
+				"data_type": "string",
+				"default_value": "Vungle, Inc. understands the importance of privacy. Vungle operates a mobile ad network (the 'Ad Network' or the 'Services') through which Vungle displays targeted, contextual ads.",
+				"group_id": "Advanced Settings"
+			},
+			"role": {
+				"name": "system",
+				"valueRequired": true,
+				"overrides": []
+			}
+		},
+		{
+			"token_name": "PRIVACY_CLOSE_TEXT",
+			"properties": {
+				"display_name": "Privacy Dialog Close Button Text",
+				"cacheable": false,
+				"data_type": "string",
+				"default_value": "Read Vungle's Privacy Policy",
+				"group_id": "Advanced Settings"
+			},
+			"role": {
+				"name": "system",
+				"valueRequired": true,
+				"overrides": []
+			}
+		},
+		{
+			"token_name": "PRIVACY_CONTINUE_TEXT",
+			"properties": {
+				"display_name": "Privacy Dialog Continue Button Text",
+				"cacheable": false,
+				"data_type": "string",
+				"default_value": "Close",
+				"group_id": "Advanced Settings"
+			},
+			"role": {
+				"name": "system",
+				"valueRequired": true,
+				"overrides": []
+			}
+		},
+		{
+			"token_name": "INCENTIVIZED_TITLE_TEXT",
+			"properties": {
+				"display_name": "Incentivized Dialog Title Text",
+				"cacheable": false,
+				"data_type": "string",
+				"default_value": "Close this ad?",
+				"group_id": "Incentivized Dialog Box"
+			},
+			"role": {
+				"name": "publisher",
+				"valueRequired": true,
+				"overrides": [
+					{
+						"name": "system",
+						"priority": 1
+					}
+				]
+			}
+		},
+		{
+			"token_name": "INCENTIVIZED_BODY_TEXT",
+			"properties": {
+				"display_name": "Incentivized Dialog Body Text",
+				"cacheable": false,
+				"data_type": "string",
+				"default_value": "Are you sure you want to skip this ad? You must finish watching to claim your reward.",
+				"group_id": "Incentivized Dialog Box"
+			},
+			"role": {
+				"name": "publisher",
+				"valueRequired": true,
+				"overrides": [
+					{
+						"name": "system",
+						"priority": 1
+					}
+				]
+			}
+		},
+		{
+			"token_name": "INCENTIVIZED_CLOSE_TEXT",
+			"properties": {
+				"display_name": "Incentivized Dialog Close Button Text",
+				"cacheable": false,
+				"data_type": "string",
+				"default_value": "Close",
+				"group_id": "Incentivized Dialog Box"
+			},
+			"role": {
+				"name": "publisher",
+				"valueRequired": true,
+				"overrides": [
+					{
+						"name": "system",
+						"priority": 1
+					}
+				]
+			}
+		},
+		{
+			"token_name": "INCENTIVIZED_CONTINUE_TEXT",
+			"properties": {
+				"display_name": "Incentivized Dialog Continue Button Text",
+				"cacheable": false,
+				"data_type": "string",
+				"default_value": "Continue",
+				"group_id": "Incentivized Dialog Box"
+			},
+			"role": {
+				"name": "publisher",
+				"valueRequired": true,
+				"overrides": [
+					{
+						"name": "system",
+						"priority": 1
+					}
+				]
+			}
+		},
+		{
+			"token_name": "START_MUTED",
+			"properties": {
+				"display_name": "Start Muted",
+				"cacheable": false,
+				"data_type": "boolean",
+				"default_value": "false",
+				"group_id": "Advanced Settings"
+			},
+			"role": {
+				"name": "publisher",
+				"valueRequired": true,
+				"overrides": []
+			}
+		},
+		{
+			"token_name": "VIDEO_PROGRESS_BAR",
+			"properties": {
+				"display_name": "Video Progress Bar",
+				"cacheable": false,
+				"data_type": "boolean",
+				"default_value": "true",
+				"group_id": "Advanced Settings"
+			},
+			"role": {
+				"name": "publisher",
+				"valueRequired": true,
+				"overrides": []
+			}
+		},
+		{
+			"token_name": "AUTO_LOCALIZE",
+			"properties": {
+				"display_name": "Auto Localize",
+				"cacheable": false,
+				"data_type": "boolean",
+				"default_value": "true",
+				"group_id": "Button Controls"
+			},
+			"role": {
+				"name": "advertiser",
+				"valueRequired": true,
+				"overrides": [
+					{
+						"name": "system",
+						"priority": 1
+					}
+				]
+			}
+		},
+		{
+			"token_name": "FULL_CTA",
+			"properties": {
+				"display_name": "CTA Overlay",
+				"cacheable": false,
+				"data_type": "boolean",
+				"default_value": "false",
+				"group_id": "Button Controls"
+			},
+			"role": {
+				"name": "advertiser",
+				"valueRequired": true,
+				"overrides": [
+					{
+						"name": "system",
+						"priority": 1
+					}
+				]
+			}
+		}
+	]
+}

@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c4ed5b08459b3d6104c34f24bd3752a4/jetified-play-services-mlkit-text-recognition-16.1.2/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c4ed5b08459b3d6104c34f24bd3752a4/jetified-play-services-mlkit-text-recognition-16.1.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c4ed5b08459b3d6104c34f24bd3752a4/jetified-play-services-mlkit-text-recognition-16.1.2/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-mlkit-text-recognition/16.1.2/75ed1cfc54617f05f2145bc2869a540f4d91c8bf/play-services-mlkit-text-recognition-16.1.2-javadoc.jar!/" />

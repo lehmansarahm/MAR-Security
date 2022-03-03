@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MAR_Security.iml" filepath="$PROJECT_DIR$/.idea/modules/MAR_Security.iml" group="MAR_Security" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mlkit/mlkit.iml" filepath="$PROJECT_DIR$/.idea/modules/mlkit/mlkit.iml" group="MAR Security/mlkit" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ml_kit/mlkit_comp.iml" filepath="$PROJECT_DIR$/.idea/modules/ml_kit/mlkit_comp.iml" group="MAR Security/mlkit_comp" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mlkit_orth/mlkit_orth.iml" filepath="$PROJECT_DIR$/.idea/modules/mlkit_orth/mlkit_orth.iml" group="MAR Security/mlkit_orth" />
-      <module fileurl="file://$PROJECT_DIR$/res_lib/res_lib.iml" filepath="$PROJECT_DIR$/res_lib/res_lib.iml" group="MAR Security/res_lib" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MAR_Security.iml" filepath="$PROJECT_DIR$/.idea/modules/MAR_Security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mlkit/MAR_Security.mlkit.iml" filepath="$PROJECT_DIR$/.idea/modules/mlkit/MAR_Security.mlkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mlkit_comp/MAR_Security.mlkit_comp.iml" filepath="$PROJECT_DIR$/.idea/modules/mlkit_comp/MAR_Security.mlkit_comp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mlkit_orth/MAR_Security.mlkit_orth.iml" filepath="$PROJECT_DIR$/.idea/modules/mlkit_orth/MAR_Security.mlkit_orth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/res_lib/MAR_Security.res_lib.iml" filepath="$PROJECT_DIR$/.idea/modules/res_lib/MAR_Security.res_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/res_lib_tf/MAR_Security.res_lib_tf.iml" filepath="$PROJECT_DIR$/.idea/modules/res_lib_tf/MAR_Security.res_lib_tf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tensorflow/MAR_Security.tensorflow.iml" filepath="$PROJECT_DIR$/.idea/modules/tensorflow/MAR_Security.tensorflow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tensorflow_mal/MAR_Security.tensorflow_mal.iml" filepath="$PROJECT_DIR$/.idea/modules/tensorflow_mal/MAR_Security.tensorflow_mal.iml" />
     </modules>
   </component>
 </project>

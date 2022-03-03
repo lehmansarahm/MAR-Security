@@ -104,8 +104,8 @@ public class StatsMap {
             FileUtil.appendToFile(outputFile, output);
             clear();
         } else {
-            Log.e(Constants.LOG_TAG, "No output to write to output file: "
-                    + outputFile.getAbsolutePath());
+            // Log.e(Constants.LOG_TAG, "No output to write to output file: "
+            //         + outputFile.getAbsolutePath());
         }
     }
 

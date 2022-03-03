@@ -1,0 +1,6 @@
+  bash arg: -p
+  bash arg: com.snapchat.android
+  bash arg: 1
+Events injected: 1
+## Network stats: elapsed time=44ms (0ms mobile, 0ms wifi, 44ms not connected)
+TRIAL,ELAPSED_TIME_MS,CPU_PERC,MEM_PERC, EM_STOR_SIZE_KB,EM_STOR_AVAIL_KB,EM_STOR_USED_KB,EM_STOR_USE_PERC,APP_DIR_SIZE_KB, TOTAL_MEM_KB,FREE_MEM_KB,AVAIL_MEM_KB, FLAGS,UTIME,STIME,CUTIME,CSTIME,PRIORITY,NUM_THREADS,START_TIME,RSS

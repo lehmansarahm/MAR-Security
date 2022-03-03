@@ -1,6 +1,7 @@
 package edu.temple.mar_security.mlkit;
 
 import androidx.camera.core.CameraSelector;
+import androidx.camera.core.ImageProxy;
 
 import android.graphics.Bitmap;
 import android.graphics.Rect;
@@ -49,7 +50,14 @@ public class MainActivity extends BaseActivity implements FaceAnalyzer.FaceAnaly
 
     @Override
     protected void moveForward() {
-        startCamera(this, LENS_DIRECTION, ACCURACY_OVER_SPEED);
+        startCamera(LENS_DIRECTION);
+    }
+
+    @Override
+    protected void analyze(ImageProxy imageProxy) {
+        FaceAnalyzer imageAnalyzer =
+                new FaceAnalyzer(this, ACCURACY_OVER_SPEED, graphicOverlay);
+        imageAnalyzer.analyze(imageProxy);
     }
 
     @Override
